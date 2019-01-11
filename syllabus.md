@@ -26,9 +26,10 @@ Email: cta@caseyanderson.com
 * [Breadboarding wire bundle](https://www.adafruit.com/product/153)
 * [Breadboard trim potentiometer - 10K](https://www.adafruit.com/product/356)
 * [Photo cell](https://www.adafruit.com/product/161)
+* Buttons!
 * [Through-Hole Resistors - 220 ohm 5% 1/4W - Pack of 25](https://www.adafruit.com/product/2780)
 * [Through-Hole Resistors - 10K ohm 5% 1/4W - Pack of 25](https://www.adafruit.com/product/2784)
-
+* LEDs!
 
 ### Grading Policy
 
