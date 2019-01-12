@@ -1,6 +1,6 @@
 ---
 layout: labs
-title:  "Command Line Tools"
+title:  "Command Line Tools (Installation)"
 date:   2019-01-10 06:00:00 -0700
 week: 1
 number: 1
