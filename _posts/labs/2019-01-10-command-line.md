@@ -121,7 +121,4 @@ If you need to rename a file with Unix, use the `mv` command. `mv` renames/moves
 
 The `cp` command allows one to copy files/directories from a **SOURCE** to a **DESTINATION**. In other words, standard usage tends to look like this: `cp ORIGINALFILE NEWFILE`. If you need to copy a directory, though, and want to copy the entire directory structure inside of it, you can tell `cp` to recursively copy the directory and all of its contents`cp -R OLDDIRECTORY NEWDIRECTORY`.
 
-When you need to copy files over a network you can use `scp`, which is virtually the same as `cp` but copies files or folders over a secure, encrypted network (preventing the possible interception of sensitive data via what is referred to as a [Man-in-the-middle attack](https://en.wikipedia.org/wiki/Man-in-the-middle_attack)). You will use this command extensively when working with the **Raspberry Pi Zero W**.
-
-
 *Note:* Though you will begin to memorize some of these commands through frequent use, it is normal to bookmark an online [cheat sheet](http://cli.learncodethehardway.org/bash_cheat_sheet.pdf) for reference.

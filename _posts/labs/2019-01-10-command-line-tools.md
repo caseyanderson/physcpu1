@@ -29,4 +29,4 @@ Once you have downloaded XCode, go back to your Terminal and enter this command:
 
 `xcode-select --install`
 
-Click "Install" to download and install Xcode Command Line Tools (it takes a while so maybe go make some food or get a cup of coffee or something).
+Click "Install" to download and install Xcode Command Line Tools.
