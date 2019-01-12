@@ -14,7 +14,10 @@ Email: cta@caseyanderson.com
 
 ### Description
 
+from fieldwork class: This prototyping-oriented class leads students through numerous open-ended, small-to-mid-scale design briefs in the Raspberry Pi 3 development environment. Students will explore environmentally deployed embedded media, surveillance techniques, and intermediate interaction strategies as a means to establish computer literacy in an always-connected, internet-of-things context. Simultaneously, students will learn strategies for designing a prototype for public deployment and social engagement. Regular critiques will provide an opportunity for students to share their research and prototypes with their colleagues as well as receive direct feedback from the instructor.
 
+
+old copy (likely written by Bruce): The leading edge of design is becoming increasingly high tech. Microprocessors are enabling designers to incorporate both sophisticated behaviors and intelligent user interfaces into their products. This class will introduce students to a modern, low-cost microprocessor, the Arduino, and teach the core electronic sciences required to use it to control interactive design. This class assumes no prior knowledge of electronics, although students should have basic mathematical skills.
 
 ### Required Materials
 
