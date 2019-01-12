@@ -4,7 +4,7 @@ layout: default
 
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
-  {%- assign date_format = "week " | append: post.week | append: ", " | append: post.tags[0] | append: " " | append: post.number -%}
+  {%- assign date_format = "week " | append: page.week | append: ", " | append: page.tags[0] | append: " " | append: page.number -%}
   <span class="post-date">{{ date_format }}</span>
   <br/><br/>
   {{ content }}

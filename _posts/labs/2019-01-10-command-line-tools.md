@@ -1,5 +1,5 @@
 ---
-layout: labs
+layout: post
 title:  "Command Line Tools (Installation)"
 date:   2019-01-10 06:00:00 -0700
 week: 1
