@@ -48,6 +48,9 @@ Late prototype/assignment policy: for every week a prototype/assignment is late 
 
 ### Goals
 
+1. Construct simple circuits to interface electronics with digital systems
+2. Learn and explore the basic principles of software design
+3. Prototype experiences and devices across a continuum of technologies
 
 ### Attendance Policy
 
@@ -61,3 +64,4 @@ Absences will be excused if and only if I am notified via email prior to the beg
 #### Week 1
 
 * Review Syllabus
+* LAB 1.1 Intro to Python 3:
