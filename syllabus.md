@@ -64,10 +64,9 @@ Absences will be excused if and only if I am notified via email prior to the beg
 #### Week 1
 
 * Review Syllabus
-* LAB 1.1 Command Line Tools (Installation)
-* LAB 1.2 The Command Line
-* LAB 1.2 Intro to Python 3 Pt 1
-* LAB 1.3 Intro to Python 3 Pt 2
+* LAB 1.1 Python 3 Pre-flight
+* LAB 1.2 The Command Line (Introduction)
+* LAB 1.3 Intro to Python 3 Pt 1
 * HW 1.1 Purchase Required Materials
 * HW 1.2
 
@@ -75,5 +74,5 @@ Absences will be excused if and only if I am notified via email prior to the beg
 #### Week 2
 
 * LAB 2.1 Adafruit HUZZAH32: Overview
-* LAB 2.2 Hello World (blink.py)
+* LAB 2.2 Hello World!
 * LAB 2.3
