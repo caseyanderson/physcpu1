@@ -1,23 +1,19 @@
 ---
 layout: post
-title:  "Python 3 Pre-flight"
+title:  "Python3 Pre-flight"
 date:   2019-01-10 06:00:00 -0700
 week: 1
 number: 1
 tags: lab
 ---
 
-## Python3 pre-flight
-
-Below are instructions regarding installing things needed for general development with Python3 (including two example libraries). They include:
+Below are instructions regarding installing tools needed for general development with Python3 (including two example libraries). They include:
 
 * [Xcode](https://developer.apple.com/xcode/) (Command Line Tools)
 * [Homebrew](http://brew.sh/)
 * [Python3](https://www.python.org/)
 * [PyPI](https://pypi.python.org/pypi)
 * [Jupyter](https://jupyter.org/index.html)
-* [BeautifulSoup4](https://www.crummy.com/software/BeautifulSoup/)
-* [Natural Language Toolkit](http://www.nltk.org/)
 
 
 ### Xcode / The Command Line Tools
