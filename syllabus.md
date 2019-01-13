@@ -66,13 +66,13 @@ Absences will be excused if and only if I am notified via email prior to the beg
 * Review Syllabus
 * LAB 1.1 Python3 Pre-flight
 * LAB 1.2 The Command Line
-* LAB 1.3 Intro to Python 3
+* LAB 1.3 Intro to Python3
 * HW 1.1 Purchase Required Materials
-* HW 1.2
+* HW 1.2 TBD
 
 
 #### Week 2
 
 * LAB 2.1 Adafruit HUZZAH32: Overview
 * LAB 2.2 Hello World!
-* LAB 2.3
+* BRF 2.0 Prototype Proposals
