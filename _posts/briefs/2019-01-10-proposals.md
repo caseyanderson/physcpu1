@@ -19,7 +19,7 @@ Your proposal must contain the following components:
 
 * **Summary of the Experience:** what is it? In other words, what happens? Is it a tool? An experience? If so, what kind of an experience? What about this do you think would be interesting to someone else (specifically) and why?
 
-* **Bill of Materials:** what do you need to make this prototype? How much will it cost? Everything in this class will use an Arduino (likely an Arduino Uno), so at the very least that should be mentioned in this section.
+* **Bill of Materials:** what do you need to make this prototype? How much will it cost? Everything in this class will use a HUZZAH32, so at the very least that should be mentioned in this section.
 
 * **Supporting Media:** what if someone wants to hear about this really interesting thing that you made/interaction you set up? If you were asked to send someone a short PDF (like this proposal!) and a few images, or a link to a video, etc., what would you include? It is okay for this to simply be sketches in the beginning.
 
