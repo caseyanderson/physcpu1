@@ -65,8 +65,7 @@ Absences will be excused if and only if I am notified via email prior to the beg
 
 * Review Syllabus
 * LAB 1.1 Python 3 Pre-flight
-* LAB 1.2 The Command Line (Introduction)
-* LAB 1.3 Intro to Python 3 Pt 1
+* LAB 1.2 Intro to Python 3
 * HW 1.1 Purchase Required Materials
 * HW 1.2
 
