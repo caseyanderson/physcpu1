@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Prototype Proposals"
-date:   2019-01-10 06:00:00 -0730
+date:   2019-01-11 06:00:00 -0730
 week: 2
 number: 0
 tags: brief
