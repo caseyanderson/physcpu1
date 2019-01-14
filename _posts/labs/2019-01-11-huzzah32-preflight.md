@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Adafruit HUZZAH32 Pre-flight"
-date:   2019-01-10 06:00:00 -0700
+date:   2019-01-11 06:00:00 -0700
 week: 2
 number: 1
 tags: lab
@@ -53,5 +53,5 @@ tags: lab
 
 ## Disconnect from ESP32 (via USB)
 
-1. Open a Terminal and run the following key-commands to disconnect from the ESP32 and exit `screen`: **Ctrl-A Ctrl-\**
+1. Open a Terminal and run the following key-commands to disconnect from the ESP32 and exit `screen`: Ctrl-A Ctrl-\
 2. Type `y` to confirm quit
