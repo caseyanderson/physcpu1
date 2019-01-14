@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "Hello World (blink.py)"
-date:   2019-01-10 06:00:00 -0700
+date: 2019-01-11 06:00:00 -0710
 week: 2
-number: 1
+number: 2
 tags: lab
 ---
 
