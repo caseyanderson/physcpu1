@@ -7,7 +7,7 @@ number: 1
 tags: lab
 ---
 
-Below are instructions regarding installing tools needed for general development with Python3 (including two example libraries). They include:
+Below are instructions regarding installing tools needed for general development with Python3. They include:
 
 * [Xcode](https://developer.apple.com/xcode/) (Command Line Tools)
 * [Homebrew](http://brew.sh/)
@@ -32,7 +32,7 @@ Click `Install` to download and install the **Xcode Command Line Tools** (it tak
 
 ### Homebrew
 
-Copy and paste this code into the terminal and press `enter` to install [homebrew](http://brew.sh/):  `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+Copy and paste this code into the terminal and press `enter` to install [homebrew](http://brew.sh/): `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
 If prompted, agree to the **Xcode** license
 
