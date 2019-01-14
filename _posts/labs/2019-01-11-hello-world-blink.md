@@ -35,16 +35,16 @@ while True:
 ```
 
 1. Click and select the code above, copy it to your clipboard
-2. Open a Terminal
-3. Create and open a python file: `sudo nano blink.py`
-4. Paste the code into your Terminal
-5. Ctrl-O to save, Ctrl-X to exit
+2. Open a Termianl, run Jupyter Notebook: `jupyter notebook`
+3. Click `New`, Select `Text File`
+4. Click on `Untitled.txt` and change it to `blink.py`
+5. Paste the code currently in your clipboard into `blink.py`, save the file
 
 
 ### Write blink.py to ESP32
 
 1. Use `ampy` to send files to the ESP32: `ampy -p /dev/tty.SLAB_USBtoUART put blink.py`
-7. Confirm that `blink.py` is now on ESP32: `ampy -p /dev/tty.SLAB_USBtoUART get blink.py` (the code should be identical)
+2. Confirm that `blink.py` is now on ESP32: `ampy -p /dev/tty.SLAB_USBtoUART get blink.py` (the code should be identical)
 
 
 ### run blink.py
