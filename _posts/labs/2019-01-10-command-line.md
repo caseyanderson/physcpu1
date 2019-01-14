@@ -15,21 +15,21 @@ tags: lab
 
 Navigate to the Command Line on Mac OSX (Applications > Utilities > Terminal).
 
-You should see something that looks like the window with a white background at the top of this page. That is the **Terminal**, a name for a command line interface (often abbreviated as **CLI**) that is already installed on your computer. Though other aspects of computers have changed drastically over the last fifty years, this has not. In other words, you can see back in time at this level of your computer. Read more about the history of the command line [here](https://en.wikipedia.org/wiki/Command-line_interface).
+You should see something that looks like the window with a white background at the top of this age. That is the **Terminal**, a name for a command line interface (often abbreviated as **CLI**) that is already installed on your computer. Though other aspects of computers have changed drastically over the last fifty years, this has not. In other words, you can see back in time at this level of your computer. Read more about the history of the command line [here](https://en.wikipedia.org/wiki/Command-line_interface).
 
 In the above photo you will notice a semi-transparent black window that looks fairly similar to the **Terminal**. This is [iTerm2](https://www.iterm2.com/) and I prefer it to the Mac OSX **Terminal**. I do not really care which you use (it's a matter of personal preference), and not particularly interesting to talk about right now, just be aware that the same commands work across all **CLI**s.
 
 1. Open a new terminal window with **COMMAND-N**. You should see something like `HOSTNAME:~ USERNAME$` followed by a rectangle. The rectangle is your cursor and demarcates where you can enter text commands for the **Terminal** to execute.
 
-2. Unix commands, and really anything used in the command line, should be shipped with some sort of `manual`. Typically this is accessed by typing `man NAMEOFCOMMAND` in the **Terminal** and hitting enter. Let's start by checking the manual for the next command we will use, `ls`. Type `man ls` and hit enter. You should see something that looks like this:
+2. Unix commands, and really anything used in the command line, should be shipped with some sort of `manual`. Typically this is accessed by typing `man NAMEOFCOMMAND` in the **Terminal** and hitting **Enter**. Let's start by checking the manual for the next command we will use, `ls`. Type `man ls` and hit enter. You should see something that looks like this:
 
     ![]({{site.url}}/assets/man_example.png)
 
-    This is the manual for `ls`, which opens automatically in a text editor called `Vi` (also known as `Vim`, short for `Vi Improved`). `Vim` has a radically different approach to how a text editor works than Microsoft Word or Apple Pages, which you can read about in detail [here](http://www.vim.org/).
+    This is the manual for `ls`, which opens automatically in a text editor called `Vim`. `Vim` has a radically different approach to how a text editor works than Microsoft Word or Apple Pages, which you can read about in detail [here](http://www.vim.org/).
 
     There are two modes in `Vim`: `Normal` and `Insert`, and toggling between the two modes exposes different features of the application. `Normal` is typically reserved for navigating through a file or reading. To navigate the file you can use the `j` (down) and `k` (up) keys. In order to quit a file you simply type `q`.
 
-    We will discuss how to use `Insert` mode, and other commands, in the future. Right now its more important to take some time to read through the `manual` for `ls`. It is considered standard practice for developers to include a `man` file for virtually everything that you use in the terminal, making `man` a very important command to commit to memory.
+    It is considered standard practice for developers to include a `man` file for virtually everything that you use in the terminal, making `man` a very important command to commit to memory.
 
     Note: google `vim vs emacs` to see an example of how passionate people get about their tools (these arguments are frequently referred to as "religious").
 
