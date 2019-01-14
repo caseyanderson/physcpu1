@@ -16,7 +16,7 @@ Below are instructions regarding installing tools needed for general development
 * [Jupyter](https://jupyter.org/index.html)
 
 
-### Xcode / The Command Line Tools
+## Xcode / The Command Line Tools
 
 Do you have **Xcode**? To check go to the terminal and execute `xcode-select -p`.
 
@@ -30,7 +30,7 @@ Enter `xcode-select --install` into the terminal, which should result in somethi
 Click `Install` to download and install the **Xcode Command Line Tools** (it takes a while so maybe go make some food or get a cup of coffee or something).
 
 
-### Homebrew
+## Homebrew
 
 Copy and paste this code into the terminal and press `enter` to install [homebrew](http://brew.sh/):  `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
@@ -43,19 +43,19 @@ by executing `sudo xcodebuild -license` in the terminal.
 Search to see if something is available on `homebrew` with `search`. For example:  `brew search python3`
 
 
-### Python3
+## Python3
 
 To install **Python3** execute `brew install python3` in the terminal.
 
 
-### PyPI
+## PyPI
 
 **PyPi** is frequently referred to as `pip`. It is used to manage **Python** library installations and ships with **Python3** when installed via **Homebrew**. The command to use it is `pip3`, **not** `pip`.
 
 Search for something on `pip3` with the `search` command. For example: `pip3 search jupyter`
 
 
-### Jupyter
+## Jupyter
 
 Install **Jupyter** via `pip3` as follows:
 1. `pip3 install --upgrade pip`

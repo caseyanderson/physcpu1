@@ -73,6 +73,6 @@ Absences will be excused if and only if I am notified via email prior to the beg
 
 #### Week 2
 
-* LAB 2.1 Adafruit HUZZAH32: Overview
+* LAB 2.1 Adafruit HUZZAH32 Pre-flight
 * LAB 2.2 Hello World!
 * BRF 2.0 Prototype Proposals

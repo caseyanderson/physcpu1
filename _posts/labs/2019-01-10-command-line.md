@@ -7,7 +7,7 @@ number: 2
 tags: lab
 ---
 
-### Materials
+## Materials
 * laptop
 * Max OSX Terminal **or** [iTerm2](https://www.iterm2.com/)
 
@@ -93,7 +93,7 @@ In the above photo you will notice a semi-transparent black window that looks fa
     *Note:* The command `!!`, which is pronounced `bang bang`, is a shortcut to repeat the previous command entered into the terminal. In other words, this command prepends `sudo` to whatever you ran in the terminal previously.
 
 
-### ls -l
+## ls -l
 
 The Unix command `ls` can do a lot more than just list the contents of a directory. If you run `ls -l` you can see a full list of the following information (sourced from [here](http://www.computerhope.com/unix/uls.htm)):
 
@@ -106,7 +106,7 @@ The Unix command `ls` can do a lot more than just list the contents of a directo
 
 Go ahead and try running this command in a few different directories. Try `home`, `Applications`, and a new directory, made by you (`mkdir`), on the `Desktop` expressly for this purpose.
 
-### Renaming = Moving
+## Renaming = Moving
 
 If you need to rename a file with Unix, use the `mv` command. `mv` renames/moves the **SOURCE** to the **DESTINATION**. For example, in the next sequence we will make a new file on the **Desktop**, rename it, and then move it to our **home** directory. Follow along in the **Terminal**:
 
@@ -117,6 +117,7 @@ If you need to rename a file with Unix, use the `mv` command. `mv` renames/moves
 5. `cd ~` *Note:* `~` is a shortcut for your `home` directory (so many shortcuts!)
 6. `ls` *Note:* confirms that `mv_is_fun.txt` has been moved/renamed
 
-### Copying Files and Directories
+
+## Copying Files and Directories
 
 The `cp` command allows one to copy files/directories from a **SOURCE** to a **DESTINATION**. In other words, standard usage tends to look like this: `cp ORIGINALFILE NEWFILE`. If you need to copy a directory, though, and want to copy the entire directory structure inside of it, you can tell `cp` to recursively copy the directory and all of its contents`cp -R OLDDIRECTORY NEWDIRECTORY`.
