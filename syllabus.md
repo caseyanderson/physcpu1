@@ -29,10 +29,13 @@ old copy (likely written by Bruce): The leading edge of design is becoming incre
 * [Breadboarding wire bundle](https://www.adafruit.com/product/153)
 * [Breadboard trim potentiometer - 10K](https://www.adafruit.com/product/356)
 * [Photo cell](https://www.adafruit.com/product/161)
-* Buttons!
-* [Through-Hole Resistors - 220 ohm 5% 1/4W - Pack of 25](https://www.adafruit.com/product/2780)
-* [Through-Hole Resistors - 10K ohm 5% 1/4W - Pack of 25](https://www.adafruit.com/product/2784)
-* LEDs!
+* Buttons (SPST) +
+* Through-Hole Resistors - 220 ohm 5% 1/4W +
+* Through-Hole Resistors - 10K ohm 5% 1/4W +
+* LEDs +
+
+Note: the + indicates materials that are available at [All Electronics](https://www.allelectronics.com/)
+
 
 ### Grading Policy
 
@@ -68,7 +71,7 @@ Absences will be excused if and only if I am notified via email prior to the beg
 * LAB 1.2 The Command Line
 * LAB 1.3 Intro to Python3
 * HW 1.1 Purchase Required Materials
-* HW 1.2 TBD
+* HW 1.2 All Electronics
 
 
 #### Week 2
