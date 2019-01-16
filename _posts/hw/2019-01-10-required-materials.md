@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "hw1"
+title: "Required Materials"
 date:   2019-01-10 06:00:00 -0730
 week: 1
 number: 1
