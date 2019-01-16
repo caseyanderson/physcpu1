@@ -2,6 +2,7 @@
 title: briefs
 permalink: /briefs/
 layout: page
+published: false
 ---
 
 {% for post in site.tags['brief'] %}
