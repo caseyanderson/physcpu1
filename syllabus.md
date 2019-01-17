@@ -14,7 +14,7 @@ Email: cta@caseyanderson.com
 
 ### Description
 
-This prototyping-oriented class introduces students to the creative affordances of physical computing, or the practice of interfacing digital system with the outside world, by way of hands-on experiments across a continuum of technologies. Students will learn programming concepts (Python3), basic electronics, as well as strategies for their interaction via the [HUZZAH32](https://www.adafruit.com/product/3405). Regular critiques will provide an opportunity for students to share their research and prototypes with their colleagues as well as receive direct feedback from the instructor.
+This prototyping-oriented class introduces students to the creative affordances of physical computing, or the practice of interfacing digital system with the outside world, by way of hands-on experiments across a continuum of technologies. Students will learn programming concepts (Python3), basic electronics, as well as strategies for their interaction, via the [HUZZAH32](https://www.adafruit.com/product/3405). Regular critiques will provide an opportunity for students to share their research and prototypes with their colleagues as well as receive direct feedback from the instructor.
 
 
 ### Required Materials
@@ -71,9 +71,3 @@ Absences will be excused if and only if I am notified via email prior to the beg
 * HW 1.1 Purchase Required Materials
 * HW 1.2 All Electronics
 
-
-#### Week 2
-
-* LAB 2.1 Adafruit HUZZAH32 Pre-flight
-* LAB 2.2 Hello World!
-* BRF 2.0 Prototype Proposals
