@@ -65,9 +65,8 @@ Absences will be excused if and only if I am notified via email prior to the beg
 #### Week 1
 
 * Review Syllabus
-* LAB 1.1 Python3 Pre-flight
-* LAB 1.2 The Command Line
-* LAB 1.3 Intro to Python3
-* HW 1.1 Purchase Required Materials
-* HW 1.2 All Electronics
-
+* LAB 1.1 [Python3 Pre-flight](https://physcpu1.caseyanderson.com/2019/01/10/py3-preflight.html)
+* LAB 1.2 [The Command Line](https://physcpu1.caseyanderson.com/2019/01/10/command-line.html)
+* LAB 1.3 [Intro to Python3](https://physcpu1.caseyanderson.com/2019/01/10/intro-py3.html)
+* HW 1.1 [Required Materials](https://physcpu1.caseyanderson.com/2019/01/10/required-materials.html)
+* HW 1.2 [All Electronics](https://physcpu1.caseyanderson.com/2019/01/10/all-electronics.html)
