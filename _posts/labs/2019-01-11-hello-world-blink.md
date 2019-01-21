@@ -5,7 +5,6 @@ date: 2019-01-11 06:00:00 -0710
 week: 2
 number: 2
 tags: lab
-published: false
 ---
 
 ## Materials
@@ -94,3 +93,5 @@ while True:
     led.value(0)
   time.sleep(0.5)
 ```
+
+put explanation here
