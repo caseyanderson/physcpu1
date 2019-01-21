@@ -70,3 +70,11 @@ Absences will be excused if and only if I am notified via email prior to the beg
 * LAB 1.3 [Intro to Python3](https://physcpu1.caseyanderson.com/2019/01/10/intro-py3.html)
 * HW 1.1 [Required Materials](https://physcpu1.caseyanderson.com/2019/01/10/required-materials.html)
 * HW 1.2 [All Electronics](https://physcpu1.caseyanderson.com/2019/01/10/all-electronics.html)
+
+
+#### Week 2
+* LAB 2.1 [Adafruit HUZZAH32 Pre-flight]()
+* LAB 2.2 [Hello World (blink.py)]()
+* LAB 2.3 [Digital Input / Output]()
+* BRF 2.0 Project Proposal Format
+* HW 2.1 Mock Project Proposal
