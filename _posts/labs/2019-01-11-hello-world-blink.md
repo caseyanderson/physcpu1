@@ -22,17 +22,21 @@ published: false
 ## blink.py (internal LED)
 
 ```python
+'''
+blink.py (internal led)
+'''
+
 import machine
 import time
 
 led = machine.Pin(13, machine.Pin.OUT)
 
 while True:
-  if led.value() == 0:
     led.value(1)
-  else:
+    time.sleep(0.5)
     led.value(0)
-  time.sleep(0.5)
+    time.sleep(0.5)
+
 ```
 
 1. Click and select the code above, copy it to your clipboard
@@ -70,3 +74,23 @@ while True:
 9. Ctrl-C to stop `blink.py`
 10. Exit `screen`: Ctrl-A Ctrl-\
 
+
+## blink_if.py (external LED + if statement)
+
+```python
+'''
+blink w/ if statement
+'''
+
+import machine
+import time
+
+led = machine.Pin(27, machine.Pin.OUT)
+
+while True:
+  if led.value() == 0:
+    led.value(1)
+  else:
+    led.value(0)
+  time.sleep(0.5)
+```
