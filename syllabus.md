@@ -65,16 +65,16 @@ Absences will be excused if and only if I am notified via email prior to the beg
 #### Week 1
 
 * Review Syllabus
-* LAB 1.1 [Python3 Pre-flight](https://physcpu1.caseyanderson.com/2019/01/10/py3-preflight.html)
-* LAB 1.2 [The Command Line](https://physcpu1.caseyanderson.com/2019/01/10/command-line.html)
-* LAB 1.3 [Intro to Python3](https://physcpu1.caseyanderson.com/2019/01/10/intro-py3.html)
-* HW 1.1 [Required Materials](https://physcpu1.caseyanderson.com/2019/01/10/required-materials.html)
-* HW 1.2 [All Electronics](https://physcpu1.caseyanderson.com/2019/01/10/all-electronics.html)
+* LAB 1.1 [Python3 Pre-flight]({{site.url}}/2019/01/10/py3-preflight.html)
+* LAB 1.2 [The Command Line]({{site.url}}/2019/01/10/command-line.html)
+* LAB 1.3 [Intro to Python3]({{site.url}}/2019/01/10/intro-py3.html)
+* HW 1.1 [Required Materials]({{site.url}}/2019/01/10/required-materials.html)
+* HW 1.2 [All Electronics]({{site.url}}/2019/01/10/all-electronics.html)
 
 
 #### Week 2
-* LAB 2.1 [Adafruit HUZZAH32 Pre-flight]()
-* LAB 2.2 [Hello World (blink.py)]()
-* LAB 2.3 [Digital Input / Output]()
-* BRF 2.0 Project Proposal Format
+* LAB 2.1 [Adafruit HUZZAH32 Pre-flight]({{site.url}}/2019/01/11/huzzah32-preflight.html)
+* LAB 2.2 [Hello World (blink.py)]({{site.url}}/2019/01/11/hello-world-blink.html)
+* LAB 2.3 [Digital Input / Output]({{site.url}}/2019/01/11/digitalIO.html)
+* BRF 2.0 [Project Proposal Format]({{site.url}}/2019/01/11/proposals.html)
 * HW 2.1 Mock Project Proposal
