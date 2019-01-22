@@ -5,6 +5,7 @@ date:   2019-01-11 06:00:00 -0750
 week: 2
 number: 2
 tags: hw
+published: false
 ---
 
 Buttons tend to have one of two different actuation styles:
