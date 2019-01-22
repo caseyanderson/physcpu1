@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Hello World (blink.py)"
+title:  "Digital Output"
 date: 2019-01-11 06:00:00 -0710
 week: 2
 number: 2
@@ -80,7 +80,7 @@ while True:
 
 ## blink_if.py (external LED + if statement)
 
-Another way to blink an LED is to use [Boolean logic](https://en.wikipedia.org/wiki/Boolean_algebra). In the example below we check to see if the `led.value` is currently `0` (or off). If it is we turn the led on (`led.value(1)`), otherwise, we turn the led off (`led.value(0)`). We repeatedly check `led.value()` by wrapping this `if` statement in a `while` loop, which will run forever.
+Another way to blink an LED is to use [Boolean logic](https://en.wikipedia.org/wiki/Boolean_algebra). In the example below we check to see if the `led.value` is `0` (or off). If the LED is off we turn it back on (`led.value(1)`), otherwise, we turn the led off (`led.value(0)`). We repeatedly check `led.value()` by wrapping this `if` statement in a `while` loop, which will run forever.
 
 ```python
 '''
@@ -108,7 +108,7 @@ while True:
 
 ### Run blink_if.py
 
-1. Connect to the ESP32: `screen /dev/tty.SLAB_USBtoUART 115200`
+1. Connect to the ESP32: `screen /dev/tty.SLAB_USBtoUART 115200`ß
 2. Run `blink_if.py`: `import blink_if.py`
 3. Press the button, see the LED light up
 4. Ctrl-C to exit `blink_if.py`
