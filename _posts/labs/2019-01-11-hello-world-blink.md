@@ -38,43 +38,49 @@ while True:
 
 ```
 
-1. Click and select the code above, copy it to your clipboard
-2. Open a Termianl, run Jupyter Notebook: `jupyter notebook`
-3. Click `New`, Select `Text File`
-4. Click on `Untitled.txt` and change it to `blink.py`
-5. Paste the code currently in your clipboard into `blink.py`, save the file
+1. Open a Terminal, run Jupyter Notebook: `jupyter notebook`
+2. Click `New`, Select `Text File`
+3. Click on `Untitled.txt` and change it to `blink.py`
+4. Copy and paste the code above into `blink.py`, save the file
 
 
-### Write blink.py to ESP32
+### Save blink.py to ESP32
 
 1. Use `ampy` to send files to the ESP32: `ampy -p /dev/tty.SLAB_USBtoUART put blink.py`
 2. Confirm that `blink.py` is now on ESP32: `ampy -p /dev/tty.SLAB_USBtoUART get blink.py` (the code should be identical)
 
 
-### run blink.py
+### Run blink.py
 
 1. Connect to the ESP32: `screen /dev/tty.SLAB_USBtoUART 115200`
 2. Run `blink.py`: `import blink.py` (you should see the internal LED blink)
-3. Ctrl-C to exit blink.py
+3. Ctrl-C to exit `blink.py`
 4. Ctrl-D to reboot ESP32
 5. Exit `screen`: Ctrl-A Ctrl-\
 
 
 ## blink.py (external LED)
 
-1. Confirm that you have a functional LED by wiring it inline **with a resistor** between `3V3` and `GND`
-2. After confirming that your LED works, move the wire that was previously attached at `3V3` to `GPIO` pin 27
-3. On your laptop open `blink.py` in Jupyter Notebook and change the pin number from `13` to `27`: `jupyter notebook blink.py`
-4. Delete the previous version of `blink.py` from the ESP32: `ampy -p /dev/tty.SLAB_USBtoUART rm blink.py`
-5. Write the new version of `blink.py` to the ESP32: `ampy -p /dev/tty.SLAB_USBtoUART put blink.py`
-6. Disconnect from ampy: Ctrl-A Ctrl-\
-7. Connect to ESP32 via `screen`: `screen /dev/tty.SLAB_USBtoUART 115200`
-8. Run `blink.py`: `import blink.py`
-9. Ctrl-C to stop `blink.py`
-10. Exit `screen`: Ctrl-A Ctrl-\
+### Hookup Pattern
+
+![]({{site.url}}/assets/blink_rszd.jpg)
+
+1. Connect ESP32 GND to a blue bus on the side of your breadboard
+2. From pin 27, connect the following in series: a Resistor to an LED to GND (blue bus)
+
+1. On your laptop open `blink.py` in Jupyter Notebook and change the pin number from `13` to `27`: `jupyter notebook blink.py`
+2. Delete the previous version of `blink.py` from the ESP32: `ampy -p /dev/tty.SLAB_USBtoUART rm blink.py`
+3. Write the new version of `blink.py` to the ESP32: `ampy -p /dev/tty.SLAB_USBtoUART put blink.py`
+4. Disconnect from ampy: Ctrl-A Ctrl-\
+5. Connect to ESP32 via `screen`: `screen /dev/tty.SLAB_USBtoUART 115200`
+6. Run `blink.py`: `import blink.py`
+7. Ctrl-C to stop `blink.py`
+8. Exit `screen`: Ctrl-A Ctrl-\
 
 
 ## blink_if.py (external LED + if statement)
+
+Another way to blink an LED is to use [Boolean logic](https://en.wikipedia.org/wiki/Boolean_algebra). In the example below we check to see if the `led.value` is currently `0` (or off). If it is we turn the led on (`led.value(1)`), otherwise, we turn the led off (`led.value(0)`). We repeatedly check `led.value()` by wrapping this `if` statement in a `while` loop, which will run forever.
 
 ```python
 '''
@@ -94,4 +100,17 @@ while True:
   time.sleep(0.5)
 ```
 
-put explanation here
+### Send blink_if.py to ESP32
+
+1. Use `ampy` to send files to the ESP32: `ampy -p /dev/tty.SLAB_USBtoUART put blink_if.py`
+2. Confirm that `blink_if.py` is now on ESP32: `ampy -p /dev/tty.SLAB_USBtoUART get blink_if.py` (the code should be identical)
+
+
+### Run blink_if.py
+
+1. Connect to the ESP32: `screen /dev/tty.SLAB_USBtoUART 115200`
+2. Run `blink_if.py`: `import blink_if.py`
+3. Press the button, see the LED light up
+4. Ctrl-C to exit `blink_if.py`
+5. Ctrl-D to reboot ESP32
+6. Exit `screen`: Ctrl-A Ctrl-\
