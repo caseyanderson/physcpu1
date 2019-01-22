@@ -73,8 +73,10 @@ Absences will be excused if and only if I am notified via email prior to the beg
 
 
 #### Week 2
+
 * LAB 2.1 [Adafruit HUZZAH32 Pre-flight]({{site.url}}/2019/01/11/huzzah32-preflight.html)
 * LAB 2.2 [Hello World (blink.py)]({{site.url}}/2019/01/11/hello-world-blink.html)
 * LAB 2.3 [Digital Input/Output]({{site.url}}/2019/01/11/digitalIO.html)
 * BRF 2.0 [Project Proposal Format]({{site.url}}/2019/01/11/proposals.html)
 * HW 2.1 Mock Project Proposal
+* HW 2.2 DIY Button
