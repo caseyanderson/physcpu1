@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Mock Project Proposal"
+title: "Mock Prototype Proposal"
 date:   2019-01-11 06:00:00 -0740
 week: 2
 number: 1
 tags: hw
 ---
 
-Write a mock project proposal, fitting this format, for a one input (button) one output interactive prototype.
+Write a mock prototype proposal, fitting [this](https://physcpu1.caseyanderson.com/2019/01/11/proposals.html) format, for a one input (button) one output interactive prototype.
