@@ -46,13 +46,38 @@ Bottom row
 
 Note: + denotes input only
 
+## Electrical Signals
+
+In electronics a signal is a time-varying quantity, where the quantity that is varying over time is voltage or current, which conveys information. Physical Computing involves interfacing two different types of electrical signals together: digital and analog.
 
 ## Digital Signals
 
+Note: image sourced from [here](https://learn.sparkfun.com/tutorials/analog-vs-digital/all#digital-signals)
+
 ![]({{site.url}}/assets/digital_sig.png)
+
+A digital signal is comprised of a sequence of discrete values. In computation we typically think of these values as binary, or sequences of `1` and `0`, however there are a variety of equivalent ways to refer to this same alternation:
+
+|V+|GND|
+|-------|--------|
+| HIGH | LOW |
+| 1 | 0 |
+| True | False |
+| On | Off |
+
+For computers (or robots) the world in all its complexity can be represented, or encoded, by sequences of two possible values.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aAwJlD-m_hE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+To date we have exclusively worked with digital inputs and outputs: a button, is either connected (on) or disconnected (off); an LED is either illuminated (on) or dark (off).
 
 
 ## Analog Signals
+
+Note: image sourced from [here](https://learn.sparkfun.com/tutorials/analog-vs-digital/all#analog-signals)
+
+![]({{site.url}}/assets/analog_sig.png)
+
 
 
 ## Analog Input
