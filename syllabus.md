@@ -80,3 +80,12 @@ Absences will be excused if and only if I am notified via email prior to the beg
 * BRF 2.0 [Project Proposal Format]({{site.url}}/2019/01/11/proposals.html)
 * HW 2.1 [Mock Project Proposal]({{site.url}}/2019/01/11/mock-proposal.html)
 * HW 2.2 [DIY Button]({{site.url}}/2019/01/11/DIY-buttons.html)
+
+
+#### Week 3
+
+* LAB 3.1 [Analog & Digital Signals]({{site.url}}/2019/01/12/analog-digital-signals.html)
+* LAB 3.2 [Voltage Dividers]({{site.url}}/2019/01/12/voltage-dividers.html)
+* LAB 3.3 [Pulse Width Modulation]({{site.url}}/2019/01/12/pwm.html)
+* HW 3.1
+* HW 3.2
