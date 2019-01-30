@@ -33,9 +33,9 @@ If you need to calculate the value of `R1` and `R2` (fyi: in this case, I am usi
 
 ![]({{site.url}}/assets/LDR_analog_read.jpg)
 
-1. Connect LDR Pin1 (Z1 in Voltage Divider schematic above) to ESP32 3V
-2. Connect LDR Pin2 to ESP32 34
-3. Connect Resistor Pin2 (Z2 in Voltage Divider schematic above) to ESP32 GND
+1. Connect LDR Pin1 (`Z1` in Voltage Divider schematic above) to ESP32 `3V`
+2. Connect LDR Pin2 to ESP32 `34`
+3. Connect Resistor Pin2 (`Z2` in Voltage Divider schematic above) to ESP32 `GND`
 
 There are a collection of voltage divider-based sensors that can be used interchangeably, from a hardware and software standpoint, for wildly different interactions. In other words, all of the following analog sensors/voltage dividers are usable with `analog_read.py`:
 
