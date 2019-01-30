@@ -54,7 +54,7 @@ In electronics a signal is a time-varying quantity which conveys information. Th
 
 ## Digital Signals
 
-Note: image sourced from [here](https://learn.sparkfun.com/tutorials/analog-vs-digital/all#digital-signals)
+(Note: image sourced from [here](https://learn.sparkfun.com/tutorials/analog-vs-digital/all#digital-signals))
 
 ![]({{site.url}}/assets/digital_sig.png)
 
@@ -74,11 +74,11 @@ To date we have exclusively worked with digital inputs and outputs: a button (in
 
 ## Analog Signals
 
-Note: image sourced from [here](https://learn.sparkfun.com/tutorials/analog-vs-digital/all#analog-signals)
+(Note: image sourced from [here](https://learn.sparkfun.com/tutorials/analog-vs-digital/all#analog-signals))
 
 ![]({{site.url}}/assets/analog_sig.png)
 
-An analog signal is comprised of any point within a given range, where each value represents different, meaningful information. The photo above, representing the composite video signal from an RCA plug, is one example of an analog signal. Generally people refer to phenomena in the "real world" as analog: light level, temperature, weight, etc.
+An analog signal is comprised of a signal whose value me be any point within a given range. The photo above, representing the composite video signal from an RCA plug, is one example of an analog signal. Generally people refer to phenomena in the "real world" as analog: light level, temperature, weight, etc.
 
 Note: ESP32 pins which begin with an `A` are analog capable pins.
 
