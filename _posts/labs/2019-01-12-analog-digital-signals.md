@@ -27,22 +27,22 @@ The HUZZAH32 has a variety of pins, each of which perform different functions. F
 The photo above highlights a number of pins that do not have a single function and are instead referred to as `General Purpose Input/Output` (or `GPIO`) pins. Note: it is normal to have to consult a datasheet in order to identify pin functionality.
 
 Top row
-* 13: GPIO 13, also connected to the on-board LED
-* 12: GPIO 12
-* 27: GPIO 27
-* 33: GPIO 33
-* 15: GPIO 15
-* 32: GPIO 32
-* 14: GPIO 14
+* 13: GPIO `13`, also connected to the on-board LED
+* 12: GPIO `12`
+* 27: GPIO `27`
+* 33: GPIO `33`
+* 15: GPIO `15`
+* 32: GPIO `32`
+* 14: GPIO `14`
 
 Bottom row
-* A0: analog output DAC2 or GPIO 26
-* A1: analog output DAC1 or GPIO 25
-* A2: GPIO 34+
-* A3: GPIO 39+
-* A4: GPIO 36+
-* A5: GPIO 4
-* 21: GPIO 21
+* A0: analog output DAC2 or GPIO `26`
+* A1: analog output DAC1 or GPIO `25`
+* A2: GPIO `34`+
+* A3: GPIO `39`+
+* A4: GPIO `36`+
+* A5: GPIO `4`
+* 21: GPIO `21`
 
 Note: + denotes input only
 
@@ -111,9 +111,9 @@ while True:
 
 ![]({{site.url}}/assets/pot_analog_read.jpg)
 
-1. Connect Pot1 to ESP32 GND
-2. Connect Pot2 to ESP32 34
-3. Connect Pot3 to ESP32 3V
+1. Connect Pot1 to ESP32 `GND`
+2. Connect Pot2 to ESP32 `34`
+3. Connect Pot3 to ESP32 `3V`
 
 ### Send analog_read.py to ESP32
 
