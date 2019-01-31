@@ -19,7 +19,7 @@ tags: lab
 
 ![]({{site.url}}/assets/feather_gpio.jpg)
 
-The ESP32 has a variety of pins, each of which perform different functions. For example, last week we looked at `3V` and `GND`, pins which give us access to the power and ground on the ESP32 respectively.
+The `ESP32` has a variety of pins, each of which perform different functions. For example, last week we looked at `3V` and `GND`, pins which give us access to the power and ground on the device respectively.
 
 The photo above highlights a number of pins that do not have a single function and are instead referred to as `General Purpose Input/Output` (or `GPIO`) pins. Note: it is normal to have to consult a datasheet in order to identify pin functionality.
 
@@ -64,10 +64,9 @@ A digital signal is comprised of a sequence of discrete values. We typically thi
 | True | False |
 | On | Off |
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/aAwJlD-m_hE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 To date we have exclusively worked with digital inputs and outputs: a button (input) is either connected (on) or disconnected (off); an LED (output) is either illuminated (on) or dark (off).
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aAwJlD-m_hE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Analog Signals
 
