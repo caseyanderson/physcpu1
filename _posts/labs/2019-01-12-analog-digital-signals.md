@@ -17,6 +17,8 @@ tags: lab
 
 ## GPIO
 
+(Note: image sourced from [here](https://learn.adafruit.com/adafruit-huzzah32-esp32-feather/pinouts))
+
 ![]({{site.url}}/assets/feather_gpio.jpg)
 
 The `ESP32` has a variety of pins, each of which perform different functions. For example, last week we looked at `3V` and `GND`, pins which give us access to the power and ground on the device respectively.

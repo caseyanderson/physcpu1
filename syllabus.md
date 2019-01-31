@@ -87,6 +87,12 @@ Absences will be excused if and only if I am notified via email prior to the beg
 * LAB 3.1 [GPIO, Analog & Digital Signals]({{site.url}}/2019/01/12/analog-digital-signals.html)
 * LAB 3.2 [Analog Input]({{site.url}}/2019/01/12/analog-input.html)
 * LAB 3.3 [Voltage Dividers]({{site.url}}/2019/01/12/voltage-dividers.html)
-* LAB 3.4 [Pulse Width Modulation]({{site.url}}/2019/01/12/pwm.html)
-* HW 3.1
-* HW 3.2
+* LAB 3.4 [For Loops]({{site.url}}/2019/01/12/for-loop.html)
+* HW 3.1 TBA
+
+<!-- #### Week 4
+
+* LAB 4.1 PWM
+* LAB 4.2 Analog Input / Digital Output
+
+* BRF 1.1 TBA -->
