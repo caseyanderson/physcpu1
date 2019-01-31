@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "Voltage Dividers"
-date: 2019-01-12 06:00:00 -0710
+date: 2019-01-12 06:00:00 -0720
 week: 3
-number: 2
+number: 3
 tags: lab
 ---
 
@@ -37,7 +37,7 @@ If you need to calculate the value of `R1` and `R2` (fyi: in this case, I am usi
 2. Connect LDR Pin2 to ESP32 `34`
 3. Connect Resistor Pin2 (`Z2` in Voltage Divider schematic above) to ESP32 `GND`
 
-There are a collection of voltage divider-based sensors that can be used interchangeably, from a hardware and software standpoint, for wildly different interactions. In other words, all of the following analog sensors/voltage dividers are usable with `analog_read.py`:
+There are a collection of voltage divider-based sensors that can be used interchangeably, from a hardware and software standpoint, for wildly different interactions. To name only a few:
 
 * Potentiometer/knob: [1-turn](https://www.digikey.com/product-detail/en/3852C-282-103AL/3852C-282-103AL-ND/1088605) or [Continuous Turn](https://www.digikey.com/product-detail/en/6639S-1-103/6639S-1-103-ND/274005)
 * [Light-dependent resistor](https://www.sparkfun.com/products/9088)
