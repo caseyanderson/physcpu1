@@ -10,9 +10,6 @@ title: web resources
 * [Codecademy](https://www.codecademy.com/)
 
 
-### HUZZAH32
-
-
 ### Python
 * [MicroPython](https://micropython.org/)
 * [Dive Into Python 3](http://www.diveintopython3.net/)
