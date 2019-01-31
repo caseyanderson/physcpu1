@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Analog & Digital Signals"
+title:  "GPIO, Analog & Digital Signals"
 date: 2019-01-12 06:00:00 -0700
 week: 3
 number: 1
@@ -14,15 +14,12 @@ tags: lab
 * [Adafruit HUZZAH32](https://www.adafruit.com/product/3591)
 * [USB cable - USB A to Micro-B - 3 foot long](https://www.adafruit.com/product/592) (or similar)
 * 1x Breadboard
-* 1x Potentiometer
-* 1x LED (w/ 1x Resistor [220, 270, 330])
-
 
 ## GPIO
 
 ![]({{site.url}}/assets/feather_gpio.jpg)
 
-The HUZZAH32 has a variety of pins, each of which perform different functions. For example, last week we looked at `3V` and `GND`, pins which give us access to the power and ground on the HUZZAH32 respectively.
+The ESP32 has a variety of pins, each of which perform different functions. For example, last week we looked at `3V` and `GND`, pins which give us access to the power and ground on the ESP32 respectively.
 
 The photo above highlights a number of pins that do not have a single function and are instead referred to as `General Purpose Input/Output` (or `GPIO`) pins. Note: it is normal to have to consult a datasheet in order to identify pin functionality.
 
@@ -81,51 +78,3 @@ To date we have exclusively worked with digital inputs and outputs: a button (in
 An analog signal is comprised of a signal whose value me be any point within a given range. The photo above, representing the composite video signal from an RCA plug, is one example of an analog signal. Generally people refer to phenomena in the "real world" as analog: light level, temperature, weight, etc.
 
 Note: ESP32 pins which begin with an `A` are analog capable pins.
-
-
-## Analog Input
-
-### analog_read.py
-
-```python
-# analog read
-
-import machine
-from time import sleep_ms
-
-adc = machine.ADC(machine.Pin(34))
-adc.atten(machine.ADC.ATTN_11DB)
-
-while True:
-  print(adc.read())
-  sleep_ms(20)
-
-```
-
-1. Open a Terminal, run Jupyter Notebook: `jupyter notebook`
-2. Click `New`, Select `Text File`
-3. Click on `Untitled.txt` and change it to `analog_read.py`
-4. Copy and paste the code above into `analog_read.py`, save the file
-
-### Hookup Pattern
-
-![]({{site.url}}/assets/pot_analog_read.jpg)
-
-1. Connect Pot1 to ESP32 `GND`
-2. Connect Pot2 to ESP32 `34`
-3. Connect Pot3 to ESP32 `3V`
-
-### Send analog_read.py to ESP32
-
-1. Use `ampy` to send files to the ESP32: `ampy -p /dev/tty.SLAB_USBtoUART put analog_read.py`
-2. Confirm that `analog_read.py` is now on ESP32: `ampy -p /dev/tty.SLAB_USBtoUART get analog_read.py` (the code should be identical)
-
-
-### Run analog_read.py
-
-1. Connect to the ESP32: `screen /dev/tty.SLAB_USBtoUART 115200`
-2. Run `analog_read.py`: `import analog_read.py`
-3. Turn the pot, see the print statement change
-4. Ctrl-C to exit `analog_read.py`
-5. Ctrl-D to reboot ESP32
-6. Exit `screen`: Ctrl-A Ctrl-\
