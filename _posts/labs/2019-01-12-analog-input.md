@@ -31,7 +31,6 @@ adc.atten(machine.ADC.ATTN_11DB)
 while True:
   print(adc.read())
   sleep_ms(20)
-
 ```
 
 1. Open a Terminal, run Jupyter Notebook: `jupyter notebook`
