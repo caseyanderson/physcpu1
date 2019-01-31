@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Digital Input/Output"
+title:  "Digital Input / Digital Output"
 date: 2019-01-11 06:00:00 -0720
 week: 2
 number: 3
