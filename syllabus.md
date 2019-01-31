@@ -84,8 +84,9 @@ Absences will be excused if and only if I am notified via email prior to the beg
 
 #### Week 3
 
-* LAB 3.1 [Analog & Digital Signals]({{site.url}}/2019/01/12/analog-digital-signals.html)
-* LAB 3.2 [Voltage Dividers]({{site.url}}/2019/01/12/voltage-dividers.html)
-* LAB 3.3 [Pulse Width Modulation]({{site.url}}/2019/01/12/pwm.html)
+* LAB 3.1 [GPIO, Analog & Digital Signals]({{site.url}}/2019/01/12/analog-digital-signals.html)
+* LAB 3.2 [Analog Input]({{site.url}}/2019/01/12/analog-input.html)
+* LAB 3.3 [Voltage Dividers]({{site.url}}/2019/01/12/voltage-dividers.html)
+* LAB 3.4 [Pulse Width Modulation]({{site.url}}/2019/01/12/pwm.html)
 * HW 3.1
 * HW 3.2
