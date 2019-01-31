@@ -110,7 +110,7 @@ while True:
 
 1. Connect to the ESP32: `screen /dev/tty.SLAB_USBtoUART 115200`ß
 2. Run `blink_if.py`: `import blink_if.py`
-3. Press the button, see the LED light up
+3. See the LED blink
 4. Ctrl-C to exit `blink_if.py`
 5. Ctrl-D to reboot ESP32
 6. Exit `screen`: Ctrl-A Ctrl-\

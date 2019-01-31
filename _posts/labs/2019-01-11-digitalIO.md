@@ -42,8 +42,8 @@ while True:
 
 1. Open a Terminal, run Jupyter Notebook: `jupyter notebook`
 2. Click `New`, Select `Text File`
-3. Click on `Untitled.txt` and change it to `blink.py`
-4. Copy and paste the code above into `blink.py`, save the file
+3. Click on `Untitled.txt` and change it to `button.py`
+4. Copy and paste the code above into `button.py`, save the file
 
 
 ### Hookup Pattern
@@ -95,17 +95,17 @@ while True:
 
 1. Open a Terminal, run Jupyter Notebook: `jupyter notebook`
 2. Click `New`, Select `Text File`
-3. Click on `Untitled.txt` and change it to `blink_led.py`
+3. Click on `Untitled.txt` and change it to `button_led.py`
 4. Copy and paste the code above into `blink_led.py`, save the file
 
 ### Hookup Pattern
 
 ![]({{site.url}}/assets/button_led_esp32rszd.jpg)
 
-1. Connect 1 button pin to ESP32 Pin 12
-2. Connect ESP32 GND to a blue bus on the side of your breadboard
+1. Connect 1 button pin to ESP32 Pin `12`
+2. Connect ESP32 `GND` to a blue bus on the side of your breadboard
 3. Connect another button pin to the same blue bus on the side of your breadboard
-4. From pin 27, connect the following in series: a Resistor to an LED to GND (blue bus)
+4. From pin `27`, connect the following in series: a Resistor to an LED to GND (blue bus)
 
 
 ### Send button_led.py to ESP32
