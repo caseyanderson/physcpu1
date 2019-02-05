@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Pulse Width Modulation"
+title:  "ADC, DAC, & PWM"
 date: 2019-01-13 06:00:00 -0700
 week: 4
 number: 1
@@ -56,9 +56,9 @@ There are two parameters associated with
 ```python
 
 from time import sleep
-import machine
+from machine import Pin, PWM
 
-pwm = machine.PWM(machine.Pin(15))
+pwm = PWM(Pin(15))
 pwm.freq(60)
 
 while True:
@@ -68,31 +68,4 @@ while True:
     for i in range(1023, -1, -1):
         pwm.duty(i)
         sleep(0.001)
-```
-
-
-### analogIn_PWMOut.py
-
-```python
-# analog in to pwm out
-
-import machine
-from time import sleep_ms
-
-ledPin = machine.Pin(15)
-potPin = machine.Pin(34)
-
-pot = machine.ADC(potPin)
-pot.atten(machine.ADC.ATTN_11DB)
-pot.width(machine.ADC.WIDTH_10BIT)
-
-pwm = machine.PWM(ledPin)
-pwm.freq(100)
-
-while True:
-    sensor_val = pot.read()
-    print(sensor_val)
-    pwm.duty(sensor_val)
-
-    sleep_ms(20)
 ```
