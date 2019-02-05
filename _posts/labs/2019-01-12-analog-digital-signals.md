@@ -76,6 +76,6 @@ To date we have exclusively worked with digital inputs and outputs: a button (in
 
 ![]({{site.url}}/assets/analog_sig.png)
 
-An analog signal is comprised of a signal whose value me be any point within a given range. The photo above, representing the composite video signal from an RCA plug, is one example of an analog signal. Generally people refer to phenomena in the "real world" as analog: light level, temperature, weight, etc.
+An analog signal is comprised of a signal varying value any point within a given range. The photo above, representing the composite video signal from an RCA plug, is one example of an analog signal. Generally people refer to phenomena in the "real world" as analog: light level, temperature, weight, etc.
 
 Note: ESP32 pins which begin with an `A` are analog capable pins.
