@@ -92,7 +92,10 @@ Absences will be excused if and only if I am notified via email prior to the beg
 
 <!-- #### Week 4
 
-* LAB 4.1 PWM
+* LAB 4.1 ADC, DAC, & PWM
 * LAB 4.2 Analog Input / Digital Output
+* LAB 4.3 Function Definitions
+* BRF 1.1 TBA
+* HW 4.1 Prototype Proposal
 
-* BRF 1.1 TBA -->
+-->
