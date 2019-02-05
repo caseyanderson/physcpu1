@@ -68,14 +68,16 @@ while True:
 1. Connect ESP32 GND to a blue bus on the side of your breadboard
 2. From pin 27, connect the following in series: a Resistor to an LED to GND (blue bus)
 
+
+## update blink.py (for external LED)
+
 1. On your laptop open `blink.py` in Jupyter Notebook and change the pin number from `13` to `27`: `jupyter notebook blink.py`
 2. Delete the previous version of `blink.py` from the ESP32: `ampy -p /dev/tty.SLAB_USBtoUART rm blink.py`
 3. Write the new version of `blink.py` to the ESP32: `ampy -p /dev/tty.SLAB_USBtoUART put blink.py`
-4. Disconnect from ampy: Ctrl-A Ctrl-\
-5. Connect to ESP32 via `screen`: `screen /dev/tty.SLAB_USBtoUART 115200`
-6. Run `blink.py`: `import blink.py`
-7. Ctrl-C to stop `blink.py`
-8. Exit `screen`: Ctrl-A Ctrl-\
+4. Connect to ESP32 via `screen`: `screen /dev/tty.SLAB_USBtoUART 115200`
+5. Run `blink.py`: `import blink.py`
+6. Ctrl-C to stop `blink.py`
+7. Exit `screen`: Ctrl-A Ctrl-\
 
 
 ## blink_if.py (external LED + if statement)
