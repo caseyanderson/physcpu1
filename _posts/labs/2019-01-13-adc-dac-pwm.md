@@ -21,7 +21,7 @@ published: false
 
 ## Analog to Digital Conversion (ADC)
 
-`Analog to Digital Conversion` (`ADC`) is the process of converting a varying `voltage` (`analog`) to a sequence of discrete `voltages` (`digital`). `MicroPython` provides a convenient interface for this via `ADC`, which can be used on any pin whose number is prepended with an `A` on the `ESP32`. In this class we will typically use `ADC` with `analog` sensor input so it's okay to associate this process with (`analog`) inputs generally (for now).
+`Analog to Digital Conversion` (`ADC`) is the process of converting a varying `voltage` (`analog`) to a sequence of discrete `voltages` (`digital`). `MicroPython` provides a convenient interface for this via `ADC`, which can be used on any pin whose number is prepended with an `A` on the `ESP32` (pins `32` - `39`). In this class we will typically use `ADC` with `analog` sensor input so it's okay to associate this process with (`analog`) inputs generally (for now).
 
 To create and store an instance of `ADC` on the pin labeled `A2`: `adc = ADC(Pin(34))`.
 
@@ -61,33 +61,111 @@ In the following sequence we instantiate a `PWM` instance and associate it with 
 *For Example*
 1. import `Pin` and `PWM` from `machine`: `from machine import Pin, PWM`
 2. store `PWM` pin number to the variable `pin`: `pin = Pin(27)`
-3. create a `PWM` object and store it at `pwm12`: `pwm12 = PWM(pin)`
+3. create a `PWM` object and store it at `pwm27`: `pwm27 = PWM(pin)`
 
 There are two parameters associated with `PWM`: `frequency` and `duty cycle`:
 * the `frequency` controls the speed at which the pin is toggled `ON` and `OFF`
-* the `duty cycle` is how long the pin is `HIGH` compared with the length of a single period (`LOW` plus `HIGH` time). Maximum `duty cycle` is when the pin is `HIGH` (`On`) all of the time, and minimum is when it is `LOW` (`OFF`) all of the time.
+* the `duty cycle` is how long the pin is `HIGH` compared to the length of a single period (`LOW` plus `HIGH` time). Maximum `duty cycle` is when the pin is `HIGH` (`On`) all of the time, minimum is when it is `LOW` (`OFF`) all of the time.
 
 Follow along to experiment with changing these settings:
 
 *For Example*
-1. 
+1. set the `PWM` `frequency` to `1000`: `pwm27.freq(1000)`
+2. set the `PWM` `duty cycle` to `200`: `pwm27.duty(512)` (i.e. 50% brightness)
+3. change the `PWM` `duty cycle` to `0`: `pwm27.duty(0)` (i.e. off)
+4. change the `PWM` `duty cycle` to `1023`: `pwm27.duty(1023)` (i.e. 100% brightness)
+5. turn `PWM` on the pin off: `pwm27.deinit()`
+6. Ctl-D to reboot
+
+Alternately, one could declare and set values for a PWM pin all at once, which would like something like this: `pwm27 = PWM(Pin(27), freq=20000, duty=512)`
 
 
-### fade.py
+### Fading LEDs
 
+Last week we discussed using `for` loops with Python's `range()` to count. Open Jupyter Notebook and run the following for a refresher:
+
+*For Example*
 ```python
+for i in range(5):
+  print(i)
+```
+
+One can use a `for` loop with a `PWM` pin to create the effect that an `LED` is fading in or fading out by incrementally changing the `duty cycle`, or by counting until one reaches the desired LED brightness. Follow along on your `ESP32`:
+
+*For Example*
+```python
+'''
+fade_in.py
+'''
 
 from time import sleep
 from machine import Pin, PWM
 
-pwm = PWM(Pin(15))
+pwm = PWM(Pin(27), freq = 20000, duty = 0)
+
+for i in range(1024):
+    print(i)
+    pwm.duty(i)
+    sleep(0.01)
+
+print("100%")
+
+pwm.deinit()
+```
+
+So the counter, or iterator (`i`), is used to set `pwm.duty()`, resulting in an incrementally brighter LED.
+
+*For Example*
+```python
+'''
+fade_out.py
+'''
+
+from time import sleep
+from machine import Pin, PWM
+
+pwm = PWM(Pin(27), freq = 20000, duty = 1023)
+
+for i in range(1023, -1, -1):
+    print(i)
+    pwm.duty(i)
+    sleep(0.01)
+
+print("OFF!")
+
+pwm.deinit()
+```
+
+The code above is virtually identical to `fade_in.py`, however here the `for` loop starts at `1023` (100% brightness) and counts down to `0` (`Off`), resulting in a incrementally dimmer LED.
+
+
+### Breathing LEDs
+
+If one puts the for loop from `fade_in.py` **and** the for loop from `fade_out.py` into a `while` loop one can create a kind of breathing effect. Follow along on your `ESP32`:
+
+*For Example*
+```python
+'''
+    breathe.py
+
+    sourced from https://learn.adafruit.com/micropython-hardware-analog-i-o/pulse-width-modulation
+'''
+
+from time import sleep
+from machine import Pin, PWM
+
+pwm = PWM(Pin(27))
 pwm.freq(60)
 
 while True:
     for i in range(1024):
+        if i == 0:
+            print("inhale")
         pwm.duty(i)
         sleep(0.001)
     for i in range(1023, -1, -1):
+        if i == 1023:
+            print("exhale")
         pwm.duty(i)
         sleep(0.001)
 ```
