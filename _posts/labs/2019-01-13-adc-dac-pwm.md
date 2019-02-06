@@ -112,7 +112,7 @@ print("100%")
 pwm.deinit()
 ```
 
-So the counter, or iterator (`i`), is used to set `pwm.duty()`, resulting in an incrementally brighter LED.
+So the counter, or iterator (`i`), is used to set `pwm.duty()`, resulting in an incrementally brighter `LED`.
 
 *For Example*
 ```python
@@ -135,7 +135,7 @@ print("OFF!")
 pwm.deinit()
 ```
 
-The code above is virtually identical to `fade_in.py`, however here the `for` loop starts at `1023` (100% brightness) and counts down to `0` (`Off`), resulting in a incrementally dimmer LED.
+The code above is virtually identical to `fade_in.py`, however here the `for` loop starts at `1023` (100% brightness) and counts down to `0` (`Off`), and stopping at `-1`, resulting in a incrementally dimmer `LED`.
 
 
 ### Breathing LEDs
@@ -146,8 +146,6 @@ If one puts the for loop from `fade_in.py` **and** the for loop from `fade_out.p
 ```python
 '''
     breathe.py
-
-    sourced from https://learn.adafruit.com/micropython-hardware-analog-i-o/pulse-width-modulation
 '''
 
 from time import sleep
