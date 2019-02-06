@@ -94,6 +94,6 @@ Absences will be excused if and only if I am notified via email prior to the beg
 
 * LAB 4.1 [ADC, DAC, & PWM]({{site.url}}/2019/01/13/adc-dac-pwm.html)
 * LAB 4.2 [Analog Input / Digital Output]({{site.url}}/2019/01/13/analog-input-digital-output.html)
-* BRF 1.1 !button
+* BRF 1 !button
 * HW 4.1 Prototype Proposal
 * HW 4.2 Ten Possible Revisions
