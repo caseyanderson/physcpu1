@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "DIY Button (2nd Revision)"
-date:   2019-01-12 06:00:00 -0730
+date:   2019-01-12 06:00:00 -0740
 week: 3
 number: 1
 tags: hw

@@ -88,7 +88,7 @@ Absences will be excused if and only if I am notified via email prior to the beg
 * LAB 3.2 [Analog Input]({{site.url}}/2019/01/12/analog-input.html)
 * LAB 3.3 [Voltage Dividers]({{site.url}}/2019/01/12/voltage-dividers.html)
 * LAB 3.4 [For Loops]({{site.url}}/2019/01/12/for-loop.html)
-* HW 3.1 DIY Button (2nd Revision)
+* HW 3.1 [DIY Button (2nd Revision)]({{site.url}}/2019/01/12/DIY-buttons-2.html)
 
 <!-- #### Week 4
 
