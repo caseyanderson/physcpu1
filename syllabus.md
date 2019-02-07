@@ -96,5 +96,11 @@ Absences will be excused if and only if I am notified via email prior to the beg
 * LAB 4.1 [ADC, DAC, & PWM]({{site.url}}/2019/01/13/adc-dac-pwm.html)
 * LAB 4.2 [Analog Input / Digital Output]({{site.url}}/2019/01/13/analog-input-digital-output.html)
 * BRF 1 [!button]({{site.url}}/2019/01/13/nobutton.html)
-* HW 4.1 [!button prototype (+ proposal)]({{site.url}}/2019/01/13/nobutton-prototype.html)
+* HW 4.1 [!button Prototype (+ Proposal)]({{site.url}}/2019/01/13/nobutton-prototype.html)
 * HW 4.2 [Ten Possible Revisions]({{site.url}}/2019/01/13/ten-revisions.html)
+
+<!--
+### Week 5
+
+* LAB 5.1 While Loops
+* LAB 5.2 Function Definitions -->
