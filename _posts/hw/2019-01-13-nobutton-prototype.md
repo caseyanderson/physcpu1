@@ -1,5 +1,5 @@
 ---
-layout: hw
+layout: post
 title:  "!button prototype (+ proposal)"
 date: 2019-01-13 06:00:00 -0730
 week: 4

@@ -1,5 +1,5 @@
 ---
-layout: hw
+layout: post
 title:  "BRF 1 Ten Possible Revisions"
 date: 2019-01-13 06:00:00 -0740
 week: 4
