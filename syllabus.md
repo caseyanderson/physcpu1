@@ -90,10 +90,11 @@ Absences will be excused if and only if I am notified via email prior to the beg
 * LAB 3.4 [For Loops]({{site.url}}/2019/01/12/for-loop.html)
 * HW 3.1 [DIY Button (2nd Revision)]({{site.url}}/2019/01/12/DIY-buttons-2.html)
 
+
 ### Week 4
 
 * LAB 4.1 [ADC, DAC, & PWM]({{site.url}}/2019/01/13/adc-dac-pwm.html)
 * LAB 4.2 [Analog Input / Digital Output]({{site.url}}/2019/01/13/analog-input-digital-output.html)
-* BRF 1 !button
-* HW 4.1 Prototype Proposal
-* HW 4.2 Ten Possible Revisions
+* BRF 1 [!button]({{site.url}}/2019/01/13/nobutton.html)
+* HW 4.1 [!button prototype (+ proposal)]({{site.url}}/2019/01/13/nobutton-prototype.html)
+* HW 4.2 [Ten Possible Revisions]({{site.url}}/2019/01/13/ten-revisions.html)
