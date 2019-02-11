@@ -63,7 +63,7 @@ while True:
 
 ### Hookup Pattern
 
-![]({{site.url}}/assets/blink_rszd.jpg)
+![]({{site.url}}/assets/fritzing/blink_external_led.png)
 
 1. Connect ESP32 GND to a blue bus on the side of your breadboard
 2. From pin 27, connect the following in series: a Resistor to an LED to GND (blue bus)
