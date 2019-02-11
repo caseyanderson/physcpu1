@@ -40,7 +40,7 @@ while True:
 
 ### Hookup Pattern
 
-![]({{site.url}}/assets/pot_analog_read.jpg)
+![]({{site.url}}/assets/fritzing/analog_read.png)
 
 1. Connect Pot1 to ESP32 `GND`
 2. Connect Pot2 to ESP32 `34`
