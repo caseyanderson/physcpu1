@@ -48,7 +48,7 @@ while True:
 
 ### Hookup Pattern
 
-![]({{site.url}}/assets/button_esp32rszd.jpg)
+![]({{site.url}}/assets/fritzing/button.png)
 
 1. Connect 1 button pin to ESP32 Pin 12
 2. Connect another button pin to ESP32 GND
@@ -100,7 +100,7 @@ while True:
 
 ### Hookup Pattern
 
-![]({{site.url}}/assets/button_led_esp32rszd.jpg)
+![]({{site.url}}/assets/fritzing/button_led.png)
 
 1. Connect 1 button pin to ESP32 Pin `12`
 2. Connect ESP32 `GND` to a blue bus on the side of your breadboard
