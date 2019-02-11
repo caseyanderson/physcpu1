@@ -50,7 +50,7 @@ The image above is an example of `PWM` output. Note that it approximates an anal
 
 ### Hookup Pattern
 
-![]({{site.url}}/assets/blink_rszd.jpg)
+![]({{site.url}}/assets/fritzing/blink_external_led.png)
 
 1. Connect ESP32 `GND` to a blue bus on the side of your breadboard
 2. From pin `27`, connect the following in series: a `resistor` to an `LED` to `GND` (blue bus)

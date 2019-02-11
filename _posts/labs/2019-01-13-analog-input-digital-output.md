@@ -21,7 +21,7 @@ tags: lab
 
 ### Hookup Pattern
 
-![]({{site.url}}/assets/analogIn_PWMOut.jpg)
+![]({{site.url}}/assets/fritzing/force_analogIn_PWMOut.png)
 
 1. Connect Sensor Pin3 to `ESP32` `3V`
 2. Connect Sensor Pin2 to `ESP32` `34`
