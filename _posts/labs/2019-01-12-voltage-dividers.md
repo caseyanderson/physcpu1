@@ -31,7 +31,7 @@ If you need to calculate the value of `R1` and `R2` (fyi: in this case, I am usi
 
 ### Hookup Pattern
 
-![]({{site.url}}/assets/LDR_analog_read.jpg)
+![]({{site.url}}/assets/fritzing/ldr_voltage_divider.png)
 
 1. Connect LDR Pin1 (`Z1` in Voltage Divider schematic above) to ESP32 `3V`
 2. Connect LDR Pin2 to ESP32 `34`
