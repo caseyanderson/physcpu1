@@ -35,12 +35,14 @@ While there are a variety of different types of transistors, we will focus on th
 2. Collector -> Input
 3. Emitter -> Output
 
-![]({{site.url}}/assets/adafruit_transistor.png)
-
 More specifically, transistors are based on the following phenomena: a small current flowing between the base (`B`) and emitter (`E`) causes a larger current to flow between the collector (`C`) and emitter (`E`).
+
+![]({{site.url}}/assets/adafruit_transistor.png)
 
 
 ## TIP120 + PWM
+
+### Schematic
 
 ![]({{site.url}}/assets/tip120_motor_light_sol_schematic.jpg)
 
