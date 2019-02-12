@@ -91,7 +91,7 @@ Absences will be excused if and only if I am notified via email prior to the beg
 * HW 3.1 [DIY Button (2nd Revision)]({{site.url}}/2019/01/12/DIY-buttons-2.html)
 
 
-### Week 4
+#### Week 4
 
 * LAB 4.1 [ADC, DAC, & PWM]({{site.url}}/2019/01/13/adc-dac-pwm.html)
 * LAB 4.2 [Analog Input / Digital Output]({{site.url}}/2019/01/13/analog-input-digital-output.html)
@@ -100,20 +100,20 @@ Absences will be excused if and only if I am notified via email prior to the beg
 * HW 4.2 [Ten Possible Revisions]({{site.url}}/2019/01/13/ten-revisions.html)
 
 
-### Week 5
+#### Week 5
 
 * Present !button (in-progress)
 * LAB 5.1 [Digital Input / PWM Output(s)]({{site.url}}/2019/01/13/digital-input-pwm-output.html)
 * HW 5.1 Revise + Deploy + Document
 
 
-### Week 6
+#### Week 6
 
 * Present !button (final)
 * LAB 6.1 Function Definitions
 
 
-### Week 7
+#### Week 7
 
 * LAB 7.1 Finite State Machines
 * LAB 7.2 Multitasking (pt. 1)
@@ -122,20 +122,20 @@ Absences will be excused if and only if I am notified via email prior to the beg
 * HW 7.2 Ten Possible Revisions
 
 
-### Week 8
+#### Week 8
 
 * Present Finite State Machine (in-progress)
 * LAB 8.1 Function Definitions (pt. 2)
 * HW 8.1 Revise + Deploy + Document
 
 
-### Week 9
+#### Week 9
 
 * Present Finite State Machine (final)
 * LAB 9.1 Processing Sensor Input
 
 
-### Week 10
+#### Week 10
 
 * LAB 10.1 Multitasking (pt. 2)
 * LAB 10.2 Soldering
@@ -144,12 +144,12 @@ Absences will be excused if and only if I am notified via email prior to the beg
 * HW 10.2 Ten Possible Revisions
 
 
-### Week 11
+#### Week 11
 
 * Present Analog + Digital Interactions (in-progress)
 * HW 11.1 Revise + Deploy + Document
 
 
-### Week 12
+#### Week 12
 
 * Present Analog + Digital Interactions (final)
