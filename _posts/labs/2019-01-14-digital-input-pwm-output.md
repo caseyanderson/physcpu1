@@ -15,24 +15,48 @@ published: false
 * [Adafruit HUZZAH32](https://www.adafruit.com/product/3591)
 * [USB cable - USB A to Micro-B - 3 foot long](https://www.adafruit.com/product/592) (or similar)
 * 1x Breadboard
-* 1x TIP120
+* 1x TIP120 (or N-channel MOSFET)
 * 1x diode (1N4001)
 * 1x 10K resistor
 * 1x external power supply
 * 1x SPST button
 
+
 ## Transistors
 
-what is a transistor? what are the diff kinds?
+*Note: props to [this](http://bildr.org/2011/03/high-power-control-with-arduino-and-tip120/) fantastic article*
 
-### NPN & PNP Transistors
+Transistors are three pin components capable of amplifying or switching signals. In Physical Computing we typically use them to control high voltage devices (like motors, lights, or solenoids) by quickly toggling a pin between `HIGH` and `LOW` (i.e. `PWM`).
 
-what is the diff between NPN and PNP?
+While there are a variety of different types of transistors, we will focus on the `TIP120`, a pinout for which can be found below:
 
-### TIP120
+![]({{site.url}}/assets/tip120_pinout.jpg)
 
-Usable for blah blah blah motors, turning lights on, vibration, solenoids
+1. Base -> Control
+2. Collector -> Input
+3. Emitter -> Output
+
+![]({{site.url}}/assets/adafruit_transistor.png)
+
+More specifically, transistors are based on the following phenomena: a small current flowing between the base (`B`) and emitter (`E`) causes a larger current to flow between the collector (`C`) and emitter (`E`).
+
+
+## TIP120 + PWM
+
+![]({{site.url}}/assets/tip120_motor_light_sol_schematic.jpg)
 
 ### Hookup Pattern
 
 ![]({{site.url}}/assets/fritzing/mosfet_pwm_motor.png)
+
+1. blah blah
+
+cutoff vs saturation
+
+## button_motor.py
+
+### Hookup Pattern
+
+![]({{site.url}}/assets/fritzing/mosfet_pwm_motor.png)
+
+1. add a button to blah
