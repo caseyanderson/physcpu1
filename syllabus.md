@@ -103,7 +103,7 @@ Absences will be excused if and only if I am notified via email prior to the beg
 #### Week 5
 
 * Present !button (in-progress)
-* LAB 5.1 [Digital Input / PWM Output(s)]({{site.url}}/2019/01/13/digital-input-pwm-output.html)
+* LAB 5.1 [Digital Input / PWM Output(s)]({{site.url}}/2019/01/14/digital-input-pwm-output.html)
 * HW 5.1 Revise + Deploy + Document
 
 
