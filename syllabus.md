@@ -99,8 +99,57 @@ Absences will be excused if and only if I am notified via email prior to the beg
 * HW 4.1 [!button Prototype (+ Proposal)]({{site.url}}/2019/01/13/nobutton-prototype.html)
 * HW 4.2 [Ten Possible Revisions]({{site.url}}/2019/01/13/ten-revisions.html)
 
-<!--
+
 ### Week 5
 
-* LAB 5.1 While Loops
-* LAB 5.2 Function Definitions -->
+* Present !button (in-progress)
+* LAB 5.1 [Digital Input / PWM Output(s)]({{site.url}}/2019/01/13/digital-input-pwm-output.html)
+* HW 5.1 Revise + Deploy + Document
+
+
+### Week 6
+
+* Present !button (final)
+* LAB 6.1 Function Definitions
+
+
+### Week 7
+
+* LAB 7.1 Finite State Machines
+* LAB 7.2 Multitasking (pt. 1)
+* BRF 2 Finite State Machine
+* HW 7.1 Finite State Machine Prototype (+ Proposal)
+* HW 7.2 Ten Possible Revisions
+
+
+### Week 8
+
+* Present Finite State Machine (in-progress)
+* LAB 8.1 Function Definitions (pt. 2)
+* HW 8.1 Revise + Deploy + Document
+
+
+### Week 9
+
+* Present Finite State Machine (final)
+* LAB 9.1 Processing Sensor Input
+
+
+### Week 10
+
+* LAB 10.1 Multitasking (pt. 2)
+* LAB 10.2 Soldering
+* BRF 3 Analog + Digital Interactions
+* HW 10.1 Analog + Digital Interactions Prototype (+ Proposal)
+* HW 10.2 Ten Possible Revisions
+
+
+### Week 11
+
+* Present Analog + Digital Interactions (in-progress)
+* HW 11.1 Revise + Deploy + Document
+
+
+### Week 12
+
+* Present Analog + Digital Interactions (final)
