@@ -58,6 +58,6 @@ cutoff vs saturation
 
 ### Hookup Pattern
 
-![]({{site.url}}/assets/fritzing/mosfet_pwm_motor.png)
+![]({{site.url}}/assets/fritzing/button_motor.png)
 
 1. add a button to blah
