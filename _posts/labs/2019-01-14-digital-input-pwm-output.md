@@ -65,9 +65,11 @@ After wiring up a `TIP120`, `diode`, `resistor`, and `motor` (as shown above), o
 
 When the `ESP32` sends a `HIGH` signal to the `TIP120` `Base` the transistor switches, connecting the `Collector` and `Emitter` pins. If `C` and `E` are connected the circuit is `closed` (or `complete`), allowing current to travel to the motor which causes it to spin.
 
-When the `ESP32` sends a `LOW` signal the `TIP120` `Base` the transistor disconnects the `Collector` and `Emitter`. This results in an `open` (or `incomplete`) circuit and the motor stops spinning.
+When the `ESP32` sends a `LOW` signal to the `TIP120` `Base` the transistor disconnects the `Collector` and `Emitter`. This results in an `open` (or `incomplete`) circuit and the motor stops spinning.
 
-The speed (rate of rotation) of the motor is controlled by how long the `PWM` pin is `HIGH` compared to the length of a single period (`LOW` plus `HIGH` time), otherwise known as the `duty cycle` of the `PWM` pin.
+The speed (rate of rotation) of the motor is controlled by how long the `PWM` pin is `HIGH` compared to the length of a single period (`LOW` plus `HIGH` time), otherwise known as the `duty cycle`.
+
+Note: the exact same wiring pattern used to control a motor (see schematic above) can be used to control a large light or solenoid, one simply needs to remove the motor and replace with one of the other actuators. Certain solenoids will require changes to software to reflect their physical properties.
 
 ### Hookup Pattern
 
