@@ -115,40 +115,40 @@ Absences will be excused if and only if I am notified via email prior to the beg
 #### Week 7
 
 * LAB 7.1 [Functions]({{site.url}}/2019/01/15/functions.html)
-* LAB 7.2 Finite State Machines
-* BRF 2 Finite State Machine
-* HW 7.1 Finite State Machine Prototype (+ Proposal)
+* LAB 7.2 Multitasking (pt. 1)
+* BRF 2 Analog + Digital Interactions
+* HW 7.1 Analog + Digital Interactions Prototype (+ Proposal)
 * HW 7.2 Ten Possible Revisions
 
 
 #### Week 8
 
-* Present Finite State Machine (in-progress)
-* LAB 8.1 Multitasking
+* Present Analog + Digital Interactions (in-progress)
+* LAB 8.1 Multitasking (pt. 2)
 * HW 8.1 Revise + Deploy + Document
 
 
 #### Week 9
 
-* Present Finite State Machine (final)
-* LAB 9.1 Processing Sensor Input
+* Present Analog + Digital Interactions (final)
 
 
 #### Week 10
 
-* LAB 10.1 Multitasking (pt. 2)
+* LAB 10.1 Finite State Machines
 * LAB 10.2 Soldering
-* BRF 3 Analog + Digital Interactions
-* HW 10.1 Analog + Digital Interactions Prototype (+ Proposal)
+* BRF 3 Finite State Machines
+* HW 10.1 Finite State Machines Prototype (+ Proposal)
 * HW 10.2 Ten Possible Revisions
 
 
 #### Week 11
 
-* Present Analog + Digital Interactions (in-progress)
+* Present Finite State Machines (in-progress)
+* LAB 11.1 Finite State Machines (pt. 2)
 * HW 11.1 Revise + Deploy + Document
 
 
 #### Week 12
 
-* Present Analog + Digital Interactions (final)
+* Present Finite State Machines (final)
