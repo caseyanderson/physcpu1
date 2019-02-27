@@ -10,7 +10,7 @@ tags: lab
 A function is a re-usable block of instructions that performs an action. Python 3 has a handful of built-in functions, some of which you are already familiar with: `print()`, `len()`, `type()`, etc.. One doesn't need to know **how** each of these functions work, they just need to know what information each needs in order to perform an associated action.
 
 
-### Function Definitions
+## Function Definitions
 
 One can write, or define, one's own function by prepending a name with `def` (short for definition)
 
@@ -34,7 +34,7 @@ Python knows what the function `hello()` does because of the function definition
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SsoOG6ZeyUI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-### Using Data
+## Using Data
 
 `Parameters` can be added to function definitions to allow data to be passed to a function when called.
 
@@ -65,3 +65,32 @@ Some notes about the above:
 * Finally our function produces, or `return`s, new data: the formatted Happy Birthday song.
 
 In short one can think of parameters as inputs to a function and the data returned by a function as its output.
+
+
+### Using main()
+
+blah blah here is info about main
+
+*For Example*
+```python
+you = str(input('Enter your name: '))
+
+def happyBirthday(name):
+    lines = []
+    person = str(name)
+    for i in range(4):
+        if i == 2:
+            msg = ' '.join(['Happy Birthday, dear', person])
+            lines.append(msg)
+        else:
+            msg = 'Happy Birthday to you'
+            lines.append(msg)
+    return ' '.join(lines)
+
+def main():
+    sing = happyBirthday(you)
+    print(sing)
+
+if __name__ == '__main__':
+    main()
+```
