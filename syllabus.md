@@ -110,13 +110,12 @@ Absences will be excused if and only if I am notified via email prior to the beg
 #### Week 6
 
 * Present !button (final)
-* LAB 6.1 Function Definitions
 
 
 #### Week 7
 
-* LAB 7.1 Finite State Machines
-* LAB 7.2 Multitasking (pt. 1)
+* LAB 7.1 [Functions]({{site.url}}/2019/01/15/functions.html)
+* LAB 7.2 Finite State Machines
 * BRF 2 Finite State Machine
 * HW 7.1 Finite State Machine Prototype (+ Proposal)
 * HW 7.2 Ten Possible Revisions
@@ -125,7 +124,7 @@ Absences will be excused if and only if I am notified via email prior to the beg
 #### Week 8
 
 * Present Finite State Machine (in-progress)
-* LAB 8.1 Function Definitions (pt. 2)
+* LAB 8.1 Multitasking
 * HW 8.1 Revise + Deploy + Document
 
 
