@@ -9,9 +9,10 @@ tags: lab
 
 A function is a re-usable block of instructions that performs an action. Python 3 has a handful of built-in functions, some of which you are already familiar with: `print()`, `len()`, `type()`, etc.. One doesn't need to know **how** each of these functions work, they just need to know what information each needs in order to perform an associated action.
 
+
 ### Function Definitions
 
-One can also write, or define, one's own function by prepending a name with `def` (short for definition)
+One can write, or define, one's own function by prepending a name with `def` (short for definition)
 
 *For Example*
 ```python
@@ -56,11 +57,11 @@ def happyBirthday(name):
 2. Call the function and pass it your name: `happyBirthday(YOURNAME)`
 
 Some notes about the above:
-* In order to properly print the full text of Happy Birthday a function call will need the person's name. Above we use a parameter named `name` to hold that data when called
-* First we make an empty list called `lines`, which will hold the lines of the song
+* In order to properly `print` the full text of Happy Birthday a function call will need the person's name. Above we use a parameter named `name` to hold that data
+* First we make an empty list called `lines`, which will soon hold the lines of the formatted song
 * Next we make sure that the data passed to `happyBirthday()` is a `string`
-* Then we use a for loop to iterate through lines of the song. Remember: Happy Birthday has four lines total. Three are identical (lines 1, 2, and 4), one is different (Line 3, when the celebrant's name is used), so our `for` loop needs to count to four, adding the same line to `lines` until `i == 2`, hence the `if` statement at the top of the `for` loop.
-* This `if` statement says: `if i == 2` returns `True` format and write a different line for the song (with the person's name) and add it to `lines`, otherwise (`else`) write the same line (`Happy Birthday to you`) and add it to `lines`
+* Then we use a `for` loop to iterate through lines of the song. Remember: Happy Birthday has four lines total. Three are identical (lines 1, 2, and 4), one is different (Line 3, when the celebrant's name is used). Our `for` loop needs to count to four, adding the same line to `lines` until the third line, hence the `if` statement at the top of the `for` loop.
+* This `if` statement reads: `if i == 2` returns `True` format and write a different line for the song (with the person's name) and add it to `lines`, otherwise (`else`) write the same line (`Happy Birthday to you`) and add it to `lines`
 * Finally our function produces, or `return`s, new data: the formatted Happy Birthday song.
 
 In short one can think of parameters as inputs to a function and the data returned by a function as its output.
