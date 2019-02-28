@@ -116,7 +116,7 @@ Absences will be excused if and only if I am notified via email prior to the beg
 
 * LAB 7.1 [Functions]({{site.url}}/2019/01/15/functions.html)
 * LAB 7.2 Multitasking (pt. 1)
-* BRF 2 Analog + Digital Interactions
+* BRF 2 [Analog + Digital Interactions]({{site.url}}/2019/01/15/analog+digital.html)
 * HW 7.1 Analog + Digital Interactions Prototype (+ Proposal)
 * HW 7.2 Ten Possible Revisions
 
