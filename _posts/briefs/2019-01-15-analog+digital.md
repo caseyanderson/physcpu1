@@ -9,7 +9,7 @@ tags: brief
 
 ## brief
 
-Create a prototype in which an audience member/user is prompted to interact with at least two sensors digital and analog sensor in order to control or augment at least two possible outputs. While the specifics are up to you one general goal for this project is to create a context/story that incentivizes interaction with your prototype.
+Create a prototype in which an audience member/user is prompted to interact with at least two sensors in order to control/change at least two possible outputs. While the specifics are up to you one general goal for this project is to create a context/story that incentivizes interaction with your prototype.
 
 
 ### requirements
@@ -17,6 +17,6 @@ Create a prototype in which an audience member/user is prompted to interact with
 * target platform: ESP32
 * has at least two inputs (at least one must be an analog sensor)
 * has at least two outputs (at least one must use a TIP120)
-* prompts or rewards audience/user interaction (digital and analog sensor input results in a significant change/output)
+* prompts or rewards audience/user interaction (sensor input results in a significant change/output)
 * relationship between the sensors, and the interactions associated with each, fits into the larger context of the prototype
-* document final public deployment, present to class as a video
+* document final deployment, present to class as a video
