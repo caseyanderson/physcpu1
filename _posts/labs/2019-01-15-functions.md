@@ -65,32 +65,3 @@ Some notes about the above:
 * Finally our function produces, or `return`s, new data: the formatted Happy Birthday song.
 
 In short one can think of parameters as inputs to a function and the data returned by a function as its output.
-
-
-### Using main()
-
-blah blah here is info about main
-
-*For Example*
-```python
-you = str(input('Enter your name: '))
-
-def happyBirthday(name):
-    lines = []
-    person = str(name)
-    for i in range(4):
-        if i == 2:
-            msg = ' '.join(['Happy Birthday, dear', person])
-            lines.append(msg)
-        else:
-            msg = 'Happy Birthday to you'
-            lines.append(msg)
-    return ' '.join(lines)
-
-def main():
-    sing = happyBirthday(you)
-    print(sing)
-
-if __name__ == '__main__':
-    main()
-```
