@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Analog + Digital Interactions"
-date: 2019-01-15 06:00:00 -0720
+date: 2019-01-15 06:00:00 -0710
 week: 7
 number: 2
 tags: brief
