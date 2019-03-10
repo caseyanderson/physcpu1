@@ -116,8 +116,8 @@ Absences will be excused if and only if I am notified via email prior to the beg
 
 * LAB 7.1 [Functions]({{site.url}}/2019/01/15/functions.html)
 * BRF 2 [Analog + Digital Interactions]({{site.url}}/2019/01/15/analog+digital.html)
-* HW 7.1 Analog + Digital Interactions Prototype (+ Proposal)
-* HW 7.2 Ten Possible Revisions
+* HW 7.1 [Analog + Digital Interactions Prototype (+ Proposal)]({{site.url}}/2019/01/15/analog+digital-prototype.html)
+* HW 7.2 [Ten Possible Revisions]({{site.url}}/2019/01/15/ten-revisions.html)
 
 
 #### Week 8
