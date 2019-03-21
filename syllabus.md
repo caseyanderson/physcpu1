@@ -134,7 +134,7 @@ Absences will be excused if and only if I am notified via email prior to the beg
 
 #### Week 10
 
-* BRF 3 Combine / Remix({{site.url}}/2019/01/17/remix.html)
+* BRF 3 [Combine / Remix]({{site.url}}/2019/01/17/remix.html)
 * HW 10.1 Combine / Remix Prototype (+ Proposal)
 * HW 10.2 Ten Possible Revisions
 
