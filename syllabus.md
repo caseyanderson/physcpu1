@@ -134,20 +134,17 @@ Absences will be excused if and only if I am notified via email prior to the beg
 
 #### Week 10
 
-* LAB 10.1 Finite State Machines
-* LAB 10.2 Soldering
-* BRF 3 Finite State Machines
-* HW 10.1 Finite State Machines Prototype (+ Proposal)
+* BRF 3 Combine / Remix({{site.url}}/2019/01/17/remix.html)
+* HW 10.1 Combine / Remix Prototype (+ Proposal)
 * HW 10.2 Ten Possible Revisions
 
 
 #### Week 11
 
-* Present Finite State Machines (in-progress)
-* LAB 11.1 Finite State Machines (pt. 2)
+* Present Combine / Remix (in-progress)
 * HW 11.1 Revise + Deploy + Document
 
 
 #### Week 12
 
-* Present Finite State Machines (final)
+* Present Combine / Remix (final)
