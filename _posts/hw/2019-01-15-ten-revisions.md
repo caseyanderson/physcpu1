@@ -5,6 +5,8 @@ date: 2019-01-15 06:00:00 -0730
 week: 7
 number: 2
 tags: hw
+published: false
+
 ---
 
 1. Following your tests, quickly generate a written list of Twenty (20) possible revisions to your project (don't think too hard about each idea yet, generate a bunch of them first without regard to whether they are "good" ideas or not).

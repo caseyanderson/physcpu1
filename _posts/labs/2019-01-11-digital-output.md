@@ -5,6 +5,8 @@ date: 2019-01-11 06:00:00 -0710
 week: 2
 number: 2
 tags: lab
+published: false
+
 ---
 
 ## Materials
