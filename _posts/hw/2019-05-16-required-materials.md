@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Required Materials"
-date:   2019-01-10 06:00:00 -0730
+date:   2019-05-16 06:00:00 -0740
 week: 1
 number: 1
 tags: hw
