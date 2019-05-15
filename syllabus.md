@@ -23,7 +23,7 @@ This prototyping-oriented class introduces students to the creative affordances 
 * [Adafruit HUZZAH32 – ESP32 Feather Board (pre-soldered)](https://www.adafruit.com/product/3591)
 * [USB cable - USB A to Micro-B - 3 foot long](https://www.adafruit.com/product/592)
 * [AmazonBasics USB Type-C to USB 3.1 Gen1 Female Adapter](https://www.amazon.com/AmazonBasics-Type-C-Gen1-Female-Adapter/dp/B01GGKYYT0/ref=sr_1_3?ie=UTF8&qid=1547245406&sr=8-3&keywords=amazon+basics+usb+c+to+usb+3.1)
-* [Half-size breadboard](https://www.adafruit.com/product/64)
+* [Full-size breadboard](https://www.adafruit.com/product/239)
 * [Breadboarding wire bundle](https://www.adafruit.com/product/153)
 * [Breadboard trim potentiometer - 10K](https://www.adafruit.com/product/356)
 * [Photo cell](https://www.adafruit.com/product/161)
@@ -65,86 +65,99 @@ Absences will be excused if and only if I am notified via email prior to the beg
 #### Week 1
 
 * Review Syllabus
-* LAB 1.1 [Python3 Pre-flight]({{site.url}}/2019/01/10/py3-preflight.html)
-* LAB 1.2 [The Command Line]({{site.url}}/2019/01/10/command-line.html)
-* LAB 1.3 [Intro to Python3]({{site.url}}/2019/01/10/intro-py3.html)
-* HW 1.1 [Required Materials]({{site.url}}/2019/01/10/required-materials.html)
-* HW 1.2 [All Electronics]({{site.url}}/2019/01/10/all-electronics.html)
+* LAB 1.1 Python3 Pre-flight
+* LAB 1.2 The Command Line
+* LAB 1.3 Intro to Python3
+* BRF 0 Project Proposal Format
+* HW 1.1 Required Materials
+* HW 1.2 All Electronics
+* HW 1.3 Mock Project Proposal
 
 
 #### Week 2
 
-* LAB 2.1 [Adafruit HUZZAH32 Pre-flight]({{site.url}}/2019/01/11/huzzah32-preflight.html)
-* LAB 2.2 [Digital Output]({{site.url}}/2019/01/11/digital-output.html)
-* LAB 2.3 [Digital Input / Digital Output]({{site.url}}/2019/01/11/digitalIO.html)
-* BRF 2.0 [Project Proposal Format]({{site.url}}/2019/01/11/proposals.html)
-* HW 2.1 [Mock Project Proposal]({{site.url}}/2019/01/11/mock-proposal.html)
-* HW 2.2 [DIY Button]({{site.url}}/2019/01/11/DIY-buttons.html)
+* LAB 2.1 Adafruit HUZZAH32 Pre-flight
+* LAB 2.2 Digital Output
+* LAB 2.3 Digital Input / Digital Output
+* BRF 1 !button
+* HW 2.1 !button Prototype (+ Proposal)
+* HW 2.2 Ten Possible Revisions
 
 
 #### Week 3
 
-* LAB 3.1 [GPIO, Analog & Digital Signals]({{site.url}}/2019/01/12/analog-digital-signals.html)
-* LAB 3.2 [Analog Input]({{site.url}}/2019/01/12/analog-input.html)
-* LAB 3.3 [Voltage Dividers]({{site.url}}/2019/01/12/voltage-dividers.html)
-* LAB 3.4 [For Loops]({{site.url}}/2019/01/12/for-loop.html)
-* HW 3.1 [DIY Button (2nd Revision)]({{site.url}}/2019/01/12/DIY-buttons-2.html)
+* Present !button (in-progress)
+* LAB 3.1 GPIO, Analog & Digital Signals
+* LAB 3.2 Analog Input
+* LAB 3.3 Voltage Dividers
+* HW 3.1 Revise + Document
 
 
 #### Week 4
 
-* LAB 4.1 [ADC, DAC, & PWM]({{site.url}}/2019/01/13/adc-dac-pwm.html)
-* LAB 4.2 [Analog Input / Digital Output]({{site.url}}/2019/01/13/analog-input-digital-output.html)
-* BRF 1 [!button]({{site.url}}/2019/01/13/nobutton.html)
-* HW 4.1 [!button Prototype (+ Proposal)]({{site.url}}/2019/01/13/nobutton-prototype.html)
-* HW 4.2 [Ten Possible Revisions]({{site.url}}/2019/01/13/ten-revisions.html)
+* Present !button (final)
 
 
 #### Week 5
 
-* Present !button (in-progress)
-* LAB 5.1 [Digital Input / PWM Output(s)]({{site.url}}/2019/01/14/digital-input-pwm-output.html)
-* HW 5.1 Revise + Deploy + Document
+* LAB 5.1 ADC, DAC, & PWM
+* LAB 5.2 Analog Input / Digital Output
+* BRF 2 Analog + Digital Interactions
+* HW 5.1 Analog + Digital Interactions Prototype (+ Proposal)
+* HW 5.2 Ten Possible Revisions
 
 
 #### Week 6
 
-* Present !button (final)
+* Present Analog + Digital Interactions (in-progress)
+* LAB 6.1 Digital Input / PWM Output(s)
+* LAB 6.2 For Loops
+* HW 6.1 Revise + Document
 
 
 #### Week 7
 
-* LAB 7.1 [Functions]({{site.url}}/2019/01/15/functions.html)
-* BRF 2 [Analog + Digital Interactions]({{site.url}}/2019/01/15/analog+digital.html)
-* HW 7.1 [Analog + Digital Interactions Prototype (+ Proposal)]({{site.url}}/2019/01/15/analog+digital-prototype.html)
-* HW 7.2 [Ten Possible Revisions]({{site.url}}/2019/01/15/ten-revisions.html)
+* Present Analog + Digital Interactions (final)
 
 
 #### Week 8
 
-* Present Analog + Digital Interactions (in-progress)
-* LAB 8.1 [Multitasking]({{site.url}}/2019/01/16/threads.html)
-* HW 8.1 Revise + Deploy + Document
+* Holiday
 
 
 #### Week 9
 
-* Present Analog + Digital Interactions (final)
+* No Class (CTA in Haiti)
 
 
 #### Week 10
 
-* BRF 3 [Combine / Remix]({{site.url}}/2019/01/17/remix.html)
-* HW 10.1 Combine / Remix Prototype (+ Proposal)
+* LAB 10.2 Multitasking
+* BRF 3 Finite State Machine
+* HW 10.1 Finite State Machine Prototype (+ Proposal)
 * HW 10.2 Ten Possible Revisions
 
 
 #### Week 11
 
-* Present Combine / Remix (in-progress)
-* HW 11.1 Revise + Deploy + Document
+* Present Finite State Machine (in-progress)
+* HW 11.1 Revise + Document
 
 
 #### Week 12
+
+* Present Finite State Machine (final)
+* BRF 4 Combine / Remix
+* HW 12.1 Finite State Machine Prototype (+ Proposal)
+* HW 12.2 Ten Possible Revisions
+
+
+#### Week 13
+
+* Present Combine / Remix (in-progress)
+* HW 13.1 Revise + Document
+
+
+#### Week 14
 
 * Present Combine / Remix (final)
