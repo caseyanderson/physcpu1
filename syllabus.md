@@ -65,13 +65,13 @@ Absences will be excused if and only if I am notified via email prior to the beg
 #### Week 1
 
 * Review Syllabus
-* LAB 1.1 [Python3 Pre-flight]({{site.url}}2019/05/15/py3-preflight.html)
-* LAB 1.2 [The Command Line]({{site.url}}2019/05/15/command-line.html)
-* LAB 1.3 [Intro to Python3]({{site.url}}2019/05/15/intro-py3.html)
-* BRF 0 [Project Proposal Format]({{site.url}}2019/05/15/proposals.html)
-* HW 1.1 [Required Materials]({{site.url}}2019/05/15/required-materials.html)
-* HW 1.2 [All Electronics]({{site.url}}2019/05/15/all-electronics.html)
-* HW 1.3 [Mock Project Proposal]({{site.url}}2019/05/15/mock-proposal.html)
+* LAB 1.1 [Python3 Pre-flight]({{site.url}}2019/05/16/py3-preflight.html)
+* LAB 1.2 [The Command Line]({{site.url}}2019/05/16/command-line.html)
+* LAB 1.3 [Intro to Python3]({{site.url}}2019/05/16/intro-py3.html)
+* BRF 0 [Project Proposal Format]({{site.url}}2019/05/16/proposals.html)
+* HW 1.1 [Required Materials]({{site.url}}2019/05/16/required-materials.html)
+* HW 1.2 [All Electronics]({{site.url}}2019/05/16/all-electronics.html)
+* HW 1.3 [Mock Project Proposal]({{site.url}}2019/05/16/mock-proposal.html)
 
 
 #### Week 2
