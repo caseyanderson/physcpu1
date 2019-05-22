@@ -80,8 +80,8 @@ Absences will be excused if and only if I am notified via email prior to the beg
 * LAB 2.2 [Digital Output]({{site.url}}/2019/05/23/digital-output.html)
 * LAB 2.3 [Digital Input / Digital Output]({{site.url}}/2019/05/23/digitalIO.html)
 * BRF 1 [!button]({{site.url}}/2019/05/23/notbutton.html)
-* HW 2.1 !button Prototype (+ Proposal)
-* HW 2.2 Ten Possible Revisions
+* HW 2.1 [!button Prototype (+ Proposal)]({{site.url}}/2019/05/23/notbutton-prototype.html)
+* HW 2.2 [Ten Possible Revisions]({{site.url}}/2019/05/23/ten-revisions.md)
 
 
 #### Week 3
