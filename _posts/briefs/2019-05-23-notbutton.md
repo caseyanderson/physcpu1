@@ -1,16 +1,15 @@
 ---
 layout: post
 title: "!button"
-date: 2019-01-13 06:00:00 -0720
-week: 4
+date: 2019-05-23 06:00:00 -0730
+week: 2
 number: 1
 tags: brief
-published: false
 ---
 
 ## brief
 
-Create a prototype in which an audience member/user is prompted to interact with a disguised/hidden/DIY button (i.e. no-button) in order to toggle between two possible outputs. While the specifics are up to you one general goal for this project is to create a context/story that incentivizes interaction with your prototype.
+Create a prototype in which an audience member/user is prompted to interact with a disguised/hidden/DIY button (i.e. not-button) in order to toggle between two possible outputs. While the specifics are up to you one general goal for this project is to create a context/story that incentivizes interaction with your prototype.
 
 Key question: why is this interesting to someone other than me and how can I make this experience as memorable as possible for the audience/user?
 
