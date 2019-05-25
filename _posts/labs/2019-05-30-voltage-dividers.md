@@ -1,11 +1,10 @@
 ---
 layout: post
 title:  "Voltage Dividers"
-date: 2019-01-12 06:00:00 -0720
+date: 2019-05-30 06:00:00 -0700
 week: 3
 number: 3
 tags: lab
-published: false
 
 ---
 

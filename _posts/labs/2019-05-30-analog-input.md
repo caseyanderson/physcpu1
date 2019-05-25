@@ -1,11 +1,10 @@
 ---
 layout: post
 title:  "Analog Input"
-date: 2019-01-12 06:00:00 -0710
+date: 2019-05-30 06:00:00 -0630
 week: 3
 number: 2
 tags: lab
-published: false
 
 ---
 

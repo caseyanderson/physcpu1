@@ -81,15 +81,15 @@ Absences will be excused if and only if I am notified via email prior to the beg
 * LAB 2.3 [Digital Input / Digital Output]({{site.url}}/2019/05/23/digitalIO.html)
 * BRF 1 [!button]({{site.url}}/2019/05/23/notbutton.html)
 * HW 2.1 [!button Prototype (+ Proposal)]({{site.url}}/2019/05/23/notbutton-prototype.html)
-* HW 2.2 [Ten Possible Revisions]({{site.url}}/2019/05/23/ten-revisions.md)
+* HW 2.2 [Ten Possible Revisions]({{site.url}}/2019/05/23/ten-revisions.html)
 
 
 #### Week 3
 
 * Present !button (in-progress)
-* LAB 3.1 GPIO, Analog & Digital Signals
-* LAB 3.2 Analog Input
-* LAB 3.3 Voltage Dividers
+* LAB 3.1 [GPIO, Analog & Digital Signals]({{site.url}}/2019/05/30/analog-digital-signals.html)
+* LAB 3.2 [Analog Input]({{site.url}}/2019/05/30/analog-input.html)
+* LAB 3.3 [Voltage Dividers]({{site.url}}/2019/05/30/voltage-dividers.html)
 * HW 3.1 Revise + Document
 
 
