@@ -100,18 +100,19 @@ Absences will be excused if and only if I am notified via email prior to the beg
 
 #### Week 5
 
-* LAB 5.1 ADC, DAC, & PWM
-* LAB 5.2 Analog Input / Digital Output
-* BRF 2 Analog + Digital Interactions
-* HW 5.1 Analog + Digital Interactions Prototype (+ Proposal)
-* HW 5.2 Ten Possible Revisions
+* LAB 5.1 [For Loops]({{site.url}}2019/06/13/for-loop.html)
+* LAB 5.2 [ADC, DAC, & PWM]({{site.url}}2019/06/13/adc-dac-pwm.html)
+* LAB 5.3 [Analog Input / Digital Output]({{site.url}}2019/06/13/analog-input-digital-output.html)
+* BRF 2 [Analog + Digital Interactions]({{site.url}}2019/06/13/analog+digital.html)
+* HW 5.1 [Analog + Digital Interactions Prototype (+ Proposal)]({{site.url}}2019/06/13/analog+digital-prototype.html)
+* HW 5.2 [Ten Possible Revisions]({{site.url}}2019/06/13/ten-revisions.html)
 
 
 #### Week 6
 
 * Present Analog + Digital Interactions (in-progress)
 * LAB 6.1 Digital Input / PWM Output(s)
-* LAB 6.2 For Loops
+* LAB 6.2 Functions
 * HW 6.1 Revise + Document
 
 
