@@ -111,8 +111,8 @@ Absences will be excused if and only if I am notified via email prior to the beg
 #### Week 6
 
 * Present Analog + Digital Interactions (in-progress)
-* LAB 6.1 Digital Input / PWM Output(s)
-* LAB 6.2 Functions
+* LAB 6.1 [Digital Input / PWM Output(s)]({{site.url}}2019/06/20/digital-input-pwm-output.html)
+* LAB 6.2 [Functions]({{site.url}}2019/06/20/functions.html)
 * HW 6.1 Revise + Document
 
 
