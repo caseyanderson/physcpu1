@@ -133,32 +133,30 @@ Absences will be excused if and only if I am notified via email prior to the beg
 
 #### Week 10
 
-* LAB 10.2 Multitasking
-* BRF 3 Finite State Machine
-* HW 10.1 Finite State Machine Prototype (+ Proposal)
-* HW 10.2 Ten Possible Revisions
+* LAB 10.1 Object-Oriented Programming (pt. 1)
+* HW 10.1 TBA
 
 
 #### Week 11
 
-* Present Finite State Machine (in-progress)
-* HW 11.1 Revise + Document
+* LAB 11.1 Object-Oriented Programming (pt. 2)
+* BRF 3 Finite State Machine
+* HW 11.1 Finite State Machine Prototype (+ Proposal)
+* HW 11.2 Ten Possible Revisions
 
 
 #### Week 12
 
-* Present Finite State Machine (final)
-* BRF 4 Combine / Remix
-* HW 12.1 Finite State Machine Prototype (+ Proposal)
-* HW 12.2 Ten Possible Revisions
+* Present Finite State Machine (in-progress pt. 1)
+* HW 12.1 Revise + Document (pt. 1)
 
 
 #### Week 13
 
-* Present Combine / Remix (in-progress)
-* HW 13.1 Revise + Document
+* Present Finite State Machine (in-progress pt. 2)
+* HW 13.1 Revise + Document (pt. 2)
 
 
 #### Week 14
 
-* Present Combine / Remix (final)
+* Present Finite State Machine
