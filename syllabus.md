@@ -134,7 +134,7 @@ Absences will be excused if and only if I am notified via email prior to the beg
 #### Week 10
 
 * LAB 10.1 [Object-Oriented Programming: Classes & Objects]({{site.url}}2019/07/18/oop-classes-objects.html)
-* HW 10.1 TBA
+* HW 10.1 [Three Classes]({{site.url}}2019/07/18/three-classes.html)
 
 
 #### Week 11
