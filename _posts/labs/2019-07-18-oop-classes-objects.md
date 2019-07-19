@@ -134,11 +134,50 @@ class Person:
 
     def birthday(self):
         self.age+=1
-        print("Today is {}'s birthday! Happy Birthday, {}".format(self.name, self.name) + "!")
+        print("Today is {}'s birthday! Happy Birthday, {}!".format(self.name, self.name))
 ```
 
 1. `person1 = Person("Marie", 30)`
 2. `person1.description()`
 3. `person1.birthday()`
 4. `person1.description()`
+
+
+## main()
+
+Let's say that we want to run a few lines of code that use the `Person()` class all at once, as an executable script, rather than line-by-line (or interactively, as we have been). Doing so requires the use of Python's `main()`, a function that executes automatically when an operating system begins running a (Python) program. Follow along:
+
+*For Example*
+```python
+class Person:
+
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def description(self):
+        print("{} is {} years old".format(self.name, self.age))
+
+    def birthday(self):
+        self.age+=1
+        print("Today is {}'s birthday! Happy Birthday, {}".format(self.name, self.name) + "!")
+
+def main():
+    person1 = Person("Marie", 30)
+    person2 = Person("Steve", 45)
+
+    person1.description()
+    person2.description()
+
+    person2.birthday()
+    person2.description()
+
+if __name__== "__main__":
+    main()
+```
+
+1. save the code above in a python file with filename `person.py`
+2. (in a terminal) navigate to where you saved `person.py` and run the file: `python3 person.py`
+
+Note that the code we previously ran manually has been moved into the `function definition` for `main()`. We end our file with a conditional statement (`if __name__== "__main__":`) that runs our customized `main()`.
 
