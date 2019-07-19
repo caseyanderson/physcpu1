@@ -9,5 +9,5 @@ tags: hw
 
 Using the `Person()` class as a template, create 3 (three) classes of your own design. Each class should contain the following features:
 
-* 1x `constructor method` with at least 4 Instance Variables
+* 1x `__init__() method` with at least 4 Instance Variables
 * 3x `instance methods`, where 1 is modeled after the `description()` `instance method` from the `Person()` class and the other two are your own design
