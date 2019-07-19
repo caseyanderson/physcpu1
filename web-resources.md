@@ -13,7 +13,7 @@ title: web resources
 ## Python
 * [physcomp_uPython](https://github.com/caseyanderson/physcomp_uPython)
 * [MicroPython](https://micropython.org/)
-* [Dive Into Python 3](http://www.diveintopython3.net/)
+* [Dive Into Python 3](https://www.cmi.ac.in/~madhavan/courses/prog2-2012/docs/diveintopython3/index.html)
 
 
 ## Electronics
