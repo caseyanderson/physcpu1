@@ -37,9 +37,9 @@ One can now create an instance of `Person()` with the following:
 Step 2. should produce this in the output: `__main__.Person`, which confirms that `test` is of type `Person()`
 
 
-## The __init__() Method
+## The Initialization Method
 
-`Methods` are a special kind of `function` defined within a `class`. While most `class methods` are designed by the programmer all `classes` share one method in common: the `__init__() method`. The `__init__() method` is used to `initialize` data and is conventionally the first method in a `class`. The first argument of the `__init__()` method **has** to be `self`, which allows an instance of `class` to refer to itself.
+`Methods` are a special kind of `function` defined within a `class`. While most `class methods` are designed by the programmer all `classes` share one method in common: the `initialization method` (or `__init__() method`). The `__init__() method` is used to `initialize` data and is conventionally the first method in a `class`. The first argument of the `__init__()` method **has** to be `self`, which allows an instance of `class` to refer to itself.
 
 Run the following and then follow the numbered steps below to see the `__init__() method` in action:
 
