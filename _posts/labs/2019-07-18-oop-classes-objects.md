@@ -37,11 +37,11 @@ One can now create an instance of `Person()` with the following:
 Step 2. should produce this in the output: `__main__.Person`, which confirms that `test` is of type `Person()`
 
 
-## The Constructor Method
+## The Initialization Method
 
-`Methods` are a special kind of `function` defined within a `class`. While most `class methods` are designed by the programmer all `classes` share one method in common: the `constructor method`. The `constructor method` is used to `initialize` (often abbreviated as `init`) data and is conventionally the first method in a `class`.
+`Methods` are a special kind of `function` defined within a `class`. While most `class methods` are designed by the programmer all `classes` share one method in common: the `initialization method` (or `__init__() method`). The `__init__() method` is used to `initialize` data and is conventionally the first method in a `class`. The first argument of the `__init__()` method **has** to be `self`, which allows an instance of `class` to refer to itself.
 
-Run the following and then follow the numbered steps below to see the `constructor method` in action:
+Run the following and then follow the numbered steps below to see the `__init__() method` in action:
 
 *For Example*
 ```python
@@ -53,9 +53,7 @@ class Person:
 
 1. `test = Person()`
 
-Step 1 prints the message "here is a person" as soon as the `constructor method` is run. Note that we only have to create an `instance` of the `class` to run the `constructor method`, as it is automatically `initialized` (i.e. run) upon `instantiation` of an `object`.
-
-BTW, the argument `self` allows an instance of `Person()` to refer to itself.
+Step 1 prints the message "here is a person" as soon as the `__init__() method` is run. Note that we only have to create an `instance` of the `class` to run the `__init__() method`, as it is automatically `initialized` (i.e. run) upon `instantiation` of an `object`.
 
 
 ## Instance Variables
@@ -73,7 +71,7 @@ class Person:
 
 1. `person1 = Person("Marcus")`
 
-The `constructor method` now does two things: it `initializes` an `instance` of `Person()` and prints the name of that person. Note that we now **have** to provide an `instance` of `Person()` with a name otherwise we get an error. The variable `name` is an `instance variable` (sometimes called an `instance attribute`), or a variable whose information one can expect to be different for every instance (or person) initialized by the `Person()` class.
+The `__init__() method` now does two things: it `initializes` an `instance` of `Person()` and prints the name of that person. Note that we now **have** to provide an `instance` of `Person()` with a name otherwise we get an error. The variable `name` is an `instance variable` (sometimes called an `instance attribute`), or a variable whose information one can expect to be different for every instance (or person) initialized by the `Person()` class.
 
 We could create multiple people like so:
 
@@ -101,7 +99,7 @@ Once intialized, we can ask Python to tell us the age of either of our people wi
 
 ## Instance Methods
 
-A `class` can perform actions with `instance methods`. Previously we printed the name and age of our people with the `constructor method`, but it might make more sense to write a method called `description()` to print this information only when necessary. Follow along:
+A `class` can perform actions with `instance methods`. Previously we printed the name and age of our people with the `__init__() method`, but it might make more sense to write a method called `description()` to print this information only when necessary. Follow along:
 
 *For Example*
 ```python
@@ -134,11 +132,51 @@ class Person:
 
     def birthday(self):
         self.age+=1
-        print("Today is {}'s birthday! Happy Birthday, {}".format(self.name, self.name) + "!")
+        print("Today is {}'s birthday! Happy Birthday, {}!".format(self.name, self.name))
 ```
 
 1. `person1 = Person("Marie", 30)`
 2. `person1.description()`
 3. `person1.birthday()`
 4. `person1.description()`
+
+
+## main()
+
+Let's say that we want to run a few lines of code that use the `Person()` class all at once, as an executable file, rather than line-by-line (or interactively, as we have been). Doing so requires the use of Python's `main()`, a function that executes automatically when an operating system begins running a (Python) program. Follow along:
+
+*For Example*
+```python
+class Person:
+
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def description(self):
+        print("{} is {} years old".format(self.name, self.age))
+
+    def birthday(self):
+        self.age+=1
+        print("Today is {}'s birthday! Happy Birthday, {}".format(self.name, self.name) + "!")
+
+def main():
+    person1 = Person("Marie", 30)
+    person2 = Person("Steve", 45)
+
+    person1.description()
+    person2.description()
+
+    person2.birthday()
+    person2.description()
+
+if __name__== "__main__":
+    main()
+```
+
+1. save the code above in a python file with filename `person.py`
+2. (in a terminal) navigate to where you saved `person.py` and make it executable: `sudo chmod +x person.py`
+2. (in a terminal) run the file: `python3 person.py`
+
+Note that the code we previously ran manually has been moved into the `function definition` for `main()`. We end our file with a conditional statement (`if __name__== "__main__":`) that runs our customized `main()`.
 

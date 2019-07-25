@@ -133,7 +133,7 @@ Absences will be excused if and only if I am notified via email prior to the beg
 
 #### Week 10
 
-* LAB 10.1 [Object-Oriented Programming: Classes & Objects]({{site.url}}2019/07/18/oop1.html)
+* LAB 10.1 [Object-Oriented Programming: Classes & Objects]({{site.url}}2019/07/18/oop-classes-objects.html)
 * HW 10.1 [Three Classes]({{site.url}}2019/07/18/three-classes.html)
 
 
@@ -146,13 +146,13 @@ Absences will be excused if and only if I am notified via email prior to the beg
 
 #### Week 12
 
-* Present Finite State Machine (in-progress pt. 1)
+* Present Combine / Remix Prototype (in-progress pt. 1)
 * HW 12.1 Revise + Document (pt. 1)
 
 
 #### Week 13
 
-* Present Finite State Machine (in-progress pt. 2)
+* Present Combine / Remix Prototype (in-progress pt. 2)
 * HW 13.1 Revise + Document (pt. 2)
 
 
