@@ -134,14 +134,13 @@ Absences will be excused if and only if I am notified via email prior to the beg
 #### Week 10
 
 * LAB 10.1 [Object-Oriented Programming: Classes & Objects]({{site.url}}2019/07/18/oop1.html)
-* HW 10.1 TBA
+* HW 10.1 [Three Classes]({{site.url}}2019/07/18/three-classes.html)
 
 
 #### Week 11
 
-* LAB 11.1 Object-Oriented Programming (pt. 2)
-* BRF 3 Finite State Machine
-* HW 11.1 Finite State Machine Prototype (+ Proposal)
+* BRF 3 [Combine / Remix]({{site.url}}2019/07/25/remix.html)
+* HW 11.1 Combine / Remix Prototype (+ Proposal)
 * HW 11.2 Ten Possible Revisions
 
 
