@@ -5,6 +5,7 @@ date: 2019-07-18 06:00:00 -0600
 week: 10
 number: 1
 tags: lab
+published: false
 ---
 
 Object-Oriented Programming, often abbreviated as OOP, is a [programming paradigm](https://en.wikipedia.org/wiki/Programming_paradigm) that emphasizes reusable patterns of code. OOP patterns are comprised of `classes` and `objects`:
@@ -179,4 +180,3 @@ if __name__== "__main__":
 2. (in a terminal) run the file: `python3 person.py`
 
 Note that the code we previously ran manually has been moved into the `function definition` for `main()`. We end our file with a conditional statement (`if __name__== "__main__":`) that runs our customized `main()`.
-

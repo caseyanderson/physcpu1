@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Python3 Pre-flight"
-date:   2019-05-16 06:00:00 -0700
+date:   2019-09-12 06:00:00 -0700
 week: 1
 number: 1
 tags: lab
@@ -15,6 +15,7 @@ Below are instructions regarding installing tools needed for general development
 * [PyPI](https://pypi.python.org/pypi)
 * [Jupyter](https://jupyter.org/index.html)
 
+Note: this page was written under the assumption that students are running an Apple machine. Installation instructions for Windows 10 can be found [here](https://gist.github.com/caseyanderson/6030e04ff59acafa6f016b45ff505c94).
 
 ## Xcode / The Command Line Tools
 

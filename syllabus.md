@@ -9,7 +9,7 @@ Class Meetings: Thursdays, 09:00AM – 11:50AM, Room 340, 1111 S. Arroyo Parkway
 
 Office Hours: Tuesdays, 09:00AM - 10:50AM, Room 318, 1111 S. Arroyo Parkway
 
-Email: cta@caseyanderson.com
+Email: casey.anderson@artcenter.edu
 
 
 ### Description
@@ -53,6 +53,7 @@ Late prototype/assignment policy: for every week a prototype/assignment is late 
 2. Learn and explore the basic principles of software design
 3. Prototype experiences and devices across a continuum of technologies
 
+
 ### Attendance Policy
 
 Attending class is critical to learning this material. We have a lot to cover and will have to move pretty quickly to get through it all.
@@ -65,31 +66,31 @@ Absences will be excused if and only if I am notified via email prior to the beg
 #### Week 1
 
 * Review Syllabus
-* LAB 1.1 [Python3 Pre-flight]({{site.url}}2019/05/16/py3-preflight.html)
-* LAB 1.2 [The Command Line]({{site.url}}2019/05/16/command-line.html)
-* LAB 1.3 [Intro to Python3]({{site.url}}2019/05/16/intro-py3.html)
-* BRF 0 [Project Proposal Format]({{site.url}}2019/05/16/proposals.html)
-* HW 1.1 [Required Materials]({{site.url}}2019/05/16/required-materials.html)
-* HW 1.2 [All Electronics]({{site.url}}2019/05/16/all-electronics.html)
-* HW 1.3 [Mock Project Proposal]({{site.url}}2019/05/16/mock-proposal.html)
+* LAB 1.1 Python3 Pre-flight
+* LAB 1.2 The Command Line
+* LAB 1.3 Intro to Python3
+* BRF 0 Project Proposal Format
+* HW 1.1 Required Materials
+* HW 1.2 All Electronics
+* HW 1.3 Mock Project Proposal
 
 
 #### Week 2
 
-* LAB 2.1 [Adafruit HUZZAH32 Pre-flight]({{site.url}}2019/05/23/huzzah32-preflight.html)
-* LAB 2.2 [Digital Output]({{site.url}}2019/05/23/digital-output.html)
-* LAB 2.3 [Digital Input / Digital Output]({{site.url}}2019/05/23/digitalIO.html)
-* BRF 1 [!button]({{site.url}}2019/05/23/notbutton.html)
-* HW 2.1 [!button Prototype (+ Proposal)]({{site.url}}2019/05/23/notbutton-prototype.html)
-* HW 2.2 [Ten Possible Revisions]({{site.url}}2019/05/23/ten-revisions.html)
+* LAB 2.1 Adafruit HUZZAH32 Pre-flight
+* LAB 2.2 Digital Output
+* LAB 2.3 Digital Input / Digital Output
+* BRF 1 !button
+* HW 2.1 !button Prototype (+ Proposal)
+* HW 2.2 Ten Possible Revisions
 
 
 #### Week 3
 
 * Present !button (in-progress)
-* LAB 3.1 [GPIO, Analog & Digital Signals]({{site.url}}2019/05/30/analog-digital-signals.html)
-* LAB 3.2 [Analog Input]({{site.url}}2019/05/30/analog-input.html)
-* LAB 3.3 [Voltage Dividers]({{site.url}}2019/05/30/voltage-dividers.html)
+* LAB 3.1 GPIO, Analog & Digital Signals
+* LAB 3.2 Analog Input
+* LAB 3.3 Voltage Dividers
 * HW 3.1 Revise + Document
 * HW 3.2 Prepare to Present !button Prototype
 
@@ -100,19 +101,19 @@ Absences will be excused if and only if I am notified via email prior to the beg
 
 #### Week 5
 
-* LAB 5.1 [For Loops]({{site.url}}2019/06/13/for-loop.html)
-* LAB 5.2 [ADC, DAC, & PWM]({{site.url}}2019/06/13/adc-dac-pwm.html)
-* LAB 5.3 [Analog Input / Digital Output]({{site.url}}2019/06/13/analog-input-digital-output.html)
-* BRF 2 [Analog + Digital Interactions]({{site.url}}2019/06/13/analog+digital.html)
-* HW 5.1 [Analog + Digital Interactions Prototype (+ Proposal)]({{site.url}}2019/06/13/analog+digital-prototype.html)
-* HW 5.2 [Ten Possible Revisions]({{site.url}}2019/06/13/ten-revisions.html)
+* LAB 5.1 For Loops
+* LAB 5.2 ADC, DAC, & PWM
+* LAB 5.3 Analog Input / Digital Output
+* BRF 2 Analog + Digital Interactions
+* HW 5.1 Analog + Digital Interactions Prototype (+ Proposal)
+* HW 5.2 Ten Possible Revisions
 
 
 #### Week 6
 
 * Present Analog + Digital Interactions (in-progress)
-* LAB 6.1 [Digital Input / PWM Output(s)]({{site.url}}2019/06/20/digital-input-pwm-output.html)
-* LAB 6.2 [Functions]({{site.url}}2019/06/20/functions.html)
+* LAB 6.1 Digital Input / PWM Output(s)
+* LAB 6.2 Functions
 * HW 6.1 Revise + Document
 
 
@@ -123,39 +124,29 @@ Absences will be excused if and only if I am notified via email prior to the beg
 
 #### Week 8
 
-* Holiday
+* LAB 8.1 Object-Oriented Programming: Classes & Objects
+* HW 8.1 Three Classes
 
 
 #### Week 9
 
-* No Class (CTA in Haiti)
+* BRF 3 Combine / Remix
+* HW 9.1 Combine / Remix Prototype (+ Proposal)
+* HW 9.2 Ten Possible Revisions
 
 
 #### Week 10
 
-* LAB 10.1 [Object-Oriented Programming: Classes & Objects]({{site.url}}2019/07/18/oop-classes-objects.html)
-* HW 10.1 [Three Classes]({{site.url}}2019/07/18/three-classes.html)
+* Present Combine / Remix Prototype (in-progress pt. 1)
+* HW 10.1 Revise + Document (pt. 1)
 
 
 #### Week 11
 
-* BRF 3 [Combine / Remix]({{site.url}}2019/07/25/remix.html)
-* HW 11.1 Combine / Remix Prototype (+ Proposal)
-* HW 11.2 Ten Possible Revisions
+* Present Combine / Remix Prototype (in-progress pt. 2)
+* HW 11.1 Revise + Document (pt. 2)
 
 
 #### Week 12
 
-* Present Combine / Remix Prototype (in-progress pt. 1)
-* HW 12.1 Revise + Document (pt. 1)
-
-
-#### Week 13
-
-* Present Combine / Remix Prototype (in-progress pt. 2)
-* HW 13.1 Revise + Document (pt. 2)
-
-
-#### Week 14
-
-* Present Finite State Machine
+* Present Combine / Remix Prototype

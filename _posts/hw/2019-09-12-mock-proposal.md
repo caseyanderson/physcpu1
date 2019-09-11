@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Mock Prototype Proposal"
-date:   2019-05-16 06:00:00 -0800
+date:   2019-09-12 06:00:00 -0800
 week: 1
 number: 3
 tags: hw

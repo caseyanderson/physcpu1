@@ -5,6 +5,7 @@ date: 2019-07-18 06:00:00 -0630
 week: 10
 number: 1
 tags: hw
+published: false
 ---
 
 Using the `Person()` class as a template, create 3 (three) classes of your own design. Each class should contain the following features:
