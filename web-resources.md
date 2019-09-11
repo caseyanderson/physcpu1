@@ -14,7 +14,7 @@ title: web resources
 * [physcomp_uPython](https://github.com/caseyanderson/physcomp_uPython)
 * [MicroPython](https://micropython.org/)
 * [Dive Into Python 3](https://www.cmi.ac.in/~madhavan/courses/prog2-2012/docs/diveintopython3/index.html)
-
+* [Micropython on Windows 10](https://gist.github.com/caseyanderson/6030e04ff59acafa6f016b45ff505c94)
 
 ## Electronics
 * [Open Electronics](http://www.open-electronics.org/)
