@@ -6,7 +6,6 @@ week: 3
 number: 2
 tags: lab
 published: false
-
 ---
 
 ## Materials
