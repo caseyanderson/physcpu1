@@ -8,4 +8,4 @@ tags: hw
 
 ---
 
-Write a mock prototype proposal, fitting [this]({{site.url}}2019/05/16/proposals.html) format.
+Write a mock prototype proposal, fitting [this]({{site.url}}2019/09/12/proposals.html) format.
