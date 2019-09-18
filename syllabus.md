@@ -66,7 +66,7 @@ Absences will be excused if and only if I am notified via email prior to the beg
 #### Week 1
 
 * Review Syllabus
-* LAB 1.1 Python3 Pre-flight
+* LAB 1.1 [Python3 Pre-flight]({{site.url}}/2019/09/12/py3-preflight.html)
 * LAB 1.2 The Command Line
 * LAB 1.3 Intro to Python3
 * BRF 0 Project Proposal Format
