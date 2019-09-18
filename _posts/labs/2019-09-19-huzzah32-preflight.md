@@ -1,11 +1,10 @@
 ---
 layout: post
 title:  "Adafruit HUZZAH32 Pre-flight"
-date:   2019-05-23 06:00:00 -0600
+date:   2019-09-19 06:00:00 -0600
 week: 2
 number: 1
 tags: lab
-published: false
 ---
 
 ## Materials
