@@ -77,12 +77,12 @@ Absences will be excused if and only if I am notified via email prior to the beg
 
 #### Week 2
 
-* LAB 2.1 Adafruit HUZZAH32 Pre-flight
-* LAB 2.2 Digital Output
-* LAB 2.3 Digital Input / Digital Output
-* BRF 1 !button
-* HW 2.1 !button Prototype (+ Proposal)
-* HW 2.2 Ten Possible Revisions
+* LAB 2.1 [Adafruit HUZZAH32 Pre-flight]({{site.url}}/2019/09/19/huzzah32-preflight.html)
+* LAB 2.2 [Digital Output]({{site.url}}/2019/09/19/digital-output.html)
+* LAB 2.3 [Digital Input / Digital Output]({{site.url}}/2019/09/19/digitalIO.html)
+* BRF 1 [!button]({{site.url}}/2019/09/19/notbutton.html)
+* HW 2.1 [!button Prototype (+ Proposal)]({{site.url}}/2019/09/19/notbutton-prototype.html)
+* HW 2.2 [Ten Possible Revisions]({{site.url}}/2019/09/19/ten-revisions.html)
 
 
 #### Week 3
