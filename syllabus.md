@@ -7,7 +7,7 @@ title: syllabus
 ### HSCI-214-01, Art Center College of Design
 Class Meetings: Thursdays, 09:00AM – 11:50AM, Room 340, 1111 S. Arroyo Parkway
 
-Office Hours: Tuesdays, 09:00AM - 10:50AM, Room 318, 1111 S. Arroyo Parkway
+Office Hours: Tuesdays, 09:00AM - 10:50AM, Room 315, 1111 S. Arroyo Parkway
 
 Email: casey.anderson@artcenter.edu
 
