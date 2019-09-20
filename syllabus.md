@@ -19,7 +19,7 @@ This prototyping-oriented class introduces students to the creative affordances 
 
 ### Required Materials
 
-* Laptop (Mac)
+* Laptop (Mac or PC)
 * [Adafruit HUZZAH32 – ESP32 Feather Board (pre-soldered)](https://www.adafruit.com/product/3591)
 * [USB cable - USB A to Micro-B - 3 foot long](https://www.adafruit.com/product/592)
 * [AmazonBasics USB Type-C to USB 3.1 Gen1 Female Adapter](https://www.amazon.com/AmazonBasics-Type-C-Gen1-Female-Adapter/dp/B01GGKYYT0/ref=sr_1_3?ie=UTF8&qid=1547245406&sr=8-3&keywords=amazon+basics+usb+c+to+usb+3.1)
