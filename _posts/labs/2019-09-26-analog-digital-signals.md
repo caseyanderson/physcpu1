@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "GPIO, Analog & Digital Signals"
-date: 2019-05-30 06:00:00 -0600
+date: 2019-09-26 06:00:00 -0600
 week: 3
 number: 1
 tags: lab
