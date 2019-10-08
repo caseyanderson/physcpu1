@@ -88,9 +88,9 @@ Absences will be excused if and only if I am notified via email prior to the beg
 #### Week 3
 
 * Present !button (in-progress)
-* LAB 3.1 GPIO, Analog & Digital Signals
-* LAB 3.2 Analog Input
-* LAB 3.3 Voltage Dividers
+* LAB 3.1 [GPIO, Analog & Digital Signals]({{site.url}}/2019/09/26/analog-digital-signals.html)
+* LAB 3.2 [Analog Input]({{site.url}}/2019/09/26/analog-input.html)
+* LAB 3.3 [Voltage Dividers]({{site.url}}/2019/09/26/voltage-dividers.html)
 * HW 3.1 Revise + Document
 * HW 3.2 Prepare to Present !button Prototype
 

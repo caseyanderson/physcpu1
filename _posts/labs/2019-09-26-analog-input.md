@@ -5,7 +5,6 @@ date: 2019-09-26 06:00:00 -0630
 week: 3
 number: 2
 tags: lab
-published: false
 ---
 
 ## Materials
