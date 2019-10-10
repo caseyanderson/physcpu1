@@ -1,11 +1,9 @@
 ---
 layout: post
 title:  "Analog + Digital Interactions Ten Possible Revisions"
-date: 2019-06-13 06:00:00 -0830
+date: 2019-10-10 06:00:00 -0830
 week: 5
 number: 2
-tags: hw
-published: false
 ---
 
 1. Following your tests, quickly generate a written list of Twenty (20) possible revisions to your project (don't think too hard about each idea yet, generate a bunch of them first without regard to whether they are "good" ideas or not).
