@@ -125,9 +125,9 @@ Absences will be excused if and only if I am notified via email prior to the beg
 #### Week 8
 
 * LAB 8.1 [Button Increment](https://github.com/caseyanderson/physcomp_uPython/tree/master/button_increment)
-* BRF 3 [Combine / Remix]({{site.url}}
-* HW 8.1 [Combine / Remix Prototype (+ Proposal)]({{site.url}}
-* HW 8.2 [Ten Possible Revisions]({{site.url}}
+* BRF 3 [Combine / Remix]({{site.url}}/2019/10/31/remix.html)
+* HW 8.1 [Combine / Remix Prototype (+ Proposal)]({{site.url}}/2019/10/31/combine-remix-prototype.html)
+* HW 8.2 [Ten Possible Revisions]({{site.url}}/2019/10/31/ten-revisions.html)
 
 
 #### Week 9

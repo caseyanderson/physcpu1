@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Combine / Remix prototype (+ proposal)"
-date: 2019-10-32 06:00:00 -0630
+date: 2019-10-31 06:00:00 -0630
 week: 8
 number: 1
 tags: hw
