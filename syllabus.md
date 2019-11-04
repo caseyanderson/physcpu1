@@ -124,8 +124,10 @@ Absences will be excused if and only if I am notified via email prior to the beg
 
 #### Week 8
 
-* LAB 8.1 Object-Oriented Programming: Classes & Objects
-* HW 8.1 Three Classes
+* LAB 8.1 [Button Increment](https://github.com/caseyanderson/physcomp_uPython/tree/master/button_increment)
+* BRF 3 [Combine / Remix]({{site.url}}
+* HW 8.1 [Combine / Remix Prototype (+ Proposal)]({{site.url}}
+* HW 8.2 [Ten Possible Revisions]({{site.url}}
 
 
 #### Week 9
