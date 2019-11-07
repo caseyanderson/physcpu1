@@ -1,11 +1,10 @@
 ---
 layout: post
 title:  "Object-Oriented Programming: Classes & Objects"
-date: 2019-07-18 06:00:00 -0600
-week: 10
+date: 2019-11-07 06:00:00 -0600
+week: 9
 number: 1
 tags: lab
-published: false
 ---
 
 Object-Oriented Programming, often abbreviated as OOP, is a [programming paradigm](https://en.wikipedia.org/wiki/Programming_paradigm) that emphasizes reusable patterns of code. OOP patterns are comprised of `classes` and `objects`:
