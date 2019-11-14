@@ -151,4 +151,9 @@ Absences will be excused if and only if I am notified via email prior to the beg
 
 #### Week 12
 
+* No class (Holiday)
+
+
+#### Week 13
+
 * Present Combine / Remix Prototype
