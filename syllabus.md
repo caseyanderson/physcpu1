@@ -21,12 +21,12 @@ This prototyping-oriented class introduces students to the creative affordances 
 
 * Laptop (Mac or PC)
 * [Adafruit HUZZAH32 – ESP32 Feather Board (pre-soldered)](https://www.adafruit.com/product/3591)
-* [USB cable - USB A to Micro-B - 3 foot long](https://www.adafruit.com/product/592)
-* [AmazonBasics USB Type-C to USB 3.1 Gen1 Female Adapter](https://www.amazon.com/AmazonBasics-Type-C-Gen1-Female-Adapter/dp/B01GGKYYT0/ref=sr_1_3?ie=UTF8&qid=1547245406&sr=8-3&keywords=amazon+basics+usb+c+to+usb+3.1)
+* [USB cable - USB A to Micro-B - 3 foot long](https://www.adafruit.com/product/592) or [USB cable - USB C to Micro-B - 3 foot long](https://www.amazon.com/Cable-Matters-Micro-Braided-Jacket/dp/B00UUBRX0Y)
 * [Full-size breadboard](https://www.adafruit.com/product/239)
 * [Breadboarding wire bundle](https://www.adafruit.com/product/153)
 * [Breadboard trim potentiometer - 10K](https://www.adafruit.com/product/356)
 * [Photo cell](https://www.adafruit.com/product/161)
+* DC Brushless Motor +
 * Buttons (SPST) +
 * Through-Hole Resistors - 220 ohm 10% 1/4W +
 * Through-Hole Resistors - 10K ohm 10% 1/4W +
@@ -39,8 +39,8 @@ Note: the + indicates materials that are available at [All Electronics](https://
 
 Grades will be calculated based on the following distribution:
 
-* Attendance = 10%
-* Lab participation = 20%
+* Attendance = 15%
+* Lab participation = 15%
 * Homework assignments = 35%
 * Prototypes = 35%
 
@@ -54,6 +54,61 @@ Late prototype/assignment policy: for every week a prototype/assignment is late 
 3. Prototype experiences and devices across a continuum of technologies
 
 
+### Expectations for Classroom Conduct
+
+ArtCenter is committed to maintaining a civil and safe learning environment, free from bias, coercion, and harassment for all. The classroom is a shared environment where all parties are accountable for behavior and contributions to a productive and supportive atmosphere. We understand that our members represent a rich variety of backgrounds and perspectives and are committed to providing a set of conditions for learning that respects diversity. While working together to build this community we ask all members to:
+* Be open to the views of others
+* Honor the uniqueness of colleagues
+* Communicate in a respectful manner
+* Recognize differences in learning, language, approach and ability
+* Appreciate the opportunity that we have to learn from each other in this community
+* Respect the work and materials of others
+
+All students are expected to abide by the ArtCenter Code of Conduct. All Faculty members, as Employees, are expected to abide by the Employee Standards of Conduct. The full statements of these policies can be found in the Student and Employee Handbooks. To report an incident, please see the Grievance and Complaint Policies and procedures listed in the Student Handbook, Faculty Handbook, and Employee Handbook. If you have any concerns or would like to discuss an incident, please contact your Instructor, your Department Chair, the Center for the Student Experience, or the Office of the Provost.
+
+
+### Policy Against Harassment
+
+The College is committed to providing an educational environment that is free of any kind of unlawful harassment. In keeping with this commitment, the College maintains a strict policy prohibiting unlawful harassment by any employee and by any third parties, such as contractors, visitors, students or vendors. Any harassment on the basis of race, color, religious creed, sex, ancestry, national origin, age, physical or mental disability, medical condition, genetic characteristic, marital status, veteran status, sexual orientation, gender identity, transgender identity or any other characteristic protected by federal, state or local law is strictly prohibited. Examples of such conduct that may violate this policy include verbal harassment, physical harassment or visual harassment. Verbal harassment may include, but is not limited to, epithets and derogatory comments or slurs on any of the bases listed above. Physical harassment may include, but is not limited to, assaulting, impeding or blocking movement, or physically interfering with the normal work or movement of another, when directed at that individual on any of the bases listed above. Visual harassment may include, but is not limited to, the display or possession of derogatory posters, cartoons, computer images or drawings on any of the bases listed above. Violation of the Policy Against Harassment may result in disciplinary action, up to and including suspension or dismissal. Please see the Student Handbook for additional guidelines on the above.
+
+
+### Title IX Student Policy and Procedure
+
+ArtCenter does not discriminate on the basis of sex, gender or sexual orientation in its education programs or activities. ArtCenter complies with Title IX of the Education Amendments of 1972, and certain other federal and state laws, which prohibit discrimination on the basis of sex, gender, or sexual orientation in employment, as well as all education programs and activities operated by the College (both on and off campus), and protect all people regardless of their gender or gender identity from sex discrimination, which includes sexual harassment and sexual violence. For more information, please see the Notice of Non-Discrimination and Policy Statement. Further contact information, policies and procedures, complaint forms, and other resources can be found on the Title IX Webpage on Inside.ArtCenter.edu.
+
+
+### Attendance Policy
+
+To complete a course successfully, students must attend all class sessions (unless they are engaged in research or location assignments that have been authorized in advance by the class instructor of the missed class). The instructor takes attendance at the beginning of each class. At the discretion of the instructor, three or more absences may result in a grade of F. Students who miss a class due to illness should discuss the absence with the instructor at the next class meeting. Students who are ill for a week or longer should inform their Department Chair’s office of their absence. Please see the full Attendance Policy in the Student Handbook for more information.
+
+
+### Disability Statement
+
+ArtCenter complies with the Americans with Disabilities Act, Section 504 of the Rehabilitation Act, and state and local requirements regarding students and applicants with disabilities. Under these laws, no otherwise qualified individual with a disability shall be denied access to, or participation in the services, programs and activities of the College. The Center for the Student Experience has more information on Disability Services, policy and Resources for students. Please see the full Disability Statement in the Student Handbook for more information.
+
+
+### Statement of Academic and Creative Integrity
+
+Academic and creative integrity is essential to personal and educational growth of students, which all members of the ArtCenter community are expected to uphold. This value maintains the standards of excellence of the College and creates a meaningful learning environment. A violation of the Academic and Creative Integrity Policy is defined as misconduct including but not limited to plagiarism, creative dishonesty, multiple submission of the same work, cheating, unauthorized collaboration, misrepresentation of ability, sabotage, falsification of records, and complicity in any of the above. The full Academic Integrity Policy can be found in the Student Handbook.
+
+
+### Grade point Descriptions
+
+Grades are considered FINAL when submitted by the faculty and can only be changed to correct an error in grading or to change an official Incomplete grade to a final grade. Students CANNOT submit or redo work after the end of the term unless an official Incomplete has been approved. The deadline for changing an Incomplete grade is Friday of Week 14 of the term following the term when the course was taken. The deadline for changing an incorrect grade is Friday of Week 6 following the term when the course was taken. Please see the Student Handbook for the full statement on Grades and Grade Points. ArtCenter uses the following grading system:
+
+|-------|--------|---------|
+| ambrosia | gala | red delicious |
+| pink lady | jazz | macintosh |
+| honeycrisp | granny smith | fuji |
+
+| A | 4.00 points | C+ | 2.50 points | D- | 0.75 points | N | 0.00 points (Non-attendance Failure) |
+| A- | 3.75 points | C | 2.00 points | F | 0.00 points (Fail) | U | 0.00 points (Unsatisfactory) |
+| B+ | 3.50 points | C- | 1.75 points | S | 0.00 points (Satisfactory) | P | 0.00 points (Pass) |
+| B | 3.00 points | D+ | 1.50 points | I | 0.00 points (Incomplete) | W | 0.00 points (Withdrawal) |
+| B- | 2.75 points | D | 1.00 points | M | 0.00 points (Missing) |
+
+
+
 ### Attendance Policy
 
 Attending class is critical to learning this material. We have a lot to cover and will have to move pretty quickly to get through it all.
@@ -61,36 +116,41 @@ Attending class is critical to learning this material. We have a lot to cover an
 Absences will be excused if and only if I am notified via email prior to the beginning of class. Failure to do so will result in an unexcused absence. 3 unexcused absences will result in an automatic F in this class. If your absence is excused, we will work out a way for you to make up as much of the in-class activities as possible.
 
 
+### Weekly Quiz Policy
+
+Beginning Week 2 every class will start with a short quiz, available from the start of class (9:00AM) for ten minutes (until 9:10AM) only. Those arriving to class after 9:10AM will receive a zero on the quiz.
+
+
 ### Class Schedule (subject to change)
 
 #### Week 1
 
 * Review Syllabus
-* LAB 1.1 [Python3 Pre-flight]({{site.url}}/2019/09/12/py3-preflight.html)
-* LAB 1.2 [The Command Line]({{site.url}}/2019/09/12/command-line.html)
-* LAB 1.3 [Intro to Python3]({{site.url}}/2019/09/12/intro-py3.html)
-* BRF 0 [Project Proposal Format]({{site.url}}/2019/09/12/proposals.html)
-* HW 1.1 [Required Materials]({{site.url}}/2019/09/12/required-materials.html)
-* HW 1.2 [All Electronics]({{site.url}}/2019/09/12/all-electronics.html)
-* HW 1.3 [Mock Project Proposal]({{site.url}}/2019/09/12/mock-proposal.html)
+* LAB 1.1 Python3 Pre-flight
+* LAB 1.2 The Command Line
+* LAB 1.3 Intro to Python3
+* BRF 0 Project Proposal Format
+* HW 1.1 Required Materials
+* HW 1.2 All Electronics
+* HW 1.3 Mock Project Proposal
 
 
 #### Week 2
 
-* LAB 2.1 [Adafruit HUZZAH32 Pre-flight]({{site.url}}/2019/09/19/huzzah32-preflight.html)
-* LAB 2.2 [Digital Output]({{site.url}}/2019/09/19/digital-output.html)
-* LAB 2.3 [Digital Input / Digital Output]({{site.url}}/2019/09/19/digitalIO.html)
-* BRF 1 [!button]({{site.url}}/2019/09/19/notbutton.html)
-* HW 2.1 [!button Prototype (+ Proposal)]({{site.url}}/2019/09/19/notbutton-prototype.html)
-* HW 2.2 [Ten Possible Revisions]({{site.url}}/2019/09/19/ten-revisions.html)
+* LAB 2.1 Adafruit HUZZAH32 Pre-flight
+* LAB 2.2 Digital Output
+* LAB 2.3 Digital Input / Digital Output
+* BRF 1 !button
+* HW 2.1 !button Prototype (+ Proposal)
+* HW 2.2 Ten Possible Revisions
 
 
 #### Week 3
 
 * Present !button (in-progress)
-* LAB 3.1 [GPIO, Analog & Digital Signals]({{site.url}}/2019/09/26/analog-digital-signals.html)
-* LAB 3.2 [Analog Input]({{site.url}}/2019/09/26/analog-input.html)
-* LAB 3.3 [Voltage Dividers]({{site.url}}/2019/09/26/voltage-dividers.html)
+* LAB 3.1 GPIO, Analog & Digital Signals
+* LAB 3.2 Analog Input
+* LAB 3.3 Voltage Dividers
 * HW 3.1 Revise + Document
 * HW 3.2 Prepare to Present !button Prototype
 
@@ -101,19 +161,19 @@ Absences will be excused if and only if I am notified via email prior to the beg
 
 #### Week 5
 
-* LAB 5.1 [For Loops]({{site.url}}/2019/10/10/for-loop.html)
-* LAB 5.2 [ADC, DAC, & PWM]({{site.url}}/2019/10/10/adc-dac-pwm.html)
-* LAB 5.3 [Analog Input / Digital Output]({{site.url}}/2019/10/10/analog-input-digital-output.html)
-* BRF 2 [Analog + Digital Interactions]({{site.url}}/2019/10/10/analog+digital.html)
-* HW 5.1 [Analog + Digital Interactions Prototype (+ Proposal)]({{site.url}}/2019/10/10/analog+digital-prototype.html)
-* HW 5.2 [Ten Possible Revisions]({{site.url}}/2019/10/10/ten-revisions.html)
+* LAB 5.1 For Loops
+* LAB 5.2 ADC, DAC, & PWM
+* LAB 5.3 Analog Input / Digital Output
+* BRF 2 Analog + Digital Interactions
+* HW 5.1 Analog + Digital Interactions Prototype (+ Proposal)
+* HW 5.2 Ten Possible Revisions
 
 
 #### Week 6
 
 * Present Analog + Digital Interactions (in-progress)
-* LAB 6.1 [Digital Input / PWM Output(s)]({{site.url}}/2019/10/17/digital-input-pwm-output.html)
-* LAB 6.2 [Functions]({{site.url}}/2019/10/17/functions.html)
+* LAB 6.1 Digital Input / PWM Output(s)
+* LAB 6.2 Functions
 * HW 6.1 Revise + Document
 
 
@@ -124,15 +184,15 @@ Absences will be excused if and only if I am notified via email prior to the beg
 
 #### Week 8
 
-* LAB 8.1 [Button Increment](https://github.com/caseyanderson/physcomp_uPython/tree/master/button_increment)
-* BRF 3 [Combine / Remix]({{site.url}}/2019/10/31/remix.html)
-* HW 8.1 [Combine / Remix Prototype (+ Proposal)]({{site.url}}/2019/10/31/combine-remix-prototype.html)
-* HW 8.2 [Ten Possible Revisions]({{site.url}}/2019/10/31/ten-revisions.html)
+* LAB 8.1 Button Increment
+* BRF 3 Combine / Remix
+* HW 8.1 Combine / Remix Prototype (+ Proposal)
+* HW 8.2 Ten Possible Revisions
 
 
 #### Week 9
 
-* BRF 3 [Combine / Remix]({{site.url}}/2019/10/31/remix.html)
+* BRF 3 Combine / Remix
 * HW 9.1 Combine / Remix Prototype (+ Proposal)
 * HW 9.2 Ten Possible Revisions
 
@@ -151,9 +211,5 @@ Absences will be excused if and only if I am notified via email prior to the beg
 
 #### Week 12
 
-* No class (Holiday)
-
-
-#### Week 13
-
 * Present Combine / Remix Prototype
+
