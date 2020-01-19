@@ -98,7 +98,7 @@ ArtCenter complies with the Americans with Disabilities Act, Section 504 of the 
 Academic and creative integrity is essential to personal and educational growth of students, which all members of the ArtCenter community are expected to uphold. This value maintains the standards of excellence of the College and creates a meaningful learning environment. A violation of the Academic and Creative Integrity Policy is defined as misconduct including but not limited to plagiarism, creative dishonesty, multiple submission of the same work, cheating, unauthorized collaboration, misrepresentation of ability, sabotage, falsification of records, and complicity in any of the above. The full Academic Integrity Policy can be found in the Student Handbook.
 
 
-### Grade point Descriptions
+### Grade Point Descriptions
 
 Grades are considered FINAL when submitted by the faculty and can only be changed to correct an error in grading or to change an official Incomplete grade to a final grade. Students CANNOT submit or redo work after the end of the term unless an official Incomplete has been approved. The deadline for changing an Incomplete grade is Friday of Week 14 of the term following the term when the course was taken. The deadline for changing an incorrect grade is Friday of Week 6 following the term when the course was taken. Please see the Student Handbook for the full statement on Grades and Grade Points. ArtCenter uses the following grading system:
 
