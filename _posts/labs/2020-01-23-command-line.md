@@ -9,19 +9,27 @@ tags: lab
 
 ## Materials
 * laptop
-* Max OSX Terminal **or** [iTerm2](https://www.iterm2.com/)
+* MacOS Terminal **or** WINDOWS WHATEVER
 
-![]({{site.url}}/assets/iterm_vs_macosx_terminal.jpg)
+imgs: MacOS here, Windows 10 here
 
-Navigate to the Command Line on Mac OSX (Applications > Utilities > Terminal).
+Navigate to the Command Line (Applications > Utilities > Terminal).
 
-You should see something that looks like the window with a white background at the top of this age. That is the **Terminal**, a name for a command line interface (often abbreviated as **CLI**) that is already installed on your computer. Though other aspects of computers have changed drastically over the last fifty years, this has not. In other words, you can see back in time at this level of your computer. Read more about the history of the command line [here](https://en.wikipedia.org/wiki/Command-line_interface).
+* MacOS: Applications > Utilities > Terminal
+* Windows 10: how to get to it on windows
 
-In the above photo you will notice a semi-transparent black window that looks fairly similar to the **Terminal**. This is [iTerm2](https://www.iterm2.com/) and I prefer it to the Mac OSX **Terminal**. I do not really care which you use (it's a matter of personal preference), and not particularly interesting to talk about right now, just be aware that the same commands work across all **CLI**s.
+You should see something that looks like one of the two images at the top of this page. That is the command line interface (often abbreviated as **CLI**) that is already installed on your computer. Though other aspects of computers have changed drastically over the last fifty years this has not.
 
-1. Open a new terminal window with **COMMAND-N**. You should see something like `HOSTNAME:~ USERNAME$` followed by a rectangle. The rectangle is your cursor and demarcates where you can enter text commands for the **Terminal** to execute.
+1. Open a new terminal window
+  * Mac: **COMMAND-N**
+  * Windows: whatever it is
+2. You should see
+  * Mac: `HOSTNAME:~ USERNAME$` followed by a rectangle
+  * Windows: whatever it is
 
-2. Unix commands, and really anything used in the command line, should be shipped with some sort of `manual`. Typically this is accessed by typing `man NAMEOFCOMMAND` in the **Terminal** and hitting **Enter**. Let's start by checking the manual for the next command we will use, `ls`. Type `man ls` and hit enter. You should see something that looks like this:
+The rectangle is your cursor and demarcates where you can enter text commands for the **Terminal** to execute.
+
+2. Unix commands should be shipped with some sort of `manual` which documents how to use the command. Typically this is accessed by typing `man NAMEOFCOMMAND` in the **Terminal** and hitting **Enter**. Type `man ls` and hit enter. You should see something that looks like this:
 
     ![]({{site.url}}/assets/man_example.png)
 
