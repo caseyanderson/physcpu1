@@ -10,9 +10,9 @@ tags: hw
 Make sure that you have the following materials for class next Thursday:
 
 * [Adafruit HUZZAH32 – ESP32 Feather Board (pre-soldered)](https://www.adafruit.com/product/3591)
-* [USB cable - USB A to Micro-B - 3 foot long](https://www.adafruit.com/product/592)
-* [AmazonBasics USB Type-C to USB 3.1 Gen1 Female Adapter](https://www.amazon.com/AmazonBasics-Type-C-Gen1-Female-Adapter/dp/B01GGKYYT0/ref=sr_1_3?ie=UTF8&qid=1547245406&sr=8-3&keywords=amazon+basics+usb+c+to+usb+3.1)
+* 1 of the Following: [USB cable - USB A to Micro-B - 3 foot long](https://www.adafruit.com/product/592) or [USB cable - USB C to Micro-B - 3 foot long](https://www.amazon.com/Cable-Matters-Micro-Braided-Jacket/dp/B00UUBRX0Y)
 * [Full-size breadboard](https://www.adafruit.com/product/239)
 * [Breadboarding wire bundle](https://www.adafruit.com/product/153)
+* [Small Alligator Clip Test Lead (set of 12)](https://www.adafruit.com/product/1008)
 * [Breadboard trim potentiometer - 10K](https://www.adafruit.com/product/356)
 * [Photo cell](https://www.adafruit.com/product/161)

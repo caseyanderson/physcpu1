@@ -5,15 +5,15 @@ title: syllabus
 
 ## Physical Computing 1
 ### HSCI-214-01, Art Center College of Design
-Class Meetings: Thursdays, 09:00AM – 11:50AM, Room 340, 1111 S. Arroyo Parkway
+**Class Meetings** Thursdays, 09:00AM – 11:50AM, Room 340, 1111 S. Arroyo Parkway
 
-Office Hours: Tuesdays, 09:00AM - 10:50AM, Room 315, 1111 S. Arroyo Parkway
+**Office Hours** Tuesdays, 09:00AM - 10:50AM, Room 315, 1111 S. Arroyo Parkway
 
 Email: casey.anderson@artcenter.edu
 
-Pronouns: he / him / his
-
 Website: [caseyanderson.com](https://caseyanderson.com/)
+
+Pronouns: he / him / his
 
 
 ### Description
@@ -25,9 +25,10 @@ This prototyping-oriented class introduces students to the creative affordances 
 
 * Laptop (Mac or PC)
 * [Adafruit HUZZAH32 – ESP32 Feather Board (pre-soldered)](https://www.adafruit.com/product/3591)
-* [USB cable - USB A to Micro-B - 3 foot long](https://www.adafruit.com/product/592) or [USB cable - USB C to Micro-B - 3 foot long](https://www.amazon.com/Cable-Matters-Micro-Braided-Jacket/dp/B00UUBRX0Y)
+* 1 of the Following: [USB cable - USB A to Micro-B - 3 foot long](https://www.adafruit.com/product/592) or [USB cable - USB C to Micro-B - 3 foot long](https://www.amazon.com/Cable-Matters-Micro-Braided-Jacket/dp/B00UUBRX0Y)
 * [Full-size breadboard](https://www.adafruit.com/product/239)
 * [Breadboarding wire bundle](https://www.adafruit.com/product/153)
+* [Small Alligator Clip Test Lead (set of 12)](https://www.adafruit.com/product/1008)
 * [Breadboard trim potentiometer - 10K](https://www.adafruit.com/product/356)
 * [Photo cell](https://www.adafruit.com/product/161)
 * DC Brushless Motor +

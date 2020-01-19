@@ -12,5 +12,5 @@ tags: hw
 In order to receive credit for this assignment you must:
 
 1. go to All Electronics (if you don't drive, or have a car, consider carpooling with a colleague!)
-2. purchase the four items on the Required Materials with a plus sign next to them from All Electronics (see the [syllabus](https://physcpu1.caseyanderson.com))
+2. purchase the five items, listed on the Required Materials section of the [ Syllabus ](https://physcpu1.caseyanderson.com), with a plus sign next to them from All Electronics
 3. bring the items to class next week
