@@ -11,6 +11,10 @@ Office Hours: Tuesdays, 09:00AM - 10:50AM, Room 315, 1111 S. Arroyo Parkway
 
 Email: casey.anderson@artcenter.edu
 
+Pronouns: he / him / his
+
+Website: [caseyanderson.com](https://caseyanderson.com/)
+
 
 ### Description
 
@@ -40,11 +44,11 @@ Note: the + indicates materials that are available at [All Electronics](https://
 Grades will be calculated based on the following distribution:
 
 * Attendance = 15%
-* Lab participation = 15%
+* Lab participation / Weekly Quizzes = 15%
 * Homework assignments = 35%
 * Prototypes = 35%
 
-Late prototype/assignment policy: for every week a prototype/assignment is late its highest possible grade drops by a letter.
+Late prototype / assignment policy: for every week a prototype/assignment is late its highest possible grade drops by a letter.
 
 
 ### Goals
@@ -57,6 +61,7 @@ Late prototype/assignment policy: for every week a prototype/assignment is late 
 ### Expectations for Classroom Conduct
 
 ArtCenter is committed to maintaining a civil and safe learning environment, free from bias, coercion, and harassment for all. The classroom is a shared environment where all parties are accountable for behavior and contributions to a productive and supportive atmosphere. We understand that our members represent a rich variety of backgrounds and perspectives and are committed to providing a set of conditions for learning that respects diversity. While working together to build this community we ask all members to:
+
 * Be open to the views of others
 * Honor the uniqueness of colleagues
 * Communicate in a respectful manner
@@ -96,11 +101,6 @@ Academic and creative integrity is essential to personal and educational growth 
 
 Grades are considered FINAL when submitted by the faculty and can only be changed to correct an error in grading or to change an official Incomplete grade to a final grade. Students CANNOT submit or redo work after the end of the term unless an official Incomplete has been approved. The deadline for changing an Incomplete grade is Friday of Week 14 of the term following the term when the course was taken. The deadline for changing an incorrect grade is Friday of Week 6 following the term when the course was taken. Please see the Student Handbook for the full statement on Grades and Grade Points. ArtCenter uses the following grading system:
 
-|-------|--------|---------|
-| ambrosia | gala | red delicious |
-| pink lady | jazz | macintosh |
-| honeycrisp | granny smith | fuji |
-
 | A | 4.00 points | C+ | 2.50 points | D- | 0.75 points | N | 0.00 points (Non-attendance Failure) |
 | A- | 3.75 points | C | 2.00 points | F | 0.00 points (Fail) | U | 0.00 points (Unsatisfactory) |
 | B+ | 3.50 points | C- | 1.75 points | S | 0.00 points (Satisfactory) | P | 0.00 points (Pass) |
@@ -108,17 +108,9 @@ Grades are considered FINAL when submitted by the faculty and can only be change
 | B- | 2.75 points | D | 1.00 points | M | 0.00 points (Missing) |
 
 
-
-### Attendance Policy
-
-Attending class is critical to learning this material. We have a lot to cover and will have to move pretty quickly to get through it all.
-
-Absences will be excused if and only if I am notified via email prior to the beginning of class. Failure to do so will result in an unexcused absence. 3 unexcused absences will result in an automatic F in this class. If your absence is excused, we will work out a way for you to make up as much of the in-class activities as possible.
-
-
 ### Weekly Quiz Policy
 
-Beginning Week 2 every class will start with a short quiz, available from the start of class (9:00AM) for ten minutes (until 9:10AM) only. Those arriving to class after 9:10AM will receive a zero on the quiz.
+Beginning Week 2 every class will start with a short quiz, available from the start of class (9:00AM) for ten minutes (until 9:10AM). Those arriving to class after 9:10AM will receive a zero on the quiz.
 
 
 ### Class Schedule (subject to change)

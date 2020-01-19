@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Python3 Pre-flight"
-date:   2019-09-12 06:00:00 -0700
+date:   2020-01-23 06:00:00 -0700
 week: 1
 number: 1
 tags: lab

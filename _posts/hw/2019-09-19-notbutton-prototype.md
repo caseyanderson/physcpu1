@@ -5,6 +5,7 @@ date: 2019-09-19 06:00:00 -0800
 week: 2
 number: 1
 tags: hw
+published: false
 ---
 
 ## Part 1

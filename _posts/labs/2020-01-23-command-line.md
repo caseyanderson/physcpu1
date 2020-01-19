@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Command Line"
-date:   2019-09-12 06:00:00 -0710
+date:   2020-01-23 06:00:00 -0710
 week: 1
 number: 2
 tags: lab
