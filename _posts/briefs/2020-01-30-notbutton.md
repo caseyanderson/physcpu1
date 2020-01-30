@@ -21,8 +21,7 @@ Key question: why is this interesting to someone other than me and how can I mak
 * allows audience/user to control outputs (button press/presses)
 * prompts or rewards audience/user interaction (button press results in a significant change/output)
 * uses one disguised/hidden/DIY button
-* deployed in public (multiple times, document all deployments)
-* document final public deployment, present to class as a video
+* document final deployment, present to class as a video
 
 ### rubric
 
