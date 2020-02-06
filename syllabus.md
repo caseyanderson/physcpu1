@@ -119,31 +119,31 @@ Beginning Week 2 every class will start with a short quiz, available from the st
 #### Week 1
 
 * Review Syllabus
-* LAB 1.1 Python3 Pre-flight
+* LAB 1.1 [Python3 Pre-flight]({{site.url}}2020/01/23/py3-preflight.html)
 * LAB 1.2 The Command Line
-* LAB 1.3 Intro to Python3
-* BRF 0 Project Proposal Format
-* HW 1.1 Required Materials
-* HW 1.2 All Electronics
-* HW 1.3 Mock Project Proposal
+* LAB 1.3 [Intro to Python3]({{site.url}}2020/01/23/intro-py3.html)
+* BRF 0 [Project Proposal Format]({{site.url}}2020/01/23/proposals.html)
+* HW 1.1 [Required Materials]({{site.url}}2020/01/23/required-materials.html)
+* HW 1.2 [All Electronics]({{site.url}}2020/01/23/all-electronics.html)
+* HW 1.3 [Mock Project Proposal]({{site.url}}2020/01/23/mock-proposal.html)
 
 
 #### Week 2
 
-* LAB 2.1 Adafruit HUZZAH32 Pre-flight
-* LAB 2.2 Digital Output
-* LAB 2.3 Digital Input / Digital Output
-* BRF 1 !button
-* HW 2.1 !button Prototype (+ Proposal)
-* HW 2.2 Ten Possible Revisions
+* LAB 2.1 [Adafruit HUZZAH32 Pre-flight]({{site.url}}2020/01/30/huzzah32-preflight.html)
+* LAB 2.2 [Digital Output]({{site.url}}2020/01/30/digital-output.html)
+* LAB 2.3 [Digital Input / Digital Output]({{site.url}}2020/01/30/digitalIO.html)
+* BRF 1 [!button]({{site.url}}2020/01/30/notbutton.html)
+* HW 2.1 [!button Prototype (+ Proposal)]({{site.url}}2020/01/30/notbutton-prototype.html)
+* HW 2.2 [Ten Possible Revisions]({{site.url}}2020/01/30/ten-revisions.html)
 
 
 #### Week 3
 
 * Present !button (in-progress)
-* LAB 3.1 GPIO, Analog & Digital Signals
-* LAB 3.2 Analog Input
-* LAB 3.3 Voltage Dividers
+* LAB 3.1 [GPIO, Analog & Digital Signals]({{site.url}}2020/02/06/analog-digital-signals.html)
+* LAB 3.2 [Analog Input]({{site.url}}2020/02/06/analog-input.html)
+* LAB 3.3 [Voltage Dividers]({{site.url}}2020/02/06/voltage-dividers.html)
 * HW 3.1 Revise + Document
 * HW 3.2 Prepare to Present !button Prototype
 
