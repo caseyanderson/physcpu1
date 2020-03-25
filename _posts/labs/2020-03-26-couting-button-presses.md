@@ -19,7 +19,7 @@ tags: lab
 
 ## Hookup Pattern
 
-![](assets/fritzing/button.png)
+![]({{site.url}}/assets/fritzing/button.png)
 
 ## button.py
 
@@ -49,7 +49,7 @@ In order to know how to improve upon the `button.py` example we can ask the foll
 
 Another way to ask the same question while pressing the button: can I reliably press the button and get **only one** `Button pressed!` message?
 
-![](assets/button_test_one_fail.png)
+![]({{site.url}}/assets/button_test_one_fail.png)
 
 When one presses the button one invariably triggers more than one print statement (see the image above, I **swear** I barely touched the button).
 
@@ -82,7 +82,7 @@ while True:
 
 Take a moment to run and use `button_counter_basic.py` while asking the following question: can I reliably press the button and get only one `Button pressed!` message? Try it!
 
-![](assets/button_test_two_fail.png)
+![]({{site.url}}/assets/button_test_two_fail.png)
 
 Again, no matter how hard I try I cannot help but trigger multiple messages with this kind of structure.
 
