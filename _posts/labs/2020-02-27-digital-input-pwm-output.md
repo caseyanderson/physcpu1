@@ -1,11 +1,10 @@
 ---
 layout: post
 title:  "Digital Input / PWM Output(s)"
-date: 2019-10-17 06:00:00 -0600
+date: 2020-02-27 06:00:00 -0600
 week: 6
 number: 1
 tags: lab
-published: false
 ---
 
 ## Materials

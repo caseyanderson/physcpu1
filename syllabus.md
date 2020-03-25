@@ -154,10 +154,10 @@ Beginning Week 2 every class will start with a short quiz, available from the st
 
 #### Week 5
 
-* LAB 5.1 For Loops
-* LAB 5.2 ADC, DAC, & PWM
-* LAB 5.3 Analog Input / Digital Output
-* BRF 2 Analog + Digital Interactions
+* LAB 5.1 [For Loops]({{site.url}}2020/02/20/for-loop.html)
+* LAB 5.2 [ADC, DAC, & PWM]({{site.url}}2020/02/20/adc-dac-pwm.html)
+* LAB 5.3 [Analog Input / Digital Output]({{site.url}}2020/02/20/analog-input-digital-output.html)
+* BRF 2 [Analog + Digital Interactions]({{site.url}}2020/02/20/analog+digital.html)
 * HW 5.1 Analog + Digital Interactions Prototype (+ Proposal)
 * HW 5.2 Ten Possible Revisions
 
@@ -165,10 +165,10 @@ Beginning Week 2 every class will start with a short quiz, available from the st
 #### Week 6
 
 * Present Analog + Digital Interactions (in-progress)
-* LAB 6.1 Digital Input / PWM Output(s)
-* LAB 6.2 Functions
+* LAB 6.1 [Digital Input / PWM Output(s)]({{site.url}}2020/02/27/digital-input-pwm-output.html)
+* LAB 6.2 [ Functions ]({{site.url}}2020/02/27/functions.html)
 * HW 6.1 Revise + Document
-
+* HW 6.2 Prepare to Present Analog + Digital Interactions prototype
 
 #### Week 7
 
