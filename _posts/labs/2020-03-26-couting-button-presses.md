@@ -1,13 +1,29 @@
 ---
 layout: post
-title:  "Prototyping with Button Input"
-date: 2020-06-26 06:00:00 -0600
+title:  "Counting Button Presses"
+date: 2020-03-22 06:00:00 -0600
 week: 10
 number: 1
 tags: lab
 ---
 
-## Basic button.py
+## Materials
+
+* laptop
+* internet access
+* [Adafruit HUZZAH32](https://www.adafruit.com/product/3591)
+* [USB cable - USB A to Micro-B - 3 foot long](https://www.adafruit.com/product/592) (or similar)
+* 1x Breadboard
+* 1x SPST button
+
+
+## Hookup Pattern
+
+![](assets/fritzing/button.png)
+
+## button.py
+
+### Code
 
 ```python
 '''
@@ -23,16 +39,30 @@ while True:
     if not button.value():
         print('Button pressed!')
     sleep_ms(20)
-
 ```
 
-When one presses the button one invariably triggers more than one print statement. How hard is it to try to press the button only once? Take a moment to try now.
 
-rewrite..
+
+The example above is from Week 2 ([this](https://physcpu1.caseyanderson.com/2020/01/30/digitalIO.html) lab) and is, perhaps, the simplest way to detect a button press. Nonetheless, this example only detects whether a button is pressed or not currently.
+
+In order to know how to improve upon the `button.py` example we can ask the following question: does `button.py` allow me to count the number of button presses? Take a moment to **run and use** `button.py` while asking yourself that question.
+
+Another way to ask the same question while pressing the button: can I reliably press the button and get **only one** `Button pressed!` message?
+
+![](assets/button_test_one_fail.png)
+
+When one presses the button one invariably triggers more than one print statement (see the image above, I **swear** I barely touched the button).
+
+
+## button_counter_basic.py
+
+One way we could try to count button presses in `button.py` would be to `increment` a `variable` when our button is pressed. Send the following example to your `ESP32`.
+
+### Code
 
 ```python
 '''
-button_count.py
+button_counter_basic.py
 '''
 
 from machine import Pin
@@ -48,8 +78,18 @@ while True:
         msg = ' '.join(['counter is', str(counter)])
         print(msg)
     sleep_ms(20)
-
 ```
+
+Take a moment to run and use `button_counter_basic.py` while asking the following question: can I reliably press the button and get only one `Button pressed!` message? Try it!
+
+![](assets/button_test_two_fail.png)
+
+Again, no matter how hard I try I cannot help but trigger multiple messages with this kind of structure.
+
+
+## button_press_once.py
+
+### Code
 
 ```python
 '''
