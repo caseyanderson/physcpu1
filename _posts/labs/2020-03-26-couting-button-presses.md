@@ -79,16 +79,16 @@ while True:
     sleep_ms(20)
 ```
 
-Take a moment to **run and use** `button_counter_basic.py` while asking the following question: can I reliably press the button and get only one `Button pressed!` message? Try it!
+Take a moment to **run and use** `button_counter_basic.py` while asking the following question: can I reliably press the button and only add 1 to `counter`? Try it!
 
 ![]({{site.url}}/assets/button_test_two_fail.png)
 
-Again, no matter how hard I try I cannot help but trigger multiple messages with this kind of structure.
+Again, no matter how hard I try I cannot help but send repeated triggers with this kind of structure.
 
 
 ## button_press_once.py
 
-In the next example we use a more complex `if` structure to identify a button press: we check to see if the button is currently pressed **and** if the current value of the button is different than the previous value (`prev_val`). Send the following example to your `ESP32`.
+In the next example we use a more complex `if` structure to identify a button press: we check to see `if` the button is currently pressed **and** `if` the current value of the button is different than the previous value (`prev_val`). Send the following example to your `ESP32`.
 
 ### Code
 
