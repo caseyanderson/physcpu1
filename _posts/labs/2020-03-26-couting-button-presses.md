@@ -21,6 +21,7 @@ tags: lab
 
 ![]({{site.url}}/assets/fritzing/button.png)
 
+
 ## button.py
 
 ### Code
@@ -40,8 +41,6 @@ while True:
         print('Button pressed!')
     sleep_ms(20)
 ```
-
-
 
 The example above is from Week 2 ([this](https://physcpu1.caseyanderson.com/2020/01/30/digitalIO.html) lab) and is, perhaps, the simplest way to detect a button press. Nonetheless, this example only detects whether a button is pressed or not currently.
 
@@ -80,7 +79,7 @@ while True:
     sleep_ms(20)
 ```
 
-Take a moment to run and use `button_counter_basic.py` while asking the following question: can I reliably press the button and get only one `Button pressed!` message? Try it!
+Take a moment to **run and use** `button_counter_basic.py` while asking the following question: can I reliably press the button and get only one `Button pressed!` message? Try it!
 
 ![]({{site.url}}/assets/button_test_two_fail.png)
 
@@ -88,6 +87,8 @@ Again, no matter how hard I try I cannot help but trigger multiple messages with
 
 
 ## button_press_once.py
+
+In the next example we use a more complex `if` structure to identify a button press: we check to see if the button is currently pressed **and** if the current value of the button is different than the previous value (`prev_val`). Send the following example to your `ESP32`.
 
 ### Code
 
@@ -109,9 +110,22 @@ while True:
     sleep_ms(20)
 ```
 
+Take a moment to **run and use** `button_press_once.py` while asking the following question: can I reliably press the button and get only one Button pressed! message? Try it!
+
+![]({{site.url}}/assets/button_test_three_win.png)
+
+Even if I press and hold the button `button_press_once.py` only prints the message once and blocks repeated triggers. Hooray!
+
+
+## button_press_counter.py
+
+Now that we can reliably count a button press without repeat triggers we can rewrite `button_press_once.py` to count each button press. Send the following to your `ESP32`.
+
+### Code
+
 ```python
 '''
-button_press_count.py
+button_press_counter.py
 '''
 
 from machine import Pin
@@ -129,6 +143,15 @@ while True:
     prev_val = button.value()
     sleep_ms(20)
 ```
+
+Take a moment to **run and use** `button_press_counter.py` while asking the following, more interesting, question: can I reliably count four button presses? Try it!
+
+![]({{site.url}}/assets/button_counter_working.png)
+
+blah blah
+
+
+## button_press_counter_limit.py
 
 ```python
 '''
