@@ -1,10 +1,11 @@
 ---
 layout: post
 title:  "Python3 Pre-flight"
-date:   2020-01-23 06:00:00 -0700
+date:   2020-05-21 06:00:00 -0700
 week: 1
 number: 1
 tags: lab
+published: false
 ---
 
 Regardless of platform all students in this class will use the following tools:
