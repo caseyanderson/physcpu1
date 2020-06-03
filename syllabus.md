@@ -68,69 +68,70 @@ Beginning Week 2 every class will start with a short quiz, available from the st
 * Review Syllabus
 * LAB 1.1 Python3 Pre-flight
 * LAB 1.2 The Command Line
-* LAB 1.3 Intro to Python3
-* BRF 0 Prototype Proposal Format
-* HW 1.1 Required Materials
-* HW 1.2 Practice Prototype Proposal
+* LAB 1.3 [Intro to Python3]({{site.url}}2020/05/21/intro-py3.html)
+* BRF 0 [Prototype Proposal Format]({{site.url}}2020/05/21/proposals.html)
+* HW 1.1 [Required Materials]({{site.url}}2020/05/21/required-materials.html)
+* HW 1.2 [Practice Prototype Proposal]({{site.url}}2020/05/21/mock-proposal.html)
 
 
 #### Week 2
 
-* LAB 2.1 Adafruit HUZZAH32 Pre-flight
-* LAB 2.2 Digital Output
-* LAB 2.3 Digital Input / Digital Output
-* BRF 1 !button
-* HW 2.1 !button Prototype (+ Proposal)
-* HW 2.2 Ten Possible Revisions
+* LAB 2.1 Troubleshoot Anaconda Environment
+* LAB 2.2 Adafruit HUZZAH32 Pre-flight
+* HW 2.1 Last Chance to get Required Materials
+* HW 2.2 Finish Setup of HUZZAH32, Confirm Functionality
 
 
 #### Week 3
 
-* Present !button (in-progress)
-* LAB 3.1 GPIO, Analog & Digital Signals
-* LAB 3.2 Analog Input
-* LAB 3.3 Voltage Dividers
-* HW 3.1 Revise + Document
-* HW 3.2 Prepare to Present !button Prototype
+* LAB 3.1 Digital Output
+* LAB 3.2 Digital Input / Digital Output
+* BRF 1 !button
+* HW 3.1 !button Prototype (+ Proposal)
+* HW 3.2 Ten Possible Revisions
+
 
 #### Week 4
+
+* Present !button (in-progress)
+* LAB 4.1 GPIO, Analog & Digital Signals
+* LAB 4.2 Analog Input
+* LAB 4.3 Voltage Dividers
+* HW 4.1 Revise + Document
+* HW 4.2 Prepare to Present !button Prototype
+
+#### Week 5
 
 * Present !button (final)
 
 
-#### Week 5
-
-* LAB 5.1 For Loops
-* LAB 5.2 ADC, DAC, & PWM
-* LAB 5.3 Analog Input / Digital Output
-* BRF 2 Analog + Digital Interactions
-* HW 5.1 Analog + Digital Interactions Prototype (+ Proposal)
-* HW 5.2 Ten Possible Revisions
-
-
 #### Week 6
 
-* Present Analog + Digital Interactions (in-progress)
-* LAB 6.1 Digital Input / PWM Output(s)
-* LAB 6.2 Functions
-* HW 6.1 Revise + Document
-* HW 6.2 Prepare to Present Analog + Digital Interactions prototype
+* LAB 6.1 For Loops
+* LAB 6.2 ADC, DAC, & PWM
+* LAB 6.3 Analog Input / Digital Output
+* BRF 2 Analog + Digital Interactions
+* HW 6.1 Analog + Digital Interactions Prototype (+ Proposal)
+* HW 6.2 Ten Possible Revisions
+
 
 #### Week 7
 
-* Present Analog + Digital Interactions (final)
+* Present Analog + Digital Interactions (in-progress)
+* LAB 7.1 Digital Input / PWM Output(s)
+* LAB 7.2 Functions
+* HW 7.1 Revise + Document
+* HW 7.2 Prepare to Present Analog + Digital Interactions prototype
 
 
 #### Week 8
 
-* LAB 8.1 Button Increment
-* BRF 3 Combine / Remix
-* HW 8.1 Combine / Remix Prototype (+ Proposal)
-* HW 8.2 Ten Possible Revisions
+* Present Analog + Digital Interactions (final)
 
 
 #### Week 9
 
+* LAB 9.1 Button Increment
 * BRF 3 Combine / Remix
 * HW 9.1 Combine / Remix Prototype (+ Proposal)
 * HW 9.2 Ten Possible Revisions
@@ -151,4 +152,3 @@ Beginning Week 2 every class will start with a short quiz, available from the st
 #### Week 12
 
 * Present Combine / Remix Prototype
-

@@ -7,4 +7,4 @@ number: 2
 tags: hw
 ---
 
-Write a practice prototype proposal, fitting [this]({{site.url}}2020/01/23/proposals.html) format.
+Write a practice prototype proposal, fitting [this]({{site.url}}2020/05/21/mock-proposal.html) format.
