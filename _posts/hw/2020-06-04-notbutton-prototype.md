@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "!button prototype (+ proposal)"
-date: 2020-05-28 06:00:00 -0800
-week: 2
+date: 2020-06-04 06:00:00 -0800
+week: 3
 number: 1
 tags: hw
 ---

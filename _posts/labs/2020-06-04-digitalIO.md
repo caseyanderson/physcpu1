@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "Digital Input / Digital Output"
-date: 2020-05-28 06:00:00 -0700
-week: 2
-number: 3
+date: 2020-06-04 06:00:00 -0630
+week: 3
+number: 2
 tags: lab
 ---
 
