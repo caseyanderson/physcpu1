@@ -5,9 +5,9 @@ title: syllabus
 
 ## Physical Computing 1
 ### HSCI-214-01, Art Center College of Design
-**Class Meetings** Thursdays, 09:00AM – 11:50AM, Room 340, 1111 S. Arroyo Parkway
+**Class Meetings** Thursdays, 09:00AM – 11:50AM, Zoom
 
-**Office Hours** Mondays, 09:00AM - 10:50AM, Room 340, 1111 S. Arroyo Parkway
+**Office Hours** Mondays, 09:00AM - 10:50AM, Zoom
 
 Email: casey.anderson@artcenter.edu
 
@@ -24,20 +24,18 @@ This prototyping-oriented class introduces students to the creative affordances 
 ### Required Materials
 
 * Laptop (Mac or PC)
-* [Adafruit HUZZAH32 – ESP32 Feather Board (pre-soldered)](https://www.adafruit.com/product/3591)
-* 1 of the Following: [USB cable - USB A to Micro-B - 3 foot long](https://www.adafruit.com/product/592) or [USB cable - USB C to Micro-B - 3 foot long](https://www.amazon.com/Cable-Matters-Micro-Braided-Jacket/dp/B00UUBRX0Y)
-* [Full-size breadboard](https://www.adafruit.com/product/239)
-* [Breadboarding wire bundle](https://www.adafruit.com/product/153)
-* [Small Alligator Clip Test Lead (set of 12)](https://www.adafruit.com/product/1008)
-* [Breadboard trim potentiometer - 10K](https://www.adafruit.com/product/356)
-* [Photo cell](https://www.adafruit.com/product/161)
-* DC Brushless Motor +
-* Buttons (SPST) +
-* Through-Hole Resistors - 220 ohm 10% 1/4W +
-* Through-Hole Resistors - 10K ohm 10% 1/4W +
-* LEDs +
-
-Note: the + indicates materials that are available at [All Electronics](https://www.allelectronics.com/)
+* [Adafruit HUZZAH32 – ESP32 Feather Board (pre-soldered)](https://www.digikey.com/products/en?mpart=3591&v=1528)
+* 1 of the Following: [USB A to Micro-B](https://www.amazon.com/dp/B0711PVX6Z) or [USB C to Micro-B](https://www.amazon.com/dp/B00UUBRX0Y?psc=1)
+* [Full-size breadboard](https://www.amazon.com/Breadboards-Raspberry-Preformed-Solderless-prototyping/dp/B07TVC1T1S)
+* [Breadboarding wire bundle](https://www.amazon.com/Solderless-Flexible-Breadboard-Jumper-100pcs/dp/B005TZJ0AM)
+* [Small Alligator Clip Test Lead](https://www.amazon.com/WGGE-WG-026-Pieces-Colors-Alligator/dp/B06XX25HFX?s=industrial)
+* [Breadboard trim potentiometer - 10K](https://www.digikey.com/products/en?mpart=356&v=1528)
+* [Photo cell](https://www.digikey.com/products/en?mpart=161&v=1528)
+* [DC Brushless Motor](https://www.digikey.com/products/en?mpart=711&v=1528)
+* [Buttons (SPST)](https://www.amazon.com/6x6x6mm-Momentary-Push-Button-Switch/dp/B01GN79QF8)
+* [Through-Hole Resistors - 220 ohm 10% 1/4W](https://www.digikey.com/product-detail/en/yageo/CFR-25JB-52-220R/220QBK-ND/1295)
+* [Through-Hole Resistors - 10K ohm 10% 1/4W](https://www.digikey.com/product-detail/en/stackpole-electronics-inc/CF14JT10K0/CF14JT10K0CT-ND/1830374)
+* [LEDs](https://www.amazon.com/Projects-B-0001-B07-Red-LED-Pack/dp/B00B793SIE)
 
 
 ### Grading Policy
@@ -63,7 +61,7 @@ Late prototype / assignment policy: for every week a prototype/assignment is lat
 Beginning Week 2 every class will start with a short quiz, available from the start of class (9:00AM) for ten minutes (until 9:10AM). Those arriving to class after 9:10AM will receive a zero on the quiz.
 
 
-### Class Schedule (subject to change)
+### Class Schedule (subject to change
 
 #### Week 1
 
@@ -76,22 +74,22 @@ Beginning Week 2 every class will start with a short quiz, available from the st
 * HW 1.2 Practice Prototype Proposal
 
 
-<!-- #### Week 2
+#### Week 2
 
-* LAB 2.1 [Adafruit HUZZAH32 Pre-flight]({{site.url}}2020/01/30/huzzah32-preflight.html)
-* LAB 2.2 [Digital Output]({{site.url}}2020/01/30/digital-output.html)
-* LAB 2.3 [Digital Input / Digital Output]({{site.url}}2020/01/30/digitalIO.html)
-* BRF 1 [!button]({{site.url}}2020/01/30/notbutton.html)
-* HW 2.1 [!button Prototype (+ Proposal)]({{site.url}}2020/01/30/notbutton-prototype.html)
-* HW 2.2 [Ten Possible Revisions]({{site.url}}2020/01/30/ten-revisions.html)
+* LAB 2.1 Adafruit HUZZAH32 Pre-flight
+* LAB 2.2 Digital Output
+* LAB 2.3 Digital Input / Digital Output
+* BRF 1 !button
+* HW 2.1 !button Prototype (+ Proposal)
+* HW 2.2 Ten Possible Revisions
 
 
 #### Week 3
 
 * Present !button (in-progress)
-* LAB 3.1 [GPIO, Analog & Digital Signals]({{site.url}}2020/02/06/analog-digital-signals.html)
-* LAB 3.2 [Analog Input]({{site.url}}2020/02/06/analog-input.html)
-* LAB 3.3 [Voltage Dividers]({{site.url}}2020/02/06/voltage-dividers.html)
+* LAB 3.1 GPIO, Analog & Digital Signals
+* LAB 3.2 Analog Input
+* LAB 3.3 Voltage Dividers
 * HW 3.1 Revise + Document
 * HW 3.2 Prepare to Present !button Prototype
 
@@ -102,10 +100,10 @@ Beginning Week 2 every class will start with a short quiz, available from the st
 
 #### Week 5
 
-* LAB 5.1 [For Loops]({{site.url}}2020/02/20/for-loop.html)
-* LAB 5.2 [ADC, DAC, & PWM]({{site.url}}2020/02/20/adc-dac-pwm.html)
-* LAB 5.3 [Analog Input / Digital Output]({{site.url}}2020/02/20/analog-input-digital-output.html)
-* BRF 2 [Analog + Digital Interactions]({{site.url}}2020/02/20/analog+digital.html)
+* LAB 5.1 For Loops
+* LAB 5.2 ADC, DAC, & PWM
+* LAB 5.3 Analog Input / Digital Output
+* BRF 2 Analog + Digital Interactions
 * HW 5.1 Analog + Digital Interactions Prototype (+ Proposal)
 * HW 5.2 Ten Possible Revisions
 
@@ -113,8 +111,8 @@ Beginning Week 2 every class will start with a short quiz, available from the st
 #### Week 6
 
 * Present Analog + Digital Interactions (in-progress)
-* LAB 6.1 [Digital Input / PWM Output(s)]({{site.url}}2020/02/27/digital-input-pwm-output.html)
-* LAB 6.2 [ Functions ]({{site.url}}2020/02/27/functions.html)
+* LAB 6.1 Digital Input / PWM Output(s)
+* LAB 6.2 Functions
 * HW 6.1 Revise + Document
 * HW 6.2 Prepare to Present Analog + Digital Interactions prototype
 
@@ -153,4 +151,4 @@ Beginning Week 2 every class will start with a short quiz, available from the st
 #### Week 12
 
 * Present Combine / Remix Prototype
- -->
+

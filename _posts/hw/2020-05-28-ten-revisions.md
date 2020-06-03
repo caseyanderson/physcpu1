@@ -1,11 +1,10 @@
 ---
 layout: post
 title:  "!button Ten Possible Revisions"
-date: 2020-01-30 06:00:00 -0830
-week: 4
+date: 2020-05-28 06:00:00 -0830
+week: 2
 number: 2
 tags: hw
-published: false
 ---
 
 1. Following your tests, quickly generate a written list of Twenty (20) possible revisions to your project (don't think too hard about each idea yet, generate a bunch of them first without regard to whether they are "good" ideas or not).

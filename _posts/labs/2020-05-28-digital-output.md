@@ -1,11 +1,10 @@
 ---
 layout: post
 title:  "Digital Output"
-date: 2020-01-30 06:00:00 -0630
+date: 2020-05-28 06:00:00 -0630
 week: 2
 number: 2
 tags: lab
-published: false
 ---
 
 ## Materials
