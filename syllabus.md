@@ -84,11 +84,11 @@ Beginning Week 2 every class will start with a short quiz, available from the st
 
 #### Week 3
 
-* LAB 3.1 Digital Output
-* LAB 3.2 Digital Input / Digital Output
-* BRF 1 !button
-* HW 3.1 !button Prototype (+ Proposal)
-* HW 3.2 Ten Possible Revisions
+* LAB 3.1 [Digital Output]({{site.url}}2020/06/04/digital-output.html)
+* LAB 3.2 [Digital Input / Digital Output]({{site.url}}2020/06/04/digitalIO.html)
+* BRF 1 [!button]({{site.url}}2020/06/04/notbutton.html)
+* HW 3.1 [!button Prototype (+ Proposal)]({{site.url}}2020/06/04/notbutton-prototype.html)
+* HW 3.2 [Ten Possible Revisions]({{site.url}}2020/06/04/ten-revisions.html)
 
 
 #### Week 4
