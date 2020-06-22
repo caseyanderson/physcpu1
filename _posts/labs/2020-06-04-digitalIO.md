@@ -40,34 +40,12 @@ while True:
 
 ```
 
-1. Open a Terminal, run Jupyter Notebook: `jupyter notebook`
-2. Click `New`, Select `Text File`
-3. Click on `Untitled.txt` and change it to `button.py`
-4. Copy and paste the code above into `button.py`, save the file
-
-
 ### Hookup Pattern
 
 ![]({{site.url}}/assets/fritzing/button.png)
 
 1. Connect 1 button pin to ESP32 Pin 12
 2. Connect another button pin to ESP32 GND
-
-
-### Send button.py to ESP32
-
-1. Use `ampy` to send files to the ESP32: `ampy -p /dev/tty.SLAB_USBtoUART put button.py`
-2. Confirm that `button.py` is now on ESP32: `ampy -p /dev/tty.SLAB_USBtoUART get button.py` (the code should be identical)
-
-
-### Run button.py
-
-1. Connect to the ESP32: `screen /dev/tty.SLAB_USBtoUART 115200`
-2. Run `button.py`: `import button.py`
-3. Press the button, see the print statement change
-4. Ctrl-C to exit `button.py`
-5. Ctrl-D to reboot ESP32
-6. Exit `screen`: Ctrl-A Ctrl-\
 
 
 ## Digital Input / Digital Output
@@ -93,11 +71,6 @@ while True:
     time.sleep_ms(20)
 ```
 
-1. Open a Terminal, run Jupyter Notebook: `jupyter notebook`
-2. Click `New`, Select `Text File`
-3. Click on `Untitled.txt` and change it to `button_led.py`
-4. Copy and paste the code above into `blink_led.py`, save the file
-
 ### Hookup Pattern
 
 ![]({{site.url}}/assets/fritzing/button_led.png)
@@ -107,18 +80,3 @@ while True:
 3. Connect another button pin to the same blue bus on the side of your breadboard
 4. From pin `27`, connect the following in series: a Resistor to an LED to GND (blue bus)
 
-
-### Send button_led.py to ESP32
-
-1. Use `ampy` to send files to the ESP32: `ampy -p /dev/tty.SLAB_USBtoUART put button_led.py`
-2. Confirm that `button_led.py` is now on ESP32: `ampy -p /dev/tty.SLAB_USBtoUART get button_led.py` (the code should be identical)
-
-
-### Run button_led.py
-
-1. Connect to the ESP32: `screen /dev/tty.SLAB_USBtoUART 115200`
-2. Run `button_led.py`: `import button_led.py`
-3. Press the button, see the LED light up
-4. Ctrl-C to exit `blink_led.py`
-5. Ctrl-D to reboot ESP32
-6. Exit `screen`: Ctrl-A Ctrl-\

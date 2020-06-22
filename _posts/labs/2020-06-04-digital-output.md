@@ -38,26 +38,6 @@ while True:
 
 ```
 
-1. Open a Terminal, run Jupyter Notebook: `jupyter notebook`
-2. Click `New`, Select `Text File`
-3. Click on `Untitled.txt` and change it to `blink.py`
-4. Copy and paste the code above into `blink.py`, save the file
-
-
-### Save blink.py to ESP32
-
-1. Use `ampy` to send files to the ESP32: `ampy -p /dev/tty.SLAB_USBtoUART put blink.py`
-2. Confirm that `blink.py` is now on ESP32: `ampy -p /dev/tty.SLAB_USBtoUART get blink.py` (the code should be identical)
-
-
-### Run blink.py
-
-1. Connect to the ESP32: `screen /dev/tty.SLAB_USBtoUART 115200`
-2. Run `blink.py`: `import blink.py` (you should see the internal LED blink)
-3. Ctrl-C to exit `blink.py`
-4. Ctrl-D to reboot ESP32
-5. Exit `screen`: Ctrl-A Ctrl-\
-
 
 ## blink.py (external LED)
 
@@ -102,17 +82,3 @@ while True:
   time.sleep(0.5)
 ```
 
-### Send blink_if.py to ESP32
-
-1. Use `ampy` to send files to the ESP32: `ampy -p /dev/tty.SLAB_USBtoUART put blink_if.py`
-2. Confirm that `blink_if.py` is now on ESP32: `ampy -p /dev/tty.SLAB_USBtoUART get blink_if.py` (the code should be identical)
-
-
-### Run blink_if.py
-
-1. Connect to the ESP32: `screen /dev/tty.SLAB_USBtoUART 115200`ß
-2. Run `blink_if.py`: `import blink_if.py`
-3. See the LED blink
-4. Ctrl-C to exit `blink_if.py`
-5. Ctrl-D to reboot ESP32
-6. Exit `screen`: Ctrl-A Ctrl-\
