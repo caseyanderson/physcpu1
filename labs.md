@@ -4,7 +4,12 @@ permalink: /labs/
 layout: page
 ---
 
-{% for post in site.tags['lab'] %}
-  {% capture first_tag %}{{ post.tags | first }}{% endcapture %}
-  <h3>{{ "week " | append: post.week | append: ", " }}{{ first_tag }}{{ " " | append: post.number }}: <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+<div class="posts">
+{% assign sorted-posts = site.posts | where: "tags","lab" %}
+{% for post in sorted-posts %}
+{% assign date_format = post.week | append: "." | append: post.number %}
+
+<h3>{{ date_format }} <a href="{{ post.url }}">{{ post.title }}</a></h3>
+
 {% endfor %}
+</div>
