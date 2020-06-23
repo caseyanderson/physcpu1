@@ -1,13 +1,12 @@
 ---
 layout: post
-title:  "The ESP32 Command Prompt"
-date:   2020-06-04 06:00:00 -0945
+title:  "Connect to the ESP32 Command Prompt"
+date:   2020-06-04 06:00:00 -0830
 week: 3
 number: ""
 tags: recipes
 ---
 
-## Connect to the ESP32 Command Prompt
 ### MacOS
 
 1. plug your ESP32 into your Laptop's USB port
@@ -32,17 +31,3 @@ tags: recipes
   * `Speed (baud)`: to `115200`
 5. click `Open`
 6. hit ENTER once to bring up the `command prompt`: `>>>`
-
-<br/>
-
-## Disconnect from the ESP32 Command Prompt
-### MacOS
-
-1. (from the ESP32 Command Prompt) type `Control`+`A`
-2. type `Control`+`\`
-3. at the bottom of the Terminal you should see: `Really quit and kill all your windows [y/n]`
-4. type `y`
-
-### Windows 10
-
-1. (from the ESP32 Command Prompt) close `Putty`

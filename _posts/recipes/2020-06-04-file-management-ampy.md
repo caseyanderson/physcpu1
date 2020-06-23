@@ -5,6 +5,7 @@ date:   2020-06-04 06:00:00 -0930
 week: 3
 number: ""
 tags: recipes
+published: false
 ---
 
 ## Put Files on the ESP32
@@ -92,4 +93,3 @@ tags: recipes
 6. add `rm` to the end of the command above: `ampy --port COM3 rm`
 7. type the name of the file that you want to delete (or `rm`) on the `ESP32`: `ampy --port COM3 rm blink.py`
 8. hit Enter
-
