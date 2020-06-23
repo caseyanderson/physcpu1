@@ -46,17 +46,3 @@ while True:
 2. Connect Pot2 to ESP32 `34`
 3. Connect Pot3 to ESP32 `3V`
 
-### Send analog_read.py to ESP32
-
-1. Use `ampy` to send files to the ESP32: `ampy -p /dev/tty.SLAB_USBtoUART put analog_read.py`
-2. Confirm that `analog_read.py` is now on ESP32: `ampy -p /dev/tty.SLAB_USBtoUART get analog_read.py` (the code should be identical)
-
-
-### Run analog_read.py
-
-1. Connect to the ESP32: `screen /dev/tty.SLAB_USBtoUART 115200`
-2. Run `analog_read.py`: `import analog_read.py`
-3. Turn the pot, see the print statement change
-4. Ctrl-C to exit `analog_read.py`
-5. Ctrl-D to reboot ESP32
-6. Exit `screen`: Ctrl-A Ctrl-\
