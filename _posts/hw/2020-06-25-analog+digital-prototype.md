@@ -2,7 +2,7 @@
 layout: post
 title:  "Analog + Digital Interactions prototype (+ proposal)"
 date: 2020-06-25 06:00:00 -0800
-week: 5
+week: 6
 number: 1
 tags: hw
 ---

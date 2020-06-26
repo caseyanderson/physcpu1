@@ -2,7 +2,7 @@
 layout: post
 title:  "Analog + Digital Interactions Ten Possible Revisions"
 date: 2020-06-25 06:00:00 -0830
-week: 5
+week: 6
 number: 2
 tags: hw
 ---
