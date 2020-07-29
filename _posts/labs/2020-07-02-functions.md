@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Functions"
-date: 2020-02-27 06:00:00 -0630
-week: 6
+date: 2020-07-02 06:00:00 -0630
+week: 7
 number: 2
 tags: lab
 published: false
