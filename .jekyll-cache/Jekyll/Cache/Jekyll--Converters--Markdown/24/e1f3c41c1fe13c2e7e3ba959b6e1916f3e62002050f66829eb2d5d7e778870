@@ -1,0 +1,165 @@
+I"�<h2 id="physical-computing-1">Physical Computing 1</h2>
+<h3 id="hsci-214-01-art-center-college-of-design">HSCI-214-01, Art Center College of Design</h3>
+<p><strong>Class Meetings</strong> Thursdays, 09:00AM – 11:50AM, Zoom</p>
+
+<p><strong>Office Hours</strong> Mondays, 09:00AM - 10:50AM, Zoom</p>
+
+<p>Email: casey.anderson@artcenter.edu</p>
+
+<p>Website: <a href="https://caseyanderson.com/">caseyanderson.com</a></p>
+
+<p>Pronouns: he / him / his</p>
+
+<h3 id="description">Description</h3>
+
+<p>This prototyping-oriented class introduces students to the creative affordances of physical computing, or the practice of interfacing digital system with the outside world, by way of hands-on experiments across a continuum of technologies. Students will learn programming concepts (Python3), and basic electronics, as well as strategies for their interaction, via the <a href="https://www.adafruit.com/product/3405">HUZZAH32</a>. Regular critiques will provide an opportunity for students to share their research and prototypes with their colleagues as well as receive direct feedback from the instructor.</p>
+
+<h3 id="required-materials">Required Materials</h3>
+
+<ul>
+  <li>Laptop (Mac or PC)</li>
+  <li><a href="https://www.digikey.com/products/en?mpart=3591&amp;v=1528">Adafruit HUZZAH32 – ESP32 Feather Board (pre-soldered)</a></li>
+  <li>1 of the Following: <a href="https://www.amazon.com/dp/B0711PVX6Z">USB A to Micro-B</a> or <a href="https://www.amazon.com/dp/B00UUBRX0Y?psc=1">USB C to Micro-B</a></li>
+  <li><a href="https://www.amazon.com/Breadboards-Raspberry-Preformed-Solderless-prototyping/dp/B07TVC1T1S">Full-size breadboard</a></li>
+  <li><a href="https://www.amazon.com/Solderless-Flexible-Breadboard-Jumper-100pcs/dp/B005TZJ0AM">Breadboarding wire bundle</a></li>
+  <li><a href="https://www.amazon.com/WGGE-WG-026-Pieces-Colors-Alligator/dp/B06XX25HFX?s=industrial">Small Alligator Clip Test Lead</a></li>
+  <li><a href="https://www.digikey.com/products/en?mpart=356&amp;v=1528">Breadboard trim potentiometer - 10K</a></li>
+  <li><a href="https://www.digikey.com/products/en?mpart=161&amp;v=1528">Photo cell</a></li>
+  <li><a href="https://www.digikey.com/products/en?mpart=711&amp;v=1528">DC Brushless Motor</a></li>
+  <li><a href="https://www.amazon.com/6x6x6mm-Momentary-Push-Button-Switch/dp/B01GN79QF8">Buttons (SPST)</a></li>
+  <li><a href="https://www.digikey.com/product-detail/en/yageo/CFR-25JB-52-220R/220QBK-ND/1295">Through-Hole Resistors - 220 ohm 10% 1/4W</a></li>
+  <li><a href="https://www.digikey.com/product-detail/en/stackpole-electronics-inc/CF14JT10K0/CF14JT10K0CT-ND/1830374">Through-Hole Resistors - 10K ohm 10% 1/4W</a></li>
+  <li><a href="https://www.amazon.com/Projects-B-0001-B07-Red-LED-Pack/dp/B00B793SIE">LEDs</a></li>
+</ul>
+
+<h3 id="grading-policy">Grading Policy</h3>
+
+<p>Grades will be calculated based on the following distribution:</p>
+
+<ul>
+  <li>Attendance = 15%</li>
+  <li>Lab participation / Weekly Quizzes = 15%</li>
+  <li>Homework assignments = 35%</li>
+  <li>Prototypes = 35%</li>
+</ul>
+
+<p>Late prototype / assignment policy: for every week a prototype/assignment is late its highest possible grade drops by a letter.</p>
+
+<h3 id="goals">Goals</h3>
+
+<ol>
+  <li>Construct simple circuits to interface electronics with digital systems</li>
+  <li>Learn and explore the basic principles of software design</li>
+  <li>Prototype experiences and devices across a continuum of technologies</li>
+</ol>
+
+<h3 id="weekly-quiz-policy">Weekly Quiz Policy</h3>
+
+<p>Beginning Week 2 every class will start with a short quiz, available from the start of class (9:00AM) for ten minutes (until 9:10AM). Those arriving to class after 9:10AM will receive a zero on the quiz.</p>
+
+<h3 id="class-schedule-subject-to-change">Class Schedule (subject to change</h3>
+
+<h4 id="week-1">Week 1</h4>
+
+<ul>
+  <li>Review Syllabus</li>
+  <li>LAB 1.1 Python3 Pre-flight</li>
+  <li>LAB 1.2 The Command Line</li>
+  <li>LAB 1.3 <a href="http://0.0.0.0:40002020/05/21/intro-py3.html">Intro to Python3</a></li>
+  <li>BRF 0 <a href="http://0.0.0.0:40002020/05/21/proposals.html">Prototype Proposal Format</a></li>
+  <li>HW 1.1 <a href="http://0.0.0.0:40002020/05/21/required-materials.html">Required Materials</a></li>
+  <li>HW 1.2 <a href="http://0.0.0.0:40002020/05/21/mock-proposal.html">Practice Prototype Proposal</a></li>
+</ul>
+
+<h4 id="week-2">Week 2</h4>
+
+<ul>
+  <li>LAB 2.1 Troubleshoot Anaconda Environment</li>
+  <li>LAB 2.2 Adafruit HUZZAH32 Pre-flight</li>
+  <li>HW 2.1 Last Chance to get Required Materials</li>
+  <li>HW 2.2 Finish Setup of HUZZAH32, Confirm Functionality</li>
+</ul>
+
+<h4 id="week-3">Week 3</h4>
+
+<ul>
+  <li>LAB 3.1 <a href="http://0.0.0.0:40002020/06/04/digital-output.html">Digital Output</a></li>
+  <li>LAB 3.2 <a href="http://0.0.0.0:40002020/06/04/digitalIO.html">Digital Input / Digital Output</a></li>
+  <li>BRF 1 <a href="http://0.0.0.0:40002020/06/04/notbutton.html">!button</a></li>
+  <li>HW 3.1 <a href="http://0.0.0.0:40002020/06/04/notbutton-prototype.html">!button Prototype (+ Proposal)</a></li>
+  <li>HW 3.2 <a href="http://0.0.0.0:40002020/06/04/ten-revisions.html">Ten Possible Revisions</a></li>
+</ul>
+
+<h4 id="week-4">Week 4</h4>
+
+<ul>
+  <li>Present !button (in-progress)</li>
+  <li>LAB 4.1 GPIO, Analog &amp; Digital Signals</li>
+  <li>LAB 4.2 Analog Input</li>
+  <li>LAB 4.3 Voltage Dividers</li>
+  <li>HW 4.1 Revise + Document</li>
+  <li>HW 4.2 Prepare to Present !button Prototype</li>
+</ul>
+
+<h4 id="week-5">Week 5</h4>
+
+<ul>
+  <li>Present !button (final)</li>
+</ul>
+
+<h4 id="week-6">Week 6</h4>
+
+<ul>
+  <li>LAB 6.1 For Loops</li>
+  <li>LAB 6.2 ADC, DAC, &amp; PWM</li>
+  <li>LAB 6.3 Analog Input / Digital Output</li>
+  <li>BRF 2 Analog + Digital Interactions</li>
+  <li>HW 6.1 Analog + Digital Interactions Prototype (+ Proposal)</li>
+  <li>HW 6.2 Ten Possible Revisions</li>
+</ul>
+
+<h4 id="week-7">Week 7</h4>
+
+<ul>
+  <li>Present Analog + Digital Interactions (in-progress)</li>
+  <li>LAB 7.1 Digital Input / PWM Output(s)</li>
+  <li>LAB 7.2 Functions</li>
+  <li>HW 7.1 Revise + Document</li>
+  <li>HW 7.2 Prepare to Present Analog + Digital Interactions prototype</li>
+</ul>
+
+<h4 id="week-8">Week 8</h4>
+
+<ul>
+  <li>Present Analog + Digital Interactions (final)</li>
+</ul>
+
+<h4 id="week-9">Week 9</h4>
+
+<ul>
+  <li>LAB 9.1 Button Increment</li>
+  <li>BRF 3 Combine / Remix</li>
+  <li>HW 9.1 Combine / Remix Prototype (+ Proposal)</li>
+  <li>HW 9.2 Ten Possible Revisions</li>
+</ul>
+
+<h4 id="week-10">Week 10</h4>
+
+<ul>
+  <li>Present Combine / Remix Prototype (in-progress pt. 1)</li>
+  <li>HW 10.1 Revise + Document (pt. 1)</li>
+</ul>
+
+<h4 id="week-11">Week 11</h4>
+
+<ul>
+  <li>Present Combine / Remix Prototype (in-progress pt. 2)</li>
+  <li>HW 11.1 Revise + Document (pt. 2)</li>
+</ul>
+
+<h4 id="week-12">Week 12</h4>
+
+<ul>
+  <li>Present Combine / Remix Prototype</li>
+</ul>
+:ET

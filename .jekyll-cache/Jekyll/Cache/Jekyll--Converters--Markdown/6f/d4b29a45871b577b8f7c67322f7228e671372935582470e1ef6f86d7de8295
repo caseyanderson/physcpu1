@@ -1,0 +1,15 @@
+I"n<h3 id="macos">MacOS</h3>
+
+<p><img src="http://0.0.0.0:4000/assets/failed_to_access_screen.png" alt="" /></p>
+
+<ol>
+  <li>
+    <p>(in the Terminal) check to see if any there are any other active <code class="language-plaintext highlighter-rouge">screen sessions</code>: <code class="language-plaintext highlighter-rouge">screen -ls</code></p>
+
+    <p><img src="http://0.0.0.0:4000/assets/screen_session_number.png" alt="" /></p>
+  </li>
+  <li>write down the <code class="language-plaintext highlighter-rouge">session number</code> (13312 in the above image)</li>
+  <li>add the <code class="language-plaintext highlighter-rouge">session number</code> to the following command and hit ENTER to quit the leftover <code class="language-plaintext highlighter-rouge">screen</code> session: <code class="language-plaintext highlighter-rouge">screen -X -S 13312 quit</code></li>
+</ol>
+
+:ET

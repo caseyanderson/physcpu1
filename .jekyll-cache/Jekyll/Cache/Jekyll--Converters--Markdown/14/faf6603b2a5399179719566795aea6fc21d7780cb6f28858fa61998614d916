@@ -1,0 +1,166 @@
+I"�J<h2 id="materials">Materials</h2>
+
+<ul>
+  <li>laptop</li>
+  <li>internet access</li>
+  <li><a href="https://www.adafruit.com/product/3591">Adafruit HUZZAH32</a></li>
+  <li><a href="https://www.adafruit.com/product/592">USB cable - USB A to Micro-B - 3 foot long</a> (or similar)</li>
+  <li>1x Breadboard</li>
+  <li>1x Potentiometer (or Voltage Divider Sensor)</li>
+  <li>1x LED (w/ 1x Resistor [220, 270, 330])</li>
+</ul>
+
+<h2 id="analog-to-digital-conversion-adc">Analog to Digital Conversion (ADC)</h2>
+
+<p><code class="language-plaintext highlighter-rouge">Analog to Digital Conversion</code> (<code class="language-plaintext highlighter-rouge">ADC</code>) is the process of converting a varying <code class="language-plaintext highlighter-rouge">voltage</code> (<code class="language-plaintext highlighter-rouge">analog</code>) to a sequence of discrete <code class="language-plaintext highlighter-rouge">voltages</code> (<code class="language-plaintext highlighter-rouge">digital</code>). <code class="language-plaintext highlighter-rouge">MicroPython</code> provides a convenient interface for this via <code class="language-plaintext highlighter-rouge">ADC</code>, which can be used on any pin whose number is prepended with an <code class="language-plaintext highlighter-rouge">A</code> on the <code class="language-plaintext highlighter-rouge">ESP32</code> (pins <code class="language-plaintext highlighter-rouge">32</code> - <code class="language-plaintext highlighter-rouge">39</code>). In this class we will typically use <code class="language-plaintext highlighter-rouge">ADC</code> with <code class="language-plaintext highlighter-rouge">analog</code> sensor input so it’s okay to associate this process with (<code class="language-plaintext highlighter-rouge">analog</code>) inputs generally (for now).</p>
+
+<p>To create and store an instance of <code class="language-plaintext highlighter-rouge">ADC</code> on the pin labeled <code class="language-plaintext highlighter-rouge">A2</code>: <code class="language-plaintext highlighter-rouge">adc = ADC(Pin(34))</code>.</p>
+
+<p>Take a moment to wire up a potentiometer, or other voltage divider sensor, to pin <code class="language-plaintext highlighter-rouge">34</code> on the <code class="language-plaintext highlighter-rouge">ESP32</code> and follow along:</p>
+
+<p><em>For Example</em></p>
+<ol>
+  <li>Connect to the ESP32: <code class="language-plaintext highlighter-rouge">screen /dev/tty.SLAB_USBtoUART 115200</code></li>
+  <li>import <code class="language-plaintext highlighter-rouge">ADC</code> and <code class="language-plaintext highlighter-rouge">Pin</code> from <code class="language-plaintext highlighter-rouge">machine</code>: <code class="language-plaintext highlighter-rouge">from machine import ADC, Pin</code></li>
+  <li>create an instance of an <code class="language-plaintext highlighter-rouge">ADC</code> on pin <code class="language-plaintext highlighter-rouge">A2</code> (i.e. pin number <code class="language-plaintext highlighter-rouge">34</code>): <code class="language-plaintext highlighter-rouge">adc = ADC(Pin(34))</code></li>
+  <li>set the attenuation (numerical range) for this <code class="language-plaintext highlighter-rouge">ADC</code> instance: <code class="language-plaintext highlighter-rouge">adc.atten(ADC.ATTN_11DB)</code></li>
+  <li>read the voltage at pin <code class="language-plaintext highlighter-rouge">34</code>: <code class="language-plaintext highlighter-rouge">adc.read()</code></li>
+  <li>repeat step 5.</li>
+  <li>repeat step 5. again</li>
+  <li>repeat step 5. one more time</li>
+</ol>
+
+<ul>
+  <li>In step 4. we set the range of our <code class="language-plaintext highlighter-rouge">ADC</code> instance via <code class="language-plaintext highlighter-rouge">adc.atten()</code> (short for attenuate). Here <code class="language-plaintext highlighter-rouge">adc.atten(ADC.ATTN_11DB)</code> sets the input range to <code class="language-plaintext highlighter-rouge">0.0V</code> to <code class="language-plaintext highlighter-rouge">3.6V</code></li>
+  <li>In steps 6. - 8. we ran the same line of code three times and got three different values because the <code class="language-plaintext highlighter-rouge">voltage</code> is <code class="language-plaintext highlighter-rouge">analog</code> (varying). Some <code class="language-plaintext highlighter-rouge">analog</code> sensors produce <code class="language-plaintext highlighter-rouge">voltages</code> that are more varied than others.</li>
+</ul>
+
+<h2 id="digital-to-analog-conversion-dac--pulse-width-modulation-pwm">Digital to Analog Conversion (DAC) / Pulse Width Modulation (PWM)</h2>
+
+<p><img src="http://0.0.0.0:4000/assets/PWM_wikipedia.png" alt="" /></p>
+
+<p>Digital to Analog Conversion (DAC) is the opposite of <code class="language-plaintext highlighter-rouge">ADC</code>: a <code class="language-plaintext highlighter-rouge">DAC</code> converts a sequence of discrete <code class="language-plaintext highlighter-rouge">voltages</code> into a varying <code class="language-plaintext highlighter-rouge">voltage</code>. In order to approximate an analog voltage with a digital pin on the <code class="language-plaintext highlighter-rouge">ESP32</code> one typically uses <code class="language-plaintext highlighter-rouge">Pulse Width Modulation</code> (<code class="language-plaintext highlighter-rouge">PWM</code>). This is accomplished by toggling a digital pin on and off very quickly.</p>
+
+<p>The image above is an example of <code class="language-plaintext highlighter-rouge">PWM</code> output. Note that it approximates an analog voltage but, if we look closely, we can still observe the discrete steps of the original digital signal.</p>
+
+<h3 id="hookup-pattern">Hookup Pattern</h3>
+
+<p><img src="http://0.0.0.0:4000/assets/fritzing/blink_external_led.png" alt="" /></p>
+
+<ol>
+  <li>Connect ESP32 <code class="language-plaintext highlighter-rouge">GND</code> to a blue bus on the side of your breadboard</li>
+  <li>From pin <code class="language-plaintext highlighter-rouge">27</code>, connect the following in series: a <code class="language-plaintext highlighter-rouge">resistor</code> to an <code class="language-plaintext highlighter-rouge">LED</code> to <code class="language-plaintext highlighter-rouge">GND</code> (blue bus)</li>
+</ol>
+
+<p>In the following sequence we instantiate a <code class="language-plaintext highlighter-rouge">PWM</code> instance and associate it with an <code class="language-plaintext highlighter-rouge">ESP32</code> pin. Log in to your <code class="language-plaintext highlighter-rouge">ESP32</code> via <code class="language-plaintext highlighter-rouge">screen</code> and follow along:</p>
+
+<p><em>For Example</em></p>
+<ol>
+  <li>import <code class="language-plaintext highlighter-rouge">Pin</code> and <code class="language-plaintext highlighter-rouge">PWM</code> from <code class="language-plaintext highlighter-rouge">machine</code>: <code class="language-plaintext highlighter-rouge">from machine import Pin, PWM</code></li>
+  <li>store <code class="language-plaintext highlighter-rouge">PWM</code> pin number to the variable <code class="language-plaintext highlighter-rouge">pin</code>: <code class="language-plaintext highlighter-rouge">pin = Pin(27)</code></li>
+  <li>create a <code class="language-plaintext highlighter-rouge">PWM</code> object and store it at <code class="language-plaintext highlighter-rouge">pwm27</code>: <code class="language-plaintext highlighter-rouge">pwm27 = PWM(pin)</code></li>
+</ol>
+
+<p>There are two parameters associated with <code class="language-plaintext highlighter-rouge">PWM</code>: <code class="language-plaintext highlighter-rouge">frequency</code> and <code class="language-plaintext highlighter-rouge">duty cycle</code>:</p>
+<ul>
+  <li>the <code class="language-plaintext highlighter-rouge">frequency</code> controls the speed at which the pin is toggled <code class="language-plaintext highlighter-rouge">ON</code> and <code class="language-plaintext highlighter-rouge">OFF</code></li>
+  <li>the <code class="language-plaintext highlighter-rouge">duty cycle</code> is how long the pin is <code class="language-plaintext highlighter-rouge">HIGH</code> compared to the length of a single period (<code class="language-plaintext highlighter-rouge">LOW</code> plus <code class="language-plaintext highlighter-rouge">HIGH</code> time). Maximum <code class="language-plaintext highlighter-rouge">duty cycle</code> is when the pin is <code class="language-plaintext highlighter-rouge">HIGH</code> (<code class="language-plaintext highlighter-rouge">On</code>) all of the time, minimum is when it is <code class="language-plaintext highlighter-rouge">LOW</code> (<code class="language-plaintext highlighter-rouge">OFF</code>) all of the time.</li>
+</ul>
+
+<p>Follow along to experiment with changing these settings:</p>
+
+<p><em>For Example</em></p>
+<ol>
+  <li>set the <code class="language-plaintext highlighter-rouge">PWM</code> <code class="language-plaintext highlighter-rouge">frequency</code> to <code class="language-plaintext highlighter-rouge">1000</code>: <code class="language-plaintext highlighter-rouge">pwm27.freq(1000)</code></li>
+  <li>set the <code class="language-plaintext highlighter-rouge">PWM</code> <code class="language-plaintext highlighter-rouge">duty cycle</code> to <code class="language-plaintext highlighter-rouge">200</code>: <code class="language-plaintext highlighter-rouge">pwm27.duty(512)</code> (i.e. 50% brightness)</li>
+  <li>change the <code class="language-plaintext highlighter-rouge">PWM</code> <code class="language-plaintext highlighter-rouge">duty cycle</code> to <code class="language-plaintext highlighter-rouge">0</code>: <code class="language-plaintext highlighter-rouge">pwm27.duty(0)</code> (i.e. off)</li>
+  <li>change the <code class="language-plaintext highlighter-rouge">PWM</code> <code class="language-plaintext highlighter-rouge">duty cycle</code> to <code class="language-plaintext highlighter-rouge">1023</code>: <code class="language-plaintext highlighter-rouge">pwm27.duty(1023)</code> (i.e. 100% brightness)</li>
+  <li>turn <code class="language-plaintext highlighter-rouge">PWM</code> on the pin off: <code class="language-plaintext highlighter-rouge">pwm27.deinit()</code></li>
+  <li>Ctl-D to reboot</li>
+</ol>
+
+<p>Alternately, one could declare and set values for a PWM pin all at once, which would like something like this: <code class="language-plaintext highlighter-rouge">pwm27 = PWM(Pin(27), freq=20000, duty=512)</code></p>
+
+<h3 id="fading-leds">Fading LEDs</h3>
+
+<p>Last week we discussed using <code class="language-plaintext highlighter-rouge">for</code> loops with Python’s <code class="language-plaintext highlighter-rouge">range()</code> to count. Open Jupyter Notebook and run the following for a refresher:</p>
+
+<p><em>For Example</em></p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">):</span>
+  <span class="k">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>One can use a <code class="language-plaintext highlighter-rouge">for</code> loop with a <code class="language-plaintext highlighter-rouge">PWM</code> pin to create the effect that an <code class="language-plaintext highlighter-rouge">LED</code> is fading in or fading out by incrementally changing the <code class="language-plaintext highlighter-rouge">duty cycle</code>, or by counting until one reaches the desired LED brightness. Follow along on your <code class="language-plaintext highlighter-rouge">ESP32</code>:</p>
+
+<p><em>For Example</em></p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s">'''
+fade_in.py
+'''</span>
+
+<span class="kn">from</span> <span class="nn">time</span> <span class="kn">import</span> <span class="n">sleep</span>
+<span class="kn">from</span> <span class="nn">machine</span> <span class="kn">import</span> <span class="n">Pin</span><span class="p">,</span> <span class="n">PWM</span>
+
+<span class="n">pwm</span> <span class="o">=</span> <span class="n">PWM</span><span class="p">(</span><span class="n">Pin</span><span class="p">(</span><span class="mi">27</span><span class="p">),</span> <span class="n">freq</span> <span class="o">=</span> <span class="mi">20000</span><span class="p">,</span> <span class="n">duty</span> <span class="o">=</span> <span class="mi">0</span><span class="p">)</span>
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1024</span><span class="p">):</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+    <span class="n">pwm</span><span class="p">.</span><span class="n">duty</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+    <span class="n">sleep</span><span class="p">(</span><span class="mf">0.01</span><span class="p">)</span>
+
+<span class="k">print</span><span class="p">(</span><span class="s">"100%"</span><span class="p">)</span>
+
+<span class="n">pwm</span><span class="p">.</span><span class="n">deinit</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p>So the counter, or iterator (<code class="language-plaintext highlighter-rouge">i</code>), is used to set <code class="language-plaintext highlighter-rouge">pwm.duty()</code>, resulting in an incrementally brighter <code class="language-plaintext highlighter-rouge">LED</code>.</p>
+
+<p><em>For Example</em></p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s">'''
+fade_out.py
+'''</span>
+
+<span class="kn">from</span> <span class="nn">time</span> <span class="kn">import</span> <span class="n">sleep</span>
+<span class="kn">from</span> <span class="nn">machine</span> <span class="kn">import</span> <span class="n">Pin</span><span class="p">,</span> <span class="n">PWM</span>
+
+<span class="n">pwm</span> <span class="o">=</span> <span class="n">PWM</span><span class="p">(</span><span class="n">Pin</span><span class="p">(</span><span class="mi">27</span><span class="p">),</span> <span class="n">freq</span> <span class="o">=</span> <span class="mi">20000</span><span class="p">,</span> <span class="n">duty</span> <span class="o">=</span> <span class="mi">1023</span><span class="p">)</span>
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1023</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">):</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+    <span class="n">pwm</span><span class="p">.</span><span class="n">duty</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+    <span class="n">sleep</span><span class="p">(</span><span class="mf">0.01</span><span class="p">)</span>
+
+<span class="k">print</span><span class="p">(</span><span class="s">"OFF!"</span><span class="p">)</span>
+
+<span class="n">pwm</span><span class="p">.</span><span class="n">deinit</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p>The code above is virtually identical to <code class="language-plaintext highlighter-rouge">fade_in.py</code>, however here the <code class="language-plaintext highlighter-rouge">for</code> loop starts at <code class="language-plaintext highlighter-rouge">1023</code> (100% brightness) and counts down to <code class="language-plaintext highlighter-rouge">0</code> (<code class="language-plaintext highlighter-rouge">Off</code>), and stopping at <code class="language-plaintext highlighter-rouge">-1</code>, resulting in a incrementally dimmer <code class="language-plaintext highlighter-rouge">LED</code>.</p>
+
+<h3 id="breathing-leds">Breathing LEDs</h3>
+
+<p>If one puts the for loop from <code class="language-plaintext highlighter-rouge">fade_in.py</code> <strong>and</strong> the for loop from <code class="language-plaintext highlighter-rouge">fade_out.py</code> into a <code class="language-plaintext highlighter-rouge">while</code> loop one can create a kind of breathing effect. Follow along on your <code class="language-plaintext highlighter-rouge">ESP32</code>:</p>
+
+<p><em>For Example</em></p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s">'''
+    breathe.py
+'''</span>
+
+<span class="kn">from</span> <span class="nn">time</span> <span class="kn">import</span> <span class="n">sleep</span>
+<span class="kn">from</span> <span class="nn">machine</span> <span class="kn">import</span> <span class="n">Pin</span><span class="p">,</span> <span class="n">PWM</span>
+
+<span class="n">pwm</span> <span class="o">=</span> <span class="n">PWM</span><span class="p">(</span><span class="n">Pin</span><span class="p">(</span><span class="mi">27</span><span class="p">))</span>
+<span class="n">pwm</span><span class="p">.</span><span class="n">freq</span><span class="p">(</span><span class="mi">60</span><span class="p">)</span>
+
+<span class="k">while</span> <span class="bp">True</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1024</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">i</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="k">print</span><span class="p">(</span><span class="s">"inhale"</span><span class="p">)</span>
+        <span class="n">pwm</span><span class="p">.</span><span class="n">duty</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+        <span class="n">sleep</span><span class="p">(</span><span class="mf">0.001</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1023</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">i</span> <span class="o">==</span> <span class="mi">1023</span><span class="p">:</span>
+            <span class="k">print</span><span class="p">(</span><span class="s">"exhale"</span><span class="p">)</span>
+        <span class="n">pwm</span><span class="p">.</span><span class="n">duty</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+        <span class="n">sleep</span><span class="p">(</span><span class="mf">0.001</span><span class="p">)</span>
+</code></pre></div></div>
+:ET

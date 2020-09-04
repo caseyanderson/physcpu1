@@ -1,0 +1,15 @@
+I"<h2 id="part-1">Part 1</h2>
+
+<p>Buttons tend to have one of two different actuation styles:</p>
+
+<ul>
+  <li>momentary</li>
+  <li>toggle</li>
+</ul>
+
+<p>Using only cardboard, and aluminum (or conductive) tape, construct two DIY buttons, one that is momentary and another that toggles. Your goal is to be able to use both of these buttons to control an LED.</p>
+
+<h2 id="part-2">Part 2</h2>
+
+<p>Prepare a initial version of your !button prototype, as well as a first draft of your prototype proposal, to present to the class next week.</p>
+:ET

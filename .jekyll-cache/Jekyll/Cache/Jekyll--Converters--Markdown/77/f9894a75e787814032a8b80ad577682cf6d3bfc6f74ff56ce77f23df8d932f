@@ -1,0 +1,34 @@
+I"C<h3 id="macos">MacOS</h3>
+
+<ol>
+  <li>plug your <code class="language-plaintext highlighter-rouge">ESP32</code> into your Laptop’s USB port</li>
+  <li>(in the Finder) Navigate to Applications &gt; Utilities</li>
+  <li>find the Terminal, open it</li>
+  <li>(in the Terminal) activate your <code class="language-plaintext highlighter-rouge">micropython</code> environment: <code class="language-plaintext highlighter-rouge">conda activate micropython</code></li>
+  <li>navigate to wherever the file is on your computer</li>
+  <li>type the following: <code class="language-plaintext highlighter-rouge">ampy -p /dev/tty.</code></li>
+  <li>hit the TAB key, one of the results should be: <code class="language-plaintext highlighter-rouge">tty.SLAB_USBtoUART</code></li>
+  <li>add an <code class="language-plaintext highlighter-rouge">SL</code> to the command above so it reads: <code class="language-plaintext highlighter-rouge">ampy -p /dev/tty.SL</code></li>
+  <li>hit the TAB key again, autocomplete should give you: <code class="language-plaintext highlighter-rouge">ampy -p /dev/tty.SLAB_USBtoUART</code></li>
+  <li>add <code class="language-plaintext highlighter-rouge">put</code> to the end of the command above: <code class="language-plaintext highlighter-rouge">ampy -p /dev/tty.SLAB_USBtoUART put</code></li>
+  <li>type and use autocomplete to add the name of the file that you want to <code class="language-plaintext highlighter-rouge">put</code> on the <code class="language-plaintext highlighter-rouge">ESP32</code>: <code class="language-plaintext highlighter-rouge">ampy -p /dev/tty.SLAB_USBtoUART put blink.py</code></li>
+  <li>hit Enter</li>
+</ol>
+
+<h3 id="windows-10">Windows 10</h3>
+
+<ol>
+  <li>(in the Start Menu) Navigate to Anaconda Powershell, open it</li>
+  <li>check the list of identified <code class="language-plaintext highlighter-rouge">COM</code> ports in the Windows Device Manager
+    <ul>
+      <li>we need the <code class="language-plaintext highlighter-rouge">COM</code> number for the device labeled <code class="language-plaintext highlighter-rouge">Silicon Labs CP210x USB to UART Bridge (COM3)</code>, write this number down for use later</li>
+    </ul>
+  </li>
+  <li>(in the Anaconda Powershell) activate your <code class="language-plaintext highlighter-rouge">micropython</code> environment: <code class="language-plaintext highlighter-rouge">conda activate micropython</code></li>
+  <li>navigate to wherever the file is on your computer</li>
+  <li>type the following: <code class="language-plaintext highlighter-rouge">ampy --port COM3</code> (use the COM number from step 2)</li>
+  <li>add <code class="language-plaintext highlighter-rouge">put</code> to the end of the command above: <code class="language-plaintext highlighter-rouge">ampy --port COM3 put</code></li>
+  <li>type and use autocomplete to add the name of the file that you want to <code class="language-plaintext highlighter-rouge">put</code> on the <code class="language-plaintext highlighter-rouge">ESP32</code>: <code class="language-plaintext highlighter-rouge">ampy --port COM3 put blink.py</code></li>
+  <li>hit Enter</li>
+</ol>
+:ET
