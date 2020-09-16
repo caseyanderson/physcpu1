@@ -1,7 +1,7 @@
 ---
 title: labs
-permalink: /labs.html
 layout: page
+permalink: /labs.html
 ---
 
 <div class="posts">

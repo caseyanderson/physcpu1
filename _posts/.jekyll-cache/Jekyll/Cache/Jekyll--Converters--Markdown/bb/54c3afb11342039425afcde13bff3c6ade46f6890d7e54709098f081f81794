@@ -1,0 +1,237 @@
+I"*B<h2 id="materials">Materials</h2>
+<ul>
+  <li>laptop</li>
+  <li>internet access</li>
+  <li>Jupyter Notebook</li>
+</ul>
+
+<h2 id="what-is-python">What is Python?</h2>
+
+<p><a href="https://www.python.org/">Python</a> is a general-purpose, interpreted, high-level programming language. The syntax of the language has been optimized to emphasize code readability, as well as brevity.</p>
+
+<p>Note: though there are multiple versions of python we will exclusively use <strong>Python3</strong>.</p>
+
+<h2 id="strings">Strings</h2>
+
+<p>A string is any character surrounded by quotes. Quotes must be balanced.</p>
+
+<p>One of the three lines below will result in an error because it does not have balanced quotes. Take a moment to try to identify the problematic line visually and then confirm by executing each one.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">a</span> <span class="o">=</span> <span class="s">'test'</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">a</span> <span class="o">=</span> <span class="s">"test"</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">a</span> <span class="o">=</span> <span class="s">"test
+</span></code></pre></div></div>
+
+<p>In order to declare a variable as a string one has to use quotes. The following line, then, will result in an error.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">a</span> <span class="o">=</span> <span class="n">test</span>
+</code></pre></div></div>
+
+<h3 id="manipulating-strings">Manipulating Strings</h3>
+
+<p>Python allows for numerous manipulations to strings. Returning to the first example:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">a</span> <span class="o">=</span> <span class="s">'test'</span>
+</code></pre></div></div>
+
+<p>One can perform various operations with <code class="language-plaintext highlighter-rouge">a</code> to get information regarding the string <code class="language-plaintext highlighter-rouge">'test'</code></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">len</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">type</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">str</code> is short for string, by the way.</p>
+
+<h3 id="slicing-strings">Slicing Strings</h3>
+
+<p>Return a part of the string (referred to as “string slicing”) with the following</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">a</span><span class="p">[:</span><span class="mi">3</span><span class="p">]</span>
+</code></pre></div></div>
+
+<p>One can see what other operations are possible with <code class="language-plaintext highlighter-rouge">a</code> by typing <code class="language-plaintext highlighter-rouge">a.</code> and then hitting the TAB key. Try it in the next line.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">a</span><span class="p">.</span>
+</code></pre></div></div>
+
+<p>From this list, one can type out any of the functions followed by a <code class="language-plaintext highlighter-rouge">?</code> to see a brief description of what it does.</p>
+
+<p>Convert the string, contained in the variable <code class="language-plaintext highlighter-rouge">a</code>, to a capitalized version of itself</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">a</span><span class="p">.</span><span class="n">upper</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p>Note that running <code class="language-plaintext highlighter-rouge">.upper()</code> on <code class="language-plaintext highlighter-rouge">a</code> does not permanently alter the data stored there.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">a</span>
+</code></pre></div></div>
+
+<p>If one wanted to replace the lowercase version of the string at <code class="language-plaintext highlighter-rouge">a</code> with</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">a</span> <span class="o">=</span> <span class="n">a</span><span class="p">.</span><span class="n">upper</span><span class="p">()</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">a</span>
+</code></pre></div></div>
+
+<h2 id="integers--floats">Integers &amp; Floats</h2>
+
+<p>There are two basic types of numbers:</p>
+
+<ul>
+  <li>integers</li>
+  <li>floating point numbers (floats for short)</li>
+</ul>
+
+<p>Integers are any whole number (positive or negative), floats are any number with a decimal point.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">a</span> <span class="o">=</span> <span class="mi">5</span>
+<span class="nb">type</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">a</span> <span class="o">=</span> <span class="mf">4.0</span>
+<span class="nb">type</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">a.[TAB]</code> shows what other methods <code class="language-plaintext highlighter-rouge">a</code> (the variable that now stores a floating point number) has</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">a</span><span class="p">.</span>
+</code></pre></div></div>
+
+<h2 id="assignment-operator">Assignment Operator</h2>
+
+<p>In Python, <code class="language-plaintext highlighter-rouge">=</code> has a unique meaning. The previous example</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">a</span> <span class="o">=</span> <span class="mf">4.0</span>
+</code></pre></div></div>
+
+<p>means “assign 4.0” to the variable named <code class="language-plaintext highlighter-rouge">a</code>. The following returns an error</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="mi">5</span> <span class="o">=</span> <span class="mi">6</span>
+</code></pre></div></div>
+
+<p>because a <code class="language-plaintext highlighter-rouge">6</code> can never be assigned (or put inside) to a <code class="language-plaintext highlighter-rouge">5</code>.</p>
+
+<h2 id="variables">Variables</h2>
+
+<p><strong>Variables</strong> must be assigned prior to their use, otherwise Python throws an error because it does not understand what you want it to do. Try running the following line, which references a variable (<code class="language-plaintext highlighter-rouge">x</code>) that does not currently exist.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">x</span>
+</code></pre></div></div>
+
+<p>Nonetheless, variables, once assigned (and therefore established as a particular type), can be converted to other data types.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">a</span> <span class="o">=</span> <span class="mi">5</span>
+<span class="nb">float</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Or</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">a</span> <span class="o">=</span> <span class="mf">4.9</span>
+<span class="nb">int</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h2 id="lists">Lists</h2>
+
+<p>A compound data type used to group together other values. A <code class="language-plaintext highlighter-rouge">list</code> is written as a series of comma-separated values (or items) between square brackets. They do not need to be of uniform type.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">a</span> <span class="o">=</span> <span class="p">[</span><span class="s">'spam'</span><span class="p">,</span> <span class="s">'eggs'</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">1234</span><span class="p">]</span>
+<span class="n">a</span>
+</code></pre></div></div>
+
+<p>Individual items in a <code class="language-plaintext highlighter-rouge">list</code> are referenced by their <code class="language-plaintext highlighter-rouge">index</code>, or location in the <code class="language-plaintext highlighter-rouge">list</code>. We can reference individual items by entering the variable and the position (counting from 0).</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">a</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="c1"># the first item in the list
+</span></code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">a</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">a</span><span class="p">[:</span><span class="mi">2</span><span class="p">]</span> <span class="c1"># a list can be sliced just like a string
+</span></code></pre></div></div>
+
+<p>Individual items/elements in a string can be modified (or updated) as follows</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">a</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="mi">2</span>
+<span class="n">a</span>
+</code></pre></div></div>
+
+<p>One can make Python determine the length (or size) of <code class="language-plaintext highlighter-rouge">list</code> by calling <code class="language-plaintext highlighter-rouge">len()</code> on it.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">len</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h3 id="adding-elements-to-a-list">Adding Elements to a List</h3>
+
+<h4 id="insert">insert</h4>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">h</span> <span class="o">=</span> <span class="p">[</span> <span class="s">'this'</span><span class="p">,</span> <span class="s">'is'</span><span class="p">,</span> <span class="s">'a'</span><span class="p">,</span> <span class="s">'list'</span> <span class="p">]</span>
+<span class="n">h</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">h</span><span class="p">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="s">'great'</span><span class="p">)</span>
+<span class="n">h</span>
+</code></pre></div></div>
+
+<h4 id="append">append</h4>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">h</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="s">'certainly'</span><span class="p">)</span>
+<span class="n">h</span>
+</code></pre></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">insert</code> adds an element to a <code class="language-plaintext highlighter-rouge">list</code> at index, <code class="language-plaintext highlighter-rouge">append</code> simply adds an element to the end of a <code class="language-plaintext highlighter-rouge">list</code>.</p>
+
+<h3 id="extend">extend</h3>
+
+<p><code class="language-plaintext highlighter-rouge">extend</code> concatenates (or combines) two lists and returns a new one.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">h</span>
+<span class="n">i</span> <span class="o">=</span> <span class="p">[</span> <span class="s">'the'</span><span class="p">,</span> <span class="s">'best'</span><span class="p">,</span> <span class="s">'list'</span><span class="p">]</span>
+<span class="n">h</span><span class="p">.</span><span class="n">extend</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+<span class="n">h</span>
+</code></pre></div></div>
+
+<h3 id="index">index</h3>
+
+<p><code class="language-plaintext highlighter-rouge">index</code> allows one to search a <code class="language-plaintext highlighter-rouge">list</code> by <code class="language-plaintext highlighter-rouge">value</code></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">h</span><span class="p">.</span><span class="n">index</span><span class="p">(</span><span class="s">'certainly'</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h3 id="removing-elements-from-a-list">Removing Elements From a List</h3>
+
+<p>There are two basic ways to remove an element from a <code class="language-plaintext highlighter-rouge">list</code>:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">pop</code></li>
+  <li><code class="language-plaintext highlighter-rouge">remove</code></li>
+</ul>
+
+<h4 id="pop">pop</h4>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">h</span> <span class="o">=</span> <span class="p">[</span><span class="s">'this'</span><span class="p">,</span> <span class="s">'is'</span><span class="p">,</span> <span class="s">'a'</span><span class="p">,</span> <span class="s">'great'</span><span class="p">,</span> <span class="s">'list'</span><span class="p">,</span> <span class="s">'certainly'</span><span class="p">,</span> <span class="s">'the'</span><span class="p">,</span> <span class="s">'best'</span><span class="p">,</span> <span class="s">'list'</span><span class="p">]</span>
+<span class="n">h</span><span class="p">.</span><span class="n">pop</span><span class="p">()</span>
+<span class="n">h</span>
+</code></pre></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">pop</code> removes and returns an item from a <code class="language-plaintext highlighter-rouge">list</code> at index. If no index is specified <code class="language-plaintext highlighter-rouge">pop</code> removes and returns the last item of a <code class="language-plaintext highlighter-rouge">list</code>.</p>
+
+<h4 id="remove">remove</h4>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">h</span>
+<span class="n">h</span><span class="p">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="s">'is'</span><span class="p">)</span> <span class="c1"># insert a duplicate word
+</span><span class="n">h</span> <span class="c1"># confirm the duplicate
+</span></code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">h</span><span class="p">.</span><span class="n">remove</span><span class="p">(</span><span class="s">'is'</span><span class="p">)</span>
+<span class="n">h</span>
+</code></pre></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">remove</code> gets rid of the first occurrence of value. In the above example, the value <code class="language-plaintext highlighter-rouge">'is'</code> was removed at index 1. In order to remove the second occurrence of <code class="language-plaintext highlighter-rouge">'is'</code> one would have to run <code class="language-plaintext highlighter-rouge">h.remove('is')</code> again.</p>
+:ET

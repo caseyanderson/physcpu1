@@ -7,4 +7,4 @@ number: "5"
 categories: hw
 ---
 
-Write a practice prototype proposal, fitting [this]({{site.url}}2020/05/21/proposals.html) format.
+Write a practice prototype proposal, fitting [this](https://physcpu1.caseyanderson.com/briefs/proposals/)

@@ -5,11 +5,11 @@ layout: page
 ---
 
 <div class="posts">
-{% assign sorted-posts = site.posts | where: "tags","hw" %}
-{% for post in sorted-posts %}
-{% assign date_format = post.week | append: "." | append: post.number %}
+    {% assign sorted-posts = site.posts | where: "categories","hw" %}
+    {% for post in sorted-posts %}
 
-<h3>{{ date_format }} <a href="{{ post.url }}">{{ post.title }}</a></h3>
+        <h3>{{ "Week " | append: post.week}}.{{ post.number }} <a href="{{ post.url }}">{{ post.title }}</a></h3>
 
 {% endfor %}
 </div>
+

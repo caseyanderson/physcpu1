@@ -1,4 +1,4 @@
-title: "Physical Computing 1 (FA20)"
+title: "Physical Computing 1"
 email: casey.anderson@artcenter.edu
 description:
     This prototyping-oriented class introduces students
@@ -16,7 +16,7 @@ plugins:
 # pages directory
 include: [_pages]
 
-# defaults
+# site defaults
 defaults:
   -
     scope:
@@ -25,7 +25,7 @@ defaults:
     values:
       is_post: true
       layout: post
-      permalink: /:categories/:title/
+      permalink: /:categories/:title:output_ext
   -
     scope:
       type: pages
