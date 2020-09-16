@@ -1,0 +1,137 @@
+I"ê<h2 id="physical-computing-1">Physical Computing 1</h2>
+<h3 id="hsci-214-01-art-center-college-of-design">HSCI-214-01, Art Center College of Design</h3>
+<p><strong>Class Meetings</strong> Thursdays, 09:00AM â€“ 11:50AM, Zoom</p>
+
+<p><strong>Student Hours</strong> Mondays, 09:00AM - 10:50AM, Zoom</p>
+
+<p>Email: casey.anderson@artcenter.edu</p>
+
+<p>Website: <a href="https://caseyanderson.com/">caseyanderson.com</a></p>
+
+<p>Pronouns: he / him / his</p>
+
+<h3 id="description">Description</h3>
+
+<p>This prototyping-oriented class introduces students to the creative affordances of physical computing, or the practice of interfacing digital system with the outside world, by way of hands-on experiments across a continuum of technologies. Students will learn programming concepts (Python3), and basic electronics, as well as strategies for their interaction, via the <a href="https://www.adafruit.com/product/3405">HUZZAH32</a>. Regular critiques will provide an opportunity for students to share their research and prototypes with their colleagues as well as receive direct feedback from the instructor.</p>
+
+<h3 id="required-materials">Required Materials</h3>
+
+<h3 id="grading-policy">Grading Policy</h3>
+
+<p>Grades will be calculated based on the following distribution:</p>
+
+<ul>
+  <li>Attendance = 15%</li>
+  <li>Lab participation = 15%</li>
+  <li>Homework assignments = 35%</li>
+  <li>Prototypes = 35%</li>
+</ul>
+
+<p>REWRUTE THIS Late prototype / assignment policy: for every week a prototype/assignment is late its highest possible grade drops by a letter.</p>
+
+<h3 id="goals">Goals</h3>
+
+<ol>
+  <li>Construct simple circuits to interface electronics with digital systems</li>
+  <li>Learn and explore the basic principles of software design</li>
+  <li>Prototype experiences and devices across a continuum of technologies</li>
+</ol>
+
+<h3 id="class-schedule-subject-to-change">Class Schedule (subject to change</h3>
+
+<h4 id="week-1">Week 1</h4>
+
+<ul>
+  <li>Review Syllabus</li>
+  <li>LAB Anaconda Installation</li>
+  <li>LAB The Command Line</li>
+  <li>LAB Intro to Electronics</li>
+  <li>BRF 0 Prototype Proposal Format</li>
+  <li>HW Required Materials</li>
+  <li>HW Practice Prototype Proposal</li>
+</ul>
+
+<h4 id="week-2">Week 2</h4>
+
+<ul>
+  <li>LAB Intro to Python3</li>
+  <li>LAB Digital Output</li>
+  <li>LAB Digital Input / Digital Output</li>
+  <li>BRF 1 !button</li>
+  <li>HW !button Prototype (+ Proposal)</li>
+  <li>HW Ten Possible Revisions</li>
+</ul>
+
+<h4 id="week-3">Week 3</h4>
+
+<ul>
+  <li>Present !button (in-progress)</li>
+  <li>LAB GPIO, Analog &amp; Digital Signals</li>
+  <li>LAB Analog Input</li>
+  <li>LAB Voltage Dividers</li>
+  <li>HW Revise + Document</li>
+  <li>HW Prepare to Present !button Prototype</li>
+</ul>
+
+<h4 id="week-4">Week 4</h4>
+
+<ul>
+  <li>Present !button (final)</li>
+</ul>
+
+<h4 id="week-5">Week 5</h4>
+
+<ul>
+  <li>LAB For Loops</li>
+  <li>LAB ADC, DAC, &amp; PWM</li>
+  <li>LAB Analog Input / Digital Output</li>
+  <li>BRF 2 Analog + Digital Interactions</li>
+  <li>HW Analog + Digital Interactions Prototype (+ Proposal)</li>
+  <li>HW Ten Possible Revisions</li>
+</ul>
+
+<h4 id="week-6">Week 6</h4>
+
+<ul>
+  <li>Present Analog + Digital Interactions (in-progress)</li>
+  <li>LAB Digital Input / PWM Output(s)</li>
+  <li>LAB Functions</li>
+  <li>HW Revise + Document</li>
+  <li>HW Prepare to Present Analog + Digital Interactions prototype</li>
+</ul>
+
+<h4 id="week-7">Week 7</h4>
+
+<ul>
+  <li>Present Analog + Digital Interactions (final)</li>
+</ul>
+
+<h4 id="week-8">Week 8</h4>
+
+<ul>
+  <li>LAB Button Increment</li>
+  <li>BRF 3 Combine / Remix</li>
+  <li>HW Combine / Remix Prototype (+ Proposal)</li>
+  <li>HW Ten Possible Revisions</li>
+</ul>
+
+<h4 id="week-9">Week 9</h4>
+
+<ul>
+  <li>Present Combine / Remix Prototype (in-progress pt. 1)</li>
+  <li>HW Revise + Document (pt. 1)</li>
+</ul>
+
+<h4 id="week-10">Week 10</h4>
+
+<ul>
+  <li>Present Combine / Remix Prototype (in-progress pt. 2)</li>
+  <li>HW 11.1 Revise + Document (pt. 2)</li>
+</ul>
+
+<h4 id="week-11">Week 11</h4>
+
+<ul>
+  <li>Present Combine / Remix Prototype</li>
+</ul>
+:ET

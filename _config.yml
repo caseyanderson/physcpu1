@@ -1,15 +1,38 @@
-
-title: Physical Computing 1
-author: Casey Anderson
+title: "Physical Computing 1 (FA20)"
 email: casey.anderson@artcenter.edu
-
-url: "http://physcpu1.caseyanderson.com/"
+description:
+    This prototyping-oriented class introduces students
+    to the creative affordances of physical computing via
+    hands-on experiments across a continuum of technologies.
+baseurl: ""
+url: "https://physcpu1.caseyanderson.com/" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: caseyanderson
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+
+# pages directory
+include: [_pages]
+
+# defaults
+defaults:
+  -
+    scope:
+      type: posts
+      path: _posts
+    values:
+      is_post: true
+      layout: post
+      permalink: /:categories/:title/
+  -
+    scope:
+      type: pages
+      path: _pages
+    values:
+      is_post: false
+      layout: default
 
 # Exclude from processing.
 # The following items will not be processed, by default.
