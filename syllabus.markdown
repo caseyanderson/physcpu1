@@ -32,6 +32,8 @@ This prototyping-oriented class introduces students to the creative affordances 
 * [Breadboard trim potentiometer - 10K](https://www.digikey.com/products/en?mpart=356&v=1528)
 * [Photo cell](https://www.digikey.com/products/en?mpart=161&v=1528)
 * [DC Brushless Motor](https://www.digikey.com/products/en?mpart=711&v=1528)
+* TIP120 Transistor
+* 1N1001 Diode
 * [Buttons (SPST)](https://www.amazon.com/6x6x6mm-Momentary-Push-Button-Switch/dp/B01GN79QF8)
 * [Through-Hole Resistors - 220 ohm 10% 1/4W](https://www.digikey.com/product-detail/en/yageo/CFR-25JB-52-220R/220QBK-ND/1295)
 * [Through-Hole Resistors - 10K ohm 10% 1/4W](https://www.digikey.com/product-detail/en/stackpole-electronics-inc/CF14JT10K0/CF14JT10K0CT-ND/1830374)
@@ -43,7 +45,7 @@ This prototyping-oriented class introduces students to the creative affordances 
 Grades will be calculated based on the following distribution:
 
 * Attendance = 15%
-* Lab participation / Weekly Quizzes = 15%
+* Lab participation = 15%
 * Homework assignments = 35%
 * Prototypes = 35%
 
@@ -56,99 +58,88 @@ Late prototype / assignment policy: for every week a prototype/assignment is lat
 2. Learn and explore the basic principles of software design
 3. Prototype experiences and devices across a continuum of technologies
 
-### Weekly Quiz Policy
-
-Beginning Week 2 every class will start with a short quiz, available from the start of class (9:00AM) for ten minutes (until 9:10AM). Those arriving to class after 9:10AM will receive a zero on the quiz.
-
 
 ### Class Schedule (subject to change
 
 #### Week 1
 
 * Review Syllabus
-* LAB 1.1 Python3 Pre-flight
-* LAB 1.2 The Command Line
-* LAB 1.3 [Intro to Python3]({{site.url}}2020/05/21/intro-py3.html)
-* BRF 0 [Prototype Proposal Format]({{site.url}}2020/05/21/proposals.html)
-* HW 1.1 [Required Materials]({{site.url}}2020/05/21/required-materials.html)
-* HW 1.2 [Practice Prototype Proposal]({{site.url}}2020/05/21/mock-proposal.html)
+* LAB Anaconda Installation
+* LAB The Command Line
+* LAB Intro to Electronics
+* BRF 0 Prototype Proposal Format
+* HW Required Materials
+* HW Practice Prototype Proposal
 
 
 #### Week 2
 
-* LAB 2.1 Troubleshoot Anaconda Environment
-* LAB 2.2 Adafruit HUZZAH32 Pre-flight
-* HW 2.1 Last Chance to get Required Materials
-* HW 2.2 Finish Setup of HUZZAH32, Confirm Functionality
+* LAB Intro to Python3
+* LAB Digital Output
+* LAB Digital Input / Digital Output
+* BRF 1 !button
+* HW !button Prototype (+ Proposal)
+* HW Ten Possible Revisions
 
 
 #### Week 3
 
-* LAB 3.1 [Digital Output]({{site.url}}2020/06/04/digital-output.html)
-* LAB 3.2 [Digital Input / Digital Output]({{site.url}}2020/06/04/digitalIO.html)
-* BRF 1 [!button]({{site.url}}2020/06/04/notbutton.html)
-* HW 3.1 [!button Prototype (+ Proposal)]({{site.url}}2020/06/04/notbutton-prototype.html)
-* HW 3.2 [Ten Possible Revisions]({{site.url}}2020/06/04/ten-revisions.html)
-
+* Present !button (in-progress)
+* LAB GPIO, Analog & Digital Signals
+* LAB Analog Input
+* LAB Voltage Dividers
+* HW Revise + Document
+* HW Prepare to Present !button Prototype
 
 #### Week 4
-
-* Present !button (in-progress)
-* LAB 4.1 GPIO, Analog & Digital Signals
-* LAB 4.2 Analog Input
-* LAB 4.3 Voltage Dividers
-* HW 4.1 Revise + Document
-* HW 4.2 Prepare to Present !button Prototype
-
-#### Week 5
 
 * Present !button (final)
 
 
+#### Week 5
+
+* LAB For Loops
+* LAB ADC, DAC, & PWM
+* LAB Analog Input / Digital Output
+* BRF 2 Analog + Digital Interactions
+* HW Analog + Digital Interactions Prototype (+ Proposal)
+* HW Ten Possible Revisions
+
+
 #### Week 6
 
-* LAB 6.1 For Loops
-* LAB 6.2 ADC, DAC, & PWM
-* LAB 6.3 Analog Input / Digital Output
-* BRF 2 Analog + Digital Interactions
-* HW 6.1 Analog + Digital Interactions Prototype (+ Proposal)
-* HW 6.2 Ten Possible Revisions
+* Present Analog + Digital Interactions (in-progress)
+* LAB Digital Input / PWM Output(s)
+* LAB Functions
+* HW Revise + Document
+* HW Prepare to Present Analog + Digital Interactions prototype
 
 
 #### Week 7
 
-* Present Analog + Digital Interactions (in-progress)
-* LAB 7.1 Digital Input / PWM Output(s)
-* LAB 7.2 Functions
-* HW 7.1 Revise + Document
-* HW 7.2 Prepare to Present Analog + Digital Interactions prototype
+* Present Analog + Digital Interactions (final)
 
 
 #### Week 8
 
-* Present Analog + Digital Interactions (final)
+* LAB Button Increment
+* BRF 3 Combine / Remix
+* HW Combine / Remix Prototype (+ Proposal)
+* HW Ten Possible Revisions
 
 
 #### Week 9
 
-* LAB 9.1 Button Increment
-* BRF 3 Combine / Remix
-* HW 9.1 Combine / Remix Prototype (+ Proposal)
-* HW 9.2 Ten Possible Revisions
+* Present Combine / Remix Prototype (in-progress pt. 1)
+* HW Revise + Document (pt. 1)
 
 
 #### Week 10
-
-* Present Combine / Remix Prototype (in-progress pt. 1)
-* HW 10.1 Revise + Document (pt. 1)
-
-
-#### Week 11
 
 * Present Combine / Remix Prototype (in-progress pt. 2)
 * HW 11.1 Revise + Document (pt. 2)
 
 
-#### Week 12
+#### Week 11
 
 * Present Combine / Remix Prototype

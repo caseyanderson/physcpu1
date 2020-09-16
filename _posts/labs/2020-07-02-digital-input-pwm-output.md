@@ -5,6 +5,7 @@ date: 2020-07-02 06:00:00 -0600
 week: 7
 number: 1
 tags: lab
+published: false
 ---
 
 ## Materials

@@ -1,4 +1,4 @@
-I"~
+I"ç
 <h2 id="materials">Materials</h2>
 
 <ul>
@@ -35,7 +35,7 @@
 
 <h3 id="hookup-pattern">Hookup Pattern</h3>
 
-<p><img src="http://0.0.0.0:4000/assets/fritzing/analog_read.png" alt="" /></p>
+<p><img src="http://physcpu1.caseyanderson.com//assets/fritzing/analog_read.png" alt="" /></p>
 
 <ol>
   <li>Connect Pot1 to ESP32 <code class="language-plaintext highlighter-rouge">GND</code></li>

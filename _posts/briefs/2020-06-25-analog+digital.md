@@ -5,6 +5,8 @@ date: 2020-06-25 06:00:00 -0730
 week: 6
 number: 2
 tags: brief
+permalink: /:title/
+published: false
 ---
 
 ## brief

@@ -1,4 +1,4 @@
-I"|<h2 id="materials">Materials</h2>
+I"‹<h2 id="materials">Materials</h2>
 
 <ul>
   <li>laptop</li>
@@ -33,7 +33,7 @@ blink.py (internal led)
 
 <h3 id="hookup-pattern">Hookup Pattern</h3>
 
-<p><img src="http://0.0.0.0:4000/assets/fritzing/blink_external_led.png" alt="" /></p>
+<p><img src="http://physcpu1.caseyanderson.com//assets/fritzing/blink_external_led.png" alt="" /></p>
 
 <ol>
   <li>Connect ESP32 GND to a blue bus on the side of your breadboard</li>

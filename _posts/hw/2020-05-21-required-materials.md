@@ -5,6 +5,7 @@ date:   2020-05-21 06:00:00 -0740
 week: 1
 number: 1
 tags: hw
+published: false
 ---
 
 Make sure that you have the following materials for class next Thursday:

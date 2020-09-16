@@ -1,4 +1,4 @@
-I"e<h2 id="materials">Materials</h2>
+I"�<h2 id="materials">Materials</h2>
 
 <ul>
   <li>laptop</li>
@@ -12,7 +12,7 @@
 
 <p>(Note: image sourced from <a href="https://learn.adafruit.com/adafruit-huzzah32-esp32-feather/pinouts">here</a>)</p>
 
-<p><img src="http://0.0.0.0:4000/assets/feather_gpio.jpg" alt="" /></p>
+<p><img src="http://physcpu1.caseyanderson.com//assets/feather_gpio.jpg" alt="" /></p>
 
 <p>The <code class="language-plaintext highlighter-rouge">ESP32</code> has a variety of pins, each of which perform different functions. For example, last week we looked at <code class="language-plaintext highlighter-rouge">3V</code> and <code class="language-plaintext highlighter-rouge">GND</code>, pins which give us access to the power and ground on the device respectively.</p>
 
@@ -50,7 +50,7 @@
 
 <p>(Note: image sourced from <a href="https://learn.sparkfun.com/tutorials/analog-vs-digital/all#digital-signals">here</a>)</p>
 
-<p><img src="http://0.0.0.0:4000/assets/digital_sig.png" alt="" /></p>
+<p><img src="http://physcpu1.caseyanderson.com//assets/digital_sig.png" alt="" /></p>
 
 <p>A digital signal is comprised of a sequence of discrete values. We typically think of these values as binary, or sequences of <code class="language-plaintext highlighter-rouge">1</code> and <code class="language-plaintext highlighter-rouge">0</code>, and associate them with computers. There are, however, a variety of equivalent ways to refer to this same alternation:</p>
 
@@ -89,7 +89,7 @@
 
 <p>(Note: image sourced from <a href="https://learn.sparkfun.com/tutorials/analog-vs-digital/all#analog-signals">here</a>)</p>
 
-<p><img src="http://0.0.0.0:4000/assets/analog_sig.png" alt="" /></p>
+<p><img src="http://physcpu1.caseyanderson.com//assets/analog_sig.png" alt="" /></p>
 
 <p>An analog signal is comprised of a signal varying value any point within a given range. The photo above, representing the composite video signal from an RCA plug, is one example of an analog signal. Generally people refer to phenomena in the “real world” as analog: light level, temperature, weight, etc.</p>
 

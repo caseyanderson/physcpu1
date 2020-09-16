@@ -1,4 +1,4 @@
-I"¥<h2 id="materials">Materials</h2>
+I"Ã<h2 id="materials">Materials</h2>
 
 <ul>
   <li>laptop</li>
@@ -33,7 +33,7 @@ button.py
 
 <h3 id="hookup-pattern">Hookup Pattern</h3>
 
-<p><img src="http://0.0.0.0:4000/assets/fritzing/button.png" alt="" /></p>
+<p><img src="http://physcpu1.caseyanderson.com//assets/fritzing/button.png" alt="" /></p>
 
 <ol>
   <li>Connect 1 button pin to ESP32 Pin 12</li>
@@ -64,7 +64,7 @@ button_led.py
 
 <h3 id="hookup-pattern-1">Hookup Pattern</h3>
 
-<p><img src="http://0.0.0.0:4000/assets/fritzing/button_led.png" alt="" /></p>
+<p><img src="http://physcpu1.caseyanderson.com//assets/fritzing/button_led.png" alt="" /></p>
 
 <ol>
   <li>Connect 1 button pin to ESP32 Pin <code class="language-plaintext highlighter-rouge">12</code></li>

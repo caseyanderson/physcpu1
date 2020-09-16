@@ -5,6 +5,7 @@ date: 2020-06-04 06:00:00 -0800
 week: 3
 number: 1
 tags: hw
+published: false
 ---
 
 ## Part 1

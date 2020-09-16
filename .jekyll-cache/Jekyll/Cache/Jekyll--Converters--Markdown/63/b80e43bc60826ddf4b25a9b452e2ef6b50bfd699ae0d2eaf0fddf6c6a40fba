@@ -1,4 +1,4 @@
-I"Y<h2 id="materials">Materials</h2>
+I"h<h2 id="materials">Materials</h2>
 
 <ul>
   <li>laptop</li>
@@ -14,7 +14,7 @@
 
 <h3 id="hookup-pattern">Hookup Pattern</h3>
 
-<p><img src="http://0.0.0.0:4000/assets/fritzing/force_analogIn_PWMOut.png" alt="" /></p>
+<p><img src="http://physcpu1.caseyanderson.com//assets/fritzing/force_analogIn_PWMOut.png" alt="" /></p>
 
 <ol>
   <li>Connect Sensor Pin3 to <code class="language-plaintext highlighter-rouge">ESP32</code> <code class="language-plaintext highlighter-rouge">3V</code></li>

@@ -1,10 +1,11 @@
 ---
 layout: recipes
-title:  "Kill Leftover screen Session"
+title:  "Kill Leftover screen Session (MacOS)"
 date:   2020-06-04 06:00:00 -1000
 week: ""
 number: ""
 tags: recipes
+permalink: /:title.html
 ---
 
 ### MacOS

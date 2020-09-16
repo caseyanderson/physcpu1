@@ -5,6 +5,7 @@ date:   2020-06-04 06:00:00 -0830
 week: 3
 number: ""
 tags: recipes
+permalink: /:title.html
 ---
 
 ### MacOS

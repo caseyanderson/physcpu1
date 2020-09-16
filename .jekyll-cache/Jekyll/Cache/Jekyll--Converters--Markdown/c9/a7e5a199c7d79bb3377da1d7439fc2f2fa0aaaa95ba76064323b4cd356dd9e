@@ -1,4 +1,4 @@
-I"a<h2 id="materials">Materials</h2>
+I"Ž<h2 id="materials">Materials</h2>
 
 <ul>
   <li>laptop</li>
@@ -12,19 +12,19 @@
 
 <p>A voltage divider is a circuit that produces an output that is smaller than its input (where the output is voltage or current).</p>
 
-<p><img src="http://0.0.0.0:4000/assets/voltage_divider.png" alt="" /></p>
+<p><img src="http://physcpu1.caseyanderson.com//assets/voltage_divider.png" alt="" /></p>
 
 <p>The above schematic represents the most basic way to use two resistors (labeled as <code class="language-plaintext highlighter-rouge">Z1</code> and <code class="language-plaintext highlighter-rouge">Z2</code>) to take some voltage (<code class="language-plaintext highlighter-rouge">Vin</code>) and output a fraction of it (<code class="language-plaintext highlighter-rouge">Vout</code>). The amount of <code class="language-plaintext highlighter-rouge">Vin</code> that is output at <code class="language-plaintext highlighter-rouge">Vout</code> depends on the values of the two resistors. This is the basic wiring pattern for almost any analog sensor, btw.</p>
 
 <p>If you need to calculate the value of <code class="language-plaintext highlighter-rouge">R1</code> and <code class="language-plaintext highlighter-rouge">R2</code> (fyi: in this case, I am using <code class="language-plaintext highlighter-rouge">Z</code> and <code class="language-plaintext highlighter-rouge">R</code> interchangeably, but <code class="language-plaintext highlighter-rouge">Z</code> refers to impedance and <code class="language-plaintext highlighter-rouge">R</code> refers to resistance) such that you can get a specific <code class="language-plaintext highlighter-rouge">Vout</code>, here is the formula:</p>
 
-<p><img src="http://0.0.0.0:4000/assets/voltage_divider_formula2.jpg" alt="" /></p>
+<p><img src="http://physcpu1.caseyanderson.com//assets/voltage_divider_formula2.jpg" alt="" /></p>
 
 <h2 id="voltage-dividers--sensors-sometimes">Voltage Dividers = Sensors (Sometimes!)</h2>
 
 <h3 id="hookup-pattern">Hookup Pattern</h3>
 
-<p><img src="http://0.0.0.0:4000/assets/fritzing/ldr_voltage_divider.png" alt="" /></p>
+<p><img src="http://physcpu1.caseyanderson.com//assets/fritzing/ldr_voltage_divider.png" alt="" /></p>
 
 <ol>
   <li>Connect LDR Pin1 (<code class="language-plaintext highlighter-rouge">Z1</code> in Voltage Divider schematic above) to ESP32 <code class="language-plaintext highlighter-rouge">3V</code></li>

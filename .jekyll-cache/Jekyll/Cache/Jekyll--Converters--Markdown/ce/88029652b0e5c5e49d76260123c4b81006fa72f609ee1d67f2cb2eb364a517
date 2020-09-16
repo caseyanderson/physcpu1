@@ -1,4 +1,4 @@
-I"I#<h2 id="materials">Materials</h2>
+I"”#<h2 id="materials">Materials</h2>
 
 <ul>
   <li>laptop</li>
@@ -21,7 +21,7 @@
 
 <p>While there are a variety of different types of transistors, we will focus on the <code class="language-plaintext highlighter-rouge">TIP120</code>, a pinout for which can be found below:</p>
 
-<p><img src="http://0.0.0.0:4000/assets/tip120_pinout.jpg" alt="" /></p>
+<p><img src="http://physcpu1.caseyanderson.com//assets/tip120_pinout.jpg" alt="" /></p>
 
 <ol>
   <li>Base -&gt; Control</li>
@@ -31,17 +31,17 @@
 
 <p>More specifically, transistors are based on the following phenomena: a small current flowing between the base (<code class="language-plaintext highlighter-rouge">B</code>) and emitter (<code class="language-plaintext highlighter-rouge">E</code>) causes a larger current to flow between the collector (<code class="language-plaintext highlighter-rouge">C</code>) and emitter (<code class="language-plaintext highlighter-rouge">E</code>).</p>
 
-<p><img src="http://0.0.0.0:4000/assets/adafruit_transistor.png" alt="" /></p>
+<p><img src="http://physcpu1.caseyanderson.com//assets/adafruit_transistor.png" alt="" /></p>
 
 <h2 id="esp32--tip120">ESP32 + TIP120</h2>
 
 <h3 id="schematic">Schematic</h3>
 
-<p><img src="http://0.0.0.0:4000/assets/tip120_motor_light_sol_schematic.jpg" alt="" /></p>
+<p><img src="http://physcpu1.caseyanderson.com//assets/tip120_motor_light_sol_schematic.jpg" alt="" /></p>
 
 <h3 id="hookup-pattern">Hookup Pattern</h3>
 
-<p><img src="http://0.0.0.0:4000/assets/fritzing/mosfet_pwm_motor.png" alt="" /></p>
+<p><img src="http://physcpu1.caseyanderson.com//assets/fritzing/mosfet_pwm_motor.png" alt="" /></p>
 
 <p>After wiring up a <code class="language-plaintext highlighter-rouge">TIP120</code>, <code class="language-plaintext highlighter-rouge">diode</code>, <code class="language-plaintext highlighter-rouge">resistor</code>, and <code class="language-plaintext highlighter-rouge">motor</code> (as shown above), one could test controlling the motor with the following:</p>
 
@@ -67,7 +67,7 @@
 
 <h3 id="hookup-pattern-1">Hookup Pattern</h3>
 
-<p><img src="http://0.0.0.0:4000/assets/fritzing/button_motor.png" alt="" /></p>
+<p><img src="http://physcpu1.caseyanderson.com//assets/fritzing/button_motor.png" alt="" /></p>
 
 <p>In the next example a button, added to pin <code class="language-plaintext highlighter-rouge">12</code>, controls whether the motor spins or not.</p>
 

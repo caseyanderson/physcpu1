@@ -1,4 +1,4 @@
-I"ÛJ<h2 id="materials">Materials</h2>
+I"K<h2 id="materials">Materials</h2>
 
 <ul>
   <li>laptop</li>
@@ -37,7 +37,7 @@
 
 <h2 id="digital-to-analog-conversion-dac--pulse-width-modulation-pwm">Digital to Analog Conversion (DAC) / Pulse Width Modulation (PWM)</h2>
 
-<p><img src="http://0.0.0.0:4000/assets/PWM_wikipedia.png" alt="" /></p>
+<p><img src="http://physcpu1.caseyanderson.com//assets/PWM_wikipedia.png" alt="" /></p>
 
 <p>Digital to Analog Conversion (DAC) is the opposite of <code class="language-plaintext highlighter-rouge">ADC</code>: a <code class="language-plaintext highlighter-rouge">DAC</code> converts a sequence of discrete <code class="language-plaintext highlighter-rouge">voltages</code> into a varying <code class="language-plaintext highlighter-rouge">voltage</code>. In order to approximate an analog voltage with a digital pin on the <code class="language-plaintext highlighter-rouge">ESP32</code> one typically uses <code class="language-plaintext highlighter-rouge">Pulse Width Modulation</code> (<code class="language-plaintext highlighter-rouge">PWM</code>). This is accomplished by toggling a digital pin on and off very quickly.</p>
 
@@ -45,7 +45,7 @@
 
 <h3 id="hookup-pattern">Hookup Pattern</h3>
 
-<p><img src="http://0.0.0.0:4000/assets/fritzing/blink_external_led.png" alt="" /></p>
+<p><img src="http://physcpu1.caseyanderson.com//assets/fritzing/blink_external_led.png" alt="" /></p>
 
 <ol>
   <li>Connect ESP32 <code class="language-plaintext highlighter-rouge">GND</code> to a blue bus on the side of your breadboard</li>
