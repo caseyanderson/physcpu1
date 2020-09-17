@@ -1,0 +1,52 @@
+I"¦
+<h3 id="installation">Installation</h3>
+<h4 id="macos">MacOS</h4>
+<ol>
+  <li>Click <a href="https://repo.anaconda.com/archive/Anaconda3-2020.07-MacOSX-x86_64.pkg">here</a> to download the latest version of <code class="language-plaintext highlighter-rouge">Anaconda Navigator</code> for <code class="language-plaintext highlighter-rouge">MacOS</code></li>
+  <li>Once the download has finished run the installer</li>
+</ol>
+
+<h4 id="windows-10">Windows 10</h4>
+<ol>
+  <li>Click <a href="https://repo.anaconda.com/archive/Anaconda3-2020.07-Windows-x86_64.exe">here</a> to download the latest version of <code class="language-plaintext highlighter-rouge">Anaconda Navigator</code> for <code class="language-plaintext highlighter-rouge">Windows 10</code></li>
+  <li>Once the download has finished run the installer</li>
+</ol>
+
+<h3 id="getting-to-the-command-line">Getting to the Command Line</h3>
+<h4 id="macos-1">MacOS</h4>
+<ol>
+  <li>Navigate to Finder &gt; Applications &gt; Utilities &gt; Terminal</li>
+  <li>Run the <code class="language-plaintext highlighter-rouge">Terminal</code>, you should see something that looks like this:</li>
+</ol>
+
+<p><img src="http://0.0.0.0:4000/assets/imgs/mac_os_anaconda_terminal.png" alt="" /></p>
+
+<h4 id="windows-10-1">Windows 10</h4>
+<ol>
+  <li>Navigate to <code class="language-plaintext highlighter-rouge">Anaconda Powershell</code> (it should be in the <code class="language-plaintext highlighter-rouge">Start</code> menu)</li>
+  <li>Run the Anaconda Powershell</li>
+</ol>
+
+<p>Note: who would like to take a screenshot of the Anaconda Powershell and send it to me? Thx!</p>
+
+<h3 id="command-prompt">Command Prompt</h3>
+<h4 id="macos-2">MacOs</h4>
+<p><code class="language-plaintext highlighter-rouge">$</code></p>
+
+<h4 id="windows-10-2">Windows 10</h4>
+<p><code class="language-plaintext highlighter-rouge">&gt;</code></p>
+
+<p>The command prompt, illustrated above per operating system, indicates to a user where they can enter commands (type things)</p>
+
+<h3 id="create-a-conda-environment">Create A Conda Environment</h3>
+
+<p>In the Terminal (MacOS) or Anaconda Powershell Prompt (Windows 10):</p>
+
+<ol>
+  <li><code class="language-plaintext highlighter-rouge">conda create -n making_intro python=3.8</code></li>
+  <li><code class="language-plaintext highlighter-rouge">conda activate making_intro</code></li>
+  <li><code class="language-plaintext highlighter-rouge">pip install beautifulsoup4</code></li>
+  <li><code class="language-plaintext highlighter-rouge">conda list</code> (confirms that <code class="language-plaintext highlighter-rouge">beautifulsoup4</code> has been installed)</li>
+  <li><code class="language-plaintext highlighter-rouge">conda activate</code></li>
+</ol>
+:ET
