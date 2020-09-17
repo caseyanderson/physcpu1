@@ -13,15 +13,15 @@ You will be required to write a prototype proposal for each of the briefs you co
 
 Your proposal must contain the following components:
 
-* **Title:** giving your prototype a title sometimes helps you prioritize focusing on certain things over others. This may change throughout the completion of the prototype, but its a good way to give your work more orientation.
+* **Title:** giving your prototype a title sometimes helps you prioritize focusing on certain things over others. This may change throughout the completion of the prototype
 
-* **Inspiration / Background:** where did your idea come from? Something you read, saw, or heard about? What lead you to this particular idea? What about this is interesting to you (specifically) and why?
+* **Inspiration / Background:** where did your idea come from? What lead you to this particular idea? What about this is interesting to you (specifically) and why?
 
-* **Summary of the Experience:** what is it? In other words, what happens? Is it a tool? An experience? If so, what kind of an experience? What about this do you think would be interesting to someone else (specifically) and why?
+* **Summary of the Experience:** what is it? Is it a tool? An experience? What kind of an experience?
 
-* **Bill of Materials:** what do you need to make this prototype? How much will it cost? Everything in this class will use a HUZZAH32, so at the very least that should be mentioned in this section.
+* **Materials:** what do you need to make this prototype? List the materials here
 
-* **Supporting Media:** what if someone wants to hear about this really interesting thing that you made/interaction you set up? If you were asked to send someone a short PDF (like this proposal!) and a few images, or a link to a video, etc., what would you include? It is okay for this to simply be sketches in the beginning.
+* **Supporting Media:** in the early stages this may be sketches or simple images, but our goal is to have a short video of your working prototype
 
 
-Your proposals should be delivered as PDF files of approximately 1 to 2 pages in length. More specifically I am looking for a mixture of college-level writing (i.e. no spelling or grammar errors) broken into the categories listed above and whatever media documentation is necessary to illustrate your prototype (example: a rendering, a series of sketches, a link to a short video, etc.). Over the course of each prototype you will “fill in” parts of your proposal that are not yet complete/finalized.
+Proposals should be delivered as PDF files of approximately 1 to 2 pages in length divided into the categories listed above. Over the course of each prototype you will “fill in” parts of your proposal that are not yet complete/finalized.

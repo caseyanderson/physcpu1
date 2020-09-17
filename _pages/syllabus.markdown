@@ -59,7 +59,7 @@ Grades will be calculated based on the following distribution:
 3. Prototype experiences and devices across a continuum of technologies
 
 
-### Class Schedule (subject to change
+### Class Schedule (subject to change)
 
 #### Week 1
 

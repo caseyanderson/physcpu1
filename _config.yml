@@ -5,7 +5,7 @@ description:
     to the creative affordances of physical computing via
     hands-on experiments across a continuum of technologies.
 baseurl: ""
-url: "https://physcpu1.caseyanderson.com/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://physcpu1.caseyanderson.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: caseyanderson
 
 # Build settings
