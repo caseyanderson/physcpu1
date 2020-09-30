@@ -1,11 +1,10 @@
 ---
 layout: post
 title: "!button"
-date: 2020-06-04 06:00:00 -0700
-week: 3
-number: 1
-tags: brief
-published: false
+date: 2020-09-24 06:00:00 -0700
+week: 2
+number: 3
+categories: briefs
 ---
 
 ## brief

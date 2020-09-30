@@ -1,11 +1,10 @@
 ---
 layout: post
 title:  "Digital Output"
-date: 2020-06-04 06:00:00 -0600
+date: 2020-10-01 06:00:00 -0630
 week: 3
-number: 1
-tags: lab
-published: false
+number: 2
+categories: labs
 ---
 
 ## Materials
@@ -44,7 +43,7 @@ while True:
 
 ### Hookup Pattern
 
-![]({{site.url}}/assets/fritzing/blink_external_led.png)
+![]({{site.url}}/assets/imgs/fritzing/blink_external_led.png)
 
 1. Connect ESP32 GND to a blue bus on the side of your breadboard
 2. From pin 27, connect the following in series: a Resistor to an LED to GND (blue bus)

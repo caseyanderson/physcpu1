@@ -24,3 +24,4 @@ Make sure that you have the following materials for class next Thursday:
 * [LEDs](https://www.amazon.com/Projects-B-0001-B07-Red-LED-Pack/dp/B00B793SIE)
 * [Bertech Copper Foil Tape with Conductive Adhesive, 1/4 In. Wide x 36 Yards Long](https://www.amazon.com/Bertech-Copper-Conductive-Yards-Thick/dp/B009KB86BU) or similar
 * [Xacto X3311 N0. 1 Precision Knife With 5 No. 11 Blades](https://www.amazon.com/Xacto-X3311-Precision-Knife-Blades/dp/B0000DD1N4)
+

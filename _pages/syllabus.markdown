@@ -25,7 +25,7 @@ This prototyping-oriented class introduces students to the creative affordances 
 ### Required Materials
 
 * Laptop (Mac or PC)
-* [Adafruit HUZZAH32 – ESP32 Feather Board (pre-soldered)](https://www.digikey.com/products/en?mpart=3591&v=1528)
+* [Adafruit HUZZAH32 – ESP32 Feather Board](https://www.adafruit.com/product/3619)
 * 1 of the Following: [USB A to Micro-B](https://www.amazon.com/dp/B0711PVX6Z) or [USB C to Micro-B](https://www.amazon.com/dp/B00UUBRX0Y?psc=1)
 * [Full-size breadboard](https://www.amazon.com/Breadboards-Raspberry-Preformed-Solderless-prototyping/dp/B07TVC1T1S)
 * [Breadboarding wire bundle](https://www.amazon.com/Solderless-Flexible-Breadboard-Jumper-100pcs/dp/B005TZJ0AM)
@@ -33,7 +33,7 @@ This prototyping-oriented class introduces students to the creative affordances 
 * [Photo cell](https://www.digikey.com/products/en?mpart=161&v=1528)
 * [DC Brushless Motor](https://www.digikey.com/products/en?mpart=711&v=1528)
 * [TIP120 Transistor](https://www.digikey.com/product-detail/en/on-semiconductor/TIP120TU/TIP120TUFS-ND/1052473)
-* [1N4001 Diode](https://www.digikey.com/product-detail/en/comchip-technology/1N4001-G/641-1310-3-ND/1979654)
+* [1N4001 Diode](https://www.digikey.com/product-detail/en/comchip-technology/1N4001-G/641-1310-1-ND/1979675)
 * [Buttons (SPST)](https://www.amazon.com/6x6x6mm-Momentary-Push-Button-Switch/dp/B01GN79QF8)
 * [Through-Hole Resistors - 220 ohm 10% 1/4W](https://www.digikey.com/product-detail/en/yageo/CFR-25JB-52-220R/220QBK-ND/1295)
 * [Through-Hole Resistors - 10K ohm 10% 1/4W](https://www.digikey.com/product-detail/en/stackpole-electronics-inc/CF14JT10K0/CF14JT10K0CT-ND/1830374)
@@ -70,3 +70,22 @@ Grades will be calculated based on the following distribution:
 * 1.4 BRF [ Prototype Proposal Format ]({{ site.url }}/briefs/proposals.html)
 * 1.5 HW [ Practice Prototype Proposal ]({{ site.url }}/hw/practice-proposal.html)
 * 1.6 HW [ Required Materials ]({{ site.url }}/hw/required-materials.html)
+
+
+#### Week 2
+
+* 2.1 LAB Introduction to Electronics
+* 2.2 LAB [ Huzzah32 pre-flight ]({{ site.url }}/labs/huzzah32-preflight.html)
+* 2.3 BRF [ !button ]({{ site.url }}/briefs/notbutton.html)
+* 2.4 HW 5x paper button prototypes
+
+
+#### Week 3
+
+* 3.1 Review Button Prototypes
+* 3.2 Digital Output
+* 3.3 Digital Input/Output
+* 3.4 HW !button Prototype (v1)
+* 3.5 HW !button Prototype Proposal
+* 3.6 HW !button 10 Possible Revisions
+

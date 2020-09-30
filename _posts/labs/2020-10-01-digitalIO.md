@@ -1,11 +1,10 @@
 ---
 layout: post
 title:  "Digital Input / Digital Output"
-date: 2020-06-04 06:00:00 -0630
+date: 2020-10-01 06:00:00 -0700
 week: 3
-number: 2
-tags: lab
-published: false
+number: 3
+categories: labs
 ---
 
 ## Materials
@@ -43,7 +42,7 @@ while True:
 
 ### Hookup Pattern
 
-![]({{site.url}}/assets/fritzing/button.png)
+![]({{site.url}}/assets/imgs/fritzing/button.png)
 
 1. Connect 1 button pin to ESP32 Pin 12
 2. Connect another button pin to ESP32 GND
@@ -74,7 +73,7 @@ while True:
 
 ### Hookup Pattern
 
-![]({{site.url}}/assets/fritzing/button_led.png)
+![]({{site.url}}/assets/imgs/fritzing/button_led.png)
 
 1. Connect 1 button pin to ESP32 Pin `12`
 2. Connect ESP32 `GND` to a blue bus on the side of your breadboard
