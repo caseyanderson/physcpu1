@@ -1,11 +1,10 @@
 ---
 layout: post
-title:  "Analog + Digital Interactions Ten Possible Revisions"
-date: 2020-06-25 06:00:00 -0830
-week: 6
-number: 2
-tags: hw
-published: false
+title:  "!button Ten Possible Revisions"
+date: 2020-10-01 06:00:00 -0830
+week: 3
+number: 5
+categories: hw
 ---
 
 1. Following your tests, quickly generate a written list of Twenty (20) possible revisions to your project (don't think too hard about each idea yet, generate a bunch of them first without regard to whether they are "good" ideas or not).

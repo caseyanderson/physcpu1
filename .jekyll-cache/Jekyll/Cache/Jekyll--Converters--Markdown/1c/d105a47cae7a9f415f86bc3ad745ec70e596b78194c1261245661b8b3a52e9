@@ -1,7 +1,0 @@
-I"Î<h3 id="moving-around">Moving Around</h3>
-<ul>
-  <li><code class="language-plaintext highlighter-rouge">pwd</code>: or print working directory, shows the directory you are currently in</li>
-  <li><code class="language-plaintext highlighter-rouge">ls</code>: lists all contents of a directory (folder)</li>
-  <li><code class="language-plaintext highlighter-rouge">cd</code>: or change directories, use this to move to a different part of your computer</li>
-</ul>
-:ET
