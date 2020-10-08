@@ -1,11 +1,10 @@
 ---
 layout: post
 title:  "Analog Input"
-date: 2020-06-11 06:00:00 -0630
+date: 2020-10-08 06:00:00 -0630
 week: 4
-number: 2
-tags: lab
-published: false
+number: 4
+categories: labs
 ---
 
 ## Materials
@@ -41,7 +40,7 @@ while True:
 
 ### Hookup Pattern
 
-![]({{site.url}}/assets/fritzing/analog_read.png)
+![]({{site.url}}/assets/imgs/fritzing/analog_read.png)
 
 1. Connect Pot1 to ESP32 `GND`
 2. Connect Pot2 to ESP32 `34`

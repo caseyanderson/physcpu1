@@ -83,9 +83,17 @@ Grades will be calculated based on the following distribution:
 #### Week 3
 
 * 3.1 Review Button Prototypes
-* 3.2 Digital Output
-* 3.3 Digital Input/Output
-* 3.4 HW !button Prototype (v1)
-* 3.5 HW !button Prototype Proposal
-* 3.6 HW !button 10 Possible Revisions
+* 3.2 LAB [ Digital Output ]({{ site.url }}/labs/digital-output.html)
+* 3.3 LAB [ Digital Input/Output ]({{ site.url }}/labs/digitalIO.html)
+* 3.4 HW [ !button Prototype + Proposal (v1) ]({{ site.url }}/hw/notbutton-prototype.html)
+* 3.5 HW [ !button 10 Possible Revisions ]({{ site.url }}/hw/notbutton-ten-revisions.html)
 
+
+#### Week 4
+
+* 4.1 Review !button Prototypes
+* 4.2 Demo: 1 Input Controls 2 Outputs
+* 4.3 LAB GPIO, Analog & Digital Signals
+* 4.4 LAB Analog Input
+* 4.5 HW Prepare Final !button Prototype
+* 4.6 HW Get Analog Sensors

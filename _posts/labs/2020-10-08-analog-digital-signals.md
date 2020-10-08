@@ -1,11 +1,10 @@
 ---
 layout: post
 title:  "GPIO, Analog & Digital Signals"
-date: 2020-06-11 06:00:00 -0600
+date: 2020-10-08 06:00:00 -0600
 week: 4
-number: 1
-tags: lab
-published: false
+number: 3
+categories: labs
 ---
 
 ## Materials
@@ -20,7 +19,7 @@ published: false
 
 (Note: image sourced from [here](https://learn.adafruit.com/adafruit-huzzah32-esp32-feather/pinouts))
 
-![]({{site.url}}/assets/feather_gpio.jpg)
+![]({{site.url}}/assets/imgs/feather_gpio.jpg)
 
 The `ESP32` has a variety of pins, each of which perform different functions. For example, last week we looked at `3V` and `GND`, pins which give us access to the power and ground on the device respectively.
 
@@ -56,7 +55,7 @@ In electronics a signal is a time-varying quantity which conveys information. Th
 
 (Note: image sourced from [here](https://learn.sparkfun.com/tutorials/analog-vs-digital/all#digital-signals))
 
-![]({{site.url}}/assets/digital_sig.png)
+![]({{site.url}}/assets/imgs/digital_sig.png)
 
 A digital signal is comprised of a sequence of discrete values. We typically think of these values as binary, or sequences of `1` and `0`, and associate them with computers. There are, however, a variety of equivalent ways to refer to this same alternation:
 
@@ -75,7 +74,7 @@ To date we have exclusively worked with digital inputs and outputs: a button (in
 
 (Note: image sourced from [here](https://learn.sparkfun.com/tutorials/analog-vs-digital/all#analog-signals))
 
-![]({{site.url}}/assets/analog_sig.png)
+![]({{site.url}}/assets/imgs/analog_sig.png)
 
 An analog signal is comprised of a signal varying value any point within a given range. The photo above, representing the composite video signal from an RCA plug, is one example of an analog signal. Generally people refer to phenomena in the "real world" as analog: light level, temperature, weight, etc.
 

@@ -1,11 +1,10 @@
 ---
 layout: post
 title:  "Voltage Dividers"
-date: 2020-06-11 06:00:00 -0700
-week: 4
-number: 3
-tags: lab
-published: false
+date: 2020-10-15 06:00:00 -0700
+week: 5
+number: 2
+categories: lab
 ---
 
 ## Materials
@@ -20,19 +19,19 @@ published: false
 
 A voltage divider is a circuit that produces an output that is smaller than its input (where the output is voltage or current).
 
-![]({{site.url}}/assets/voltage_divider.png)
+![]({{site.url}}/assets/imgs/voltage_divider.png)
 
 The above schematic represents the most basic way to use two resistors (labeled as `Z1` and `Z2`) to take some voltage (`Vin`) and output a fraction of it (`Vout`). The amount of `Vin` that is output at `Vout` depends on the values of the two resistors. This is the basic wiring pattern for almost any analog sensor, btw.
 
 If you need to calculate the value of `R1` and `R2` (fyi: in this case, I am using `Z` and `R` interchangeably, but `Z` refers to impedance and `R` refers to resistance) such that you can get a specific `Vout`, here is the formula:
 
-![]({{site.url}}/assets/voltage_divider_formula2.jpg)
+![]({{site.url}}/assets/imgs/voltage_divider_formula2.jpg)
 
 ## Voltage Dividers = Sensors (Sometimes!)
 
 ### Hookup Pattern
 
-![]({{site.url}}/assets/fritzing/ldr_voltage_divider.png)
+![]({{site.url}}/assets/imgs/fritzing/ldr_voltage_divider.png)
 
 1. Connect LDR Pin1 (`Z1` in Voltage Divider schematic above) to ESP32 `3V`
 2. Connect LDR Pin2 to ESP32 `34`
