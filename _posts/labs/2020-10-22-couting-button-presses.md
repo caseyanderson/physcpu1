@@ -1,11 +1,10 @@
 ---
 layout: post
 title:  "Counting Button Presses"
-date: 2020-03-26 06:00:00 -0600
-week: 10
-number: 1
-tags: lab
-published: false
+date: 2020-10-22 06:00:00 -0700
+week: 6
+number: 3
+categories: labs
 ---
 
 ## Materials
@@ -20,7 +19,7 @@ published: false
 
 ## Hookup Pattern
 
-![]({{site.url}}/assets/fritzing/button.png)
+![]({{site.url}}/assets/imgs/fritzing/button.png)
 
 
 ## button.py
@@ -49,7 +48,7 @@ In order to know how to improve upon the `button.py` example we can ask the foll
 
 Another way to ask the same question while pressing the button: can I reliably press the button and get **only one** `Button pressed!` message?
 
-![]({{site.url}}/assets/button_test_one_fail.png)
+![]({{site.url}}/assets/imgs/button_test_one_fail.png)
 
 When one presses the button one invariably triggers more than one print statement (see the image above, I **swear** I barely touched the button).
 
@@ -82,7 +81,7 @@ while True:
 
 Take a moment to **run and use** `button_counter_basic.py` while asking the following question: can I reliably press the button and only add 1 to `counter`? Try it!
 
-![]({{site.url}}/assets/button_test_two_fail.png)
+![]({{site.url}}/assets/imgs/button_test_two_fail.png)
 
 Again, no matter how hard I try I cannot help but send repeated triggers with this kind of structure.
 
@@ -113,7 +112,7 @@ while True:
 
 Take a moment to **run and use** `button_press_once.py` while asking the following question: can I reliably press the button and get only one Button pressed! message? Try it!
 
-![]({{site.url}}/assets/button_test_three_win.png)
+![]({{site.url}}/assets/imgs/button_test_three_win.png)
 
 Even if I press and hold the button `button_press_once.py` only prints the message once and blocks repeated triggers. Hooray!
 
@@ -147,9 +146,7 @@ while True:
 
 Take a moment to **run and use** `button_press_counter.py` while asking the following, more interesting, question: can I reliably count four button presses? Try it!
 
-![]({{site.url}}/assets/button_counter_working.png)
-
-blah blah
+![]({{site.url}}/assets/imgs/button_counter_working.png)
 
 
 ## button_press_counter_limit.py

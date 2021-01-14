@@ -1,11 +1,10 @@
 ---
 layout: post
 title:  "Digital Input / PWM Output(s)"
-date: 2020-07-02 06:00:00 -0600
+date: 2020-10-29 06:00:00 -0700
 week: 7
-number: 1
-tags: lab
-published: false
+number: 3
+categories: labs
 ---
 
 ## Materials
@@ -30,7 +29,7 @@ Transistors are three pin components capable of amplifying or switching signals.
 
 While there are a variety of different types of transistors, we will focus on the `TIP120`, a pinout for which can be found below:
 
-![]({{site.url}}/assets/tip120_pinout.jpg)
+![]({{site.url}}/assets/imgs/tip120_pinout.jpg)
 
 1. Base -> Control
 2. Collector -> Input
@@ -38,18 +37,18 @@ While there are a variety of different types of transistors, we will focus on th
 
 More specifically, transistors are based on the following phenomena: a small current flowing between the base (`B`) and emitter (`E`) causes a larger current to flow between the collector (`C`) and emitter (`E`).
 
-![]({{site.url}}/assets/adafruit_transistor.png)
+![]({{site.url}}/assets/imgs/adafruit_transistor.png)
 
 
 ## ESP32 + TIP120
 
 ### Schematic
 
-![]({{site.url}}/assets/tip120_motor_light_sol_schematic.jpg)
+![]({{site.url}}/assets/imgs/tip120_motor_light_sol_schematic.jpg)
 
 ### Hookup Pattern
 
-![]({{site.url}}/assets/fritzing/mosfet_pwm_motor.png)
+![]({{site.url}}/assets/imgs/fritzing/mosfet_pwm_motor.png)
 
 After wiring up a `TIP120`, `diode`, `resistor`, and `motor` (as shown above), one could test controlling the motor with the following:
 
@@ -74,7 +73,7 @@ Note: the exact same wiring pattern used to control a motor (see schematic above
 
 ### Hookup Pattern
 
-![]({{site.url}}/assets/fritzing/button_motor.png)
+![]({{site.url}}/assets/imgs/fritzing/button_motor.png)
 
 In the next example a button, added to pin `12`, controls whether the motor spins or not.
 

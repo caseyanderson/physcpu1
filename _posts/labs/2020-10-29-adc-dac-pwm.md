@@ -1,11 +1,10 @@
 ---
 layout: post
 title:  "ADC, DAC, & PWM"
-date: 2020-06-25 06:00:00 -0630
-week: 6
+date: 2020-10-29 06:00:00 -0630
+week: 7
 number: 2
-tags: lab
-published: false
+categories: labs
 ---
 
 ## Materials
@@ -43,7 +42,7 @@ Take a moment to wire up a potentiometer, or other voltage divider sensor, to pi
 
 ## Digital to Analog Conversion (DAC) / Pulse Width Modulation (PWM)
 
-![]({{site.url}}/assets/PWM_wikipedia.png)
+![]({{site.url}}/assets/imgs/PWM_wikipedia.png)
 
 Digital to Analog Conversion (DAC) is the opposite of `ADC`: a `DAC` converts a sequence of discrete `voltages` into a varying `voltage`. In order to approximate an analog voltage with a digital pin on the `ESP32` one typically uses `Pulse Width Modulation` (`PWM`). This is accomplished by toggling a digital pin on and off very quickly.
 
@@ -51,10 +50,7 @@ The image above is an example of `PWM` output. Note that it approximates an anal
 
 ### Hookup Pattern
 
-![]({{site.url}}/assets/fritzing/blink_external_led.png)
-
-1. Connect ESP32 `GND` to a blue bus on the side of your breadboard
-2. From pin `27`, connect the following in series: a `resistor` to an `LED` to `GND` (blue bus)
+![]({{site.url}}/assets/imgs/fritzing/blink_external_led.png)
 
 In the following sequence we instantiate a `PWM` instance and associate it with an `ESP32` pin. Log in to your `ESP32` via `screen` and follow along:
 

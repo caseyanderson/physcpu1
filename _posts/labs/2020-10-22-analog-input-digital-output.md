@@ -1,11 +1,10 @@
 ---
 layout: post
 title:  "Analog Input / Digital Output"
-date: 2020-06-25 06:00:00 -0700
+date: 2020-10-22 06:00:00 -0630
 week: 6
-number: 3
-tags: lab
-published: false
+number: 2
+categories: labs
 ---
 
 ## Materials
@@ -22,7 +21,7 @@ published: false
 
 ### Hookup Pattern
 
-![]({{site.url}}/assets/fritzing/force_analogIn_PWMOut.png)
+![]({{site.url}}/assets/imgs/fritzing/force_analogIn_PWMOut.png)
 
 1. Connect Sensor Pin3 to `ESP32` `3V`
 2. Connect Sensor Pin2 to `ESP32` `34`
