@@ -14,7 +14,7 @@ Email: casey.anderson@artcenter.edu
 
 Website: [caseyanderson.com](https://caseyanderson.com/)
 
-Pronouns: he/him/his
+Pronouns: he / him / his
 
 
 ### Description
@@ -24,22 +24,24 @@ This prototyping-oriented class introduces students to the creative affordances 
 
 ### Required Materials
 
+Note: If you are not in the US please email me and let me know where you are so I can help you find materials
+
 * Laptop (Mac or PC)
-* [Adafruit HUZZAH32 – ESP32 Feather Board](https://www.adafruit.com/product/3619)
-* 1 of the Following: [USB A to Micro-B](https://www.amazon.com/dp/B0711PVX6Z) or [USB C to Micro-B](https://www.amazon.com/dp/B00UUBRX0Y?psc=1)
-* [Full-size breadboard](https://www.amazon.com/Breadboards-Raspberry-Preformed-Solderless-prototyping/dp/B07TVC1T1S)
-* [Breadboarding wire bundle](https://www.amazon.com/Solderless-Flexible-Breadboard-Jumper-100pcs/dp/B005TZJ0AM)
-* [Breadboard trim potentiometer - 10K](https://www.digikey.com/products/en?mpart=356&v=1528)
-* [Photo cell](https://www.digikey.com/products/en?mpart=161&v=1528)
-* [DC Brushless Motor](https://www.digikey.com/products/en?mpart=711&v=1528)
-* [TIP120 Transistor](https://www.digikey.com/product-detail/en/on-semiconductor/TIP120TU/TIP120TUFS-ND/1052473)
-* [1N4001 Diode](https://www.digikey.com/product-detail/en/comchip-technology/1N4001-G/641-1310-1-ND/1979675)
-* [Buttons (SPST)](https://www.amazon.com/6x6x6mm-Momentary-Push-Button-Switch/dp/B01GN79QF8)
-* [Through-Hole Resistors - 220 ohm 10% 1/4W](https://www.digikey.com/product-detail/en/yageo/CFR-25JB-52-220R/220QBK-ND/1295)
-* [Through-Hole Resistors - 10K ohm 10% 1/4W](https://www.digikey.com/product-detail/en/stackpole-electronics-inc/CF14JT10K0/CF14JT10K0CT-ND/1830374)
-* [LEDs](https://www.amazon.com/Projects-B-0001-B07-Red-LED-Pack/dp/B00B793SIE)
-* [Bertech Copper Foil Tape with Conductive Adhesive, 1/4 In. Wide x 36 Yards Long](https://www.amazon.com/Bertech-Copper-Conductive-Yards-Thick/dp/B009KB86BU) or similar
-* [Xacto X3311 N0. 1 Precision Knife With 5 No. 11 Blades](https://www.amazon.com/Xacto-X3311-Precision-Knife-Blades/dp/B0000DD1N4)
+* [Adafruit HUZZAH32 – ESP32 Feather Board](https://www.adafruit.com/product/3591)
+* [USB C to Micro-B](https://www.amazon.com/JSAUX-Charger-Braided-Compatible-Devices/dp/B0828Z13J5/ref=sr_1_4?dchild=1&keywords=USB+C+to+Micro+USB+Cable&qid=1611077853&s=electronics&sr=1-4) or similar
+* [Full-size breadboard](https://www.adafruit.com/product/239)
+* [Breadboarding wire bundle](https://www.amazon.com/Solderless-Flexible-Breadboard-Jumper-100pcs/dp/B005TZJ0AM://www.adafruit.com/product/153)
+* [Breadboard trim potentiometer - 10K](https://www.amazon.com/BOJACK-Breadboard-Potentiometer-Terminal-Resistors/dp/B0819PJ33B/ref=sr_1_7?crid=140VKXE0N3C8U&dchild=1&keywords=breadboard+trim+potentiometer+-+10k&qid=1611077972&sprefix=breadboard+trim+pote%2Celectronics%2C218&sr=8-7://www.adafruit.com/product/356)
+* [Photo cell]???????!!!!!!
+* [DC Brushless Motor]
+* [TIP120 Transistor]
+* [1N4001 Diode]
+* [Buttons (SPST)]
+* [Through-Hole Resistors - 220 ohm 10% 1/4W]
+* [Through-Hole Resistors - 10K ohm 10% 1/4W]
+* [LEDs]
+* [Bertech Copper Foil Tape with Conductive Adhesive, 1/4 In. Wide x 36 Yards Long]
+* [Xacto X3311 N0. 1 Precision Knife With 5 No. 11 Blades]
 
 
 ### Grading Policy
@@ -64,29 +66,29 @@ Grades will be calculated based on the following distribution:
 #### Week 1
 
 * Review Syllabus
-* 1.1 LAB [ Anaconda ]({{ site.url }}/labs/anaconda-install.html)
-* 1.2 LAB [ The Command Line ]({{ site.url }}/labs/command-line.html)
-* 1.3 LAB [ Intro Python 3 ]({{ site.url }}/labs/intro-py3.html)
-* 1.4 BRF [ Prototype Proposal Format ]({{ site.url }}/briefs/proposals.html)
-* 1.5 HW [ Practice Prototype Proposal ]({{ site.url }}/hw/practice-proposal.html)
-* 1.6 HW [ Required Materials ]({{ site.url }}/hw/required-materials.html)
+* 1.1 LAB [ Anaconda
+* 1.2 LAB [ The Command Line ]
+* 1.3 LAB [ Intro Python 3 ]
+* 1.4 BRF [ Prototype Proposal Format ]
+* 1.5 HW [ Practice Prototype Proposal ]
+* 1.6 HW [ Required Materials ]
 
 
 #### Week 2
 
 * 2.1 LAB Introduction to Electronics
-* 2.2 LAB [ Huzzah32 pre-flight ]({{ site.url }}/labs/huzzah32-preflight.html)
-* 2.3 BRF [ !button ]({{ site.url }}/briefs/notbutton.html)
+* 2.2 LAB [ Huzzah32 pre-flight ]
+* 2.3 BRF [ Paper Circuits ]
 * 2.4 HW 5x paper button prototypes
 
 
 #### Week 3
 
 * 3.1 Review Button Prototypes
-* 3.2 LAB [ Digital Output ]({{ site.url }}/labs/digital-output.html)
-* 3.3 LAB [ Digital Input/Output ]({{ site.url }}/labs/digitalIO.html)
-* 3.4 HW [ !button Prototype + Proposal (v1) ]({{ site.url }}/hw/notbutton-prototype.html)
-* 3.5 HW [ !button 10 Possible Revisions ]({{ site.url }}/hw/notbutton-ten-revisions.html)
+* 3.2 LAB [ Digital Output ]
+* 3.3 LAB [ Digital Input/Output ]
+* 3.4 HW [ !button Prototype + Proposal (v1) ]
+* 3.5 HW [ !button 10 Possible Revisions ]
 
 
 #### Week 4

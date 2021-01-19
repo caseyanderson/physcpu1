@@ -5,6 +5,7 @@ date:   2020-09-17 07:00:00 -0930
 week: 1
 number: 6
 categories: hw
+published: false
 ---
 
 Make sure that you have the following materials for class next Thursday:
