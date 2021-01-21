@@ -28,20 +28,21 @@ Note: If you are not in the US please email me and let me know where you are so 
 
 * Laptop (Mac or PC)
 * [Adafruit HUZZAH32 – ESP32 Feather Board](https://www.adafruit.com/product/3591)
-* [USB C to Micro-B](https://www.amazon.com/JSAUX-Charger-Braided-Compatible-Devices/dp/B0828Z13J5/ref=sr_1_4?dchild=1&keywords=USB+C+to+Micro+USB+Cable&qid=1611077853&s=electronics&sr=1-4) or similar
+* [USB Micro-B](https://www.adafruit.com/product/592) **note** you may need a USB-C adaptor as well
 * [Full-size breadboard](https://www.adafruit.com/product/239)
 * [Breadboarding wire bundle](https://www.amazon.com/Solderless-Flexible-Breadboard-Jumper-100pcs/dp/B005TZJ0AM://www.adafruit.com/product/153)
-* [Breadboard trim potentiometer - 10K](https://www.amazon.com/BOJACK-Breadboard-Potentiometer-Terminal-Resistors/dp/B0819PJ33B/ref=sr_1_7?crid=140VKXE0N3C8U&dchild=1&keywords=breadboard+trim+potentiometer+-+10k&qid=1611077972&sprefix=breadboard+trim+pote%2Celectronics%2C218&sr=8-7://www.adafruit.com/product/356)
-* [Photo cell]???????!!!!!!
-* [DC Brushless Motor]
-* [TIP120 Transistor]
-* [1N4001 Diode]
-* [Buttons (SPST)]
-* [Through-Hole Resistors - 220 ohm 10% 1/4W]
-* [Through-Hole Resistors - 10K ohm 10% 1/4W]
-* [LEDs]
-* [Bertech Copper Foil Tape with Conductive Adhesive, 1/4 In. Wide x 36 Yards Long]
-* [Xacto X3311 N0. 1 Precision Knife With 5 No. 11 Blades]
+* [Breadboard trim potentiometer - 10K](https://www.adafruit.com/product/356)
+* [Photo cell](https://www.amazon.com/a15071300ux0102-Resistor-Light-Dependent-Photoresistor-Optoresistor/dp/B00Q6ZIK1O)
+* [1V-6V DC Brushless Motor](https://www.amazon.com/WOWOONE-1V-6V-Hobby-Motor-Arduino/dp/B08JLR9S9J)
+* [TIP120 Power Darlington Transistors - 3 pack](https://www.adafruit.com/product/976)
+* [1N4001 Diode - 10 pack](https://www.adafruit.com/product/755)
+* [Colorful Round Tactile Button Switch Assortment - 15 pack](https://www.adafruit.com/product/1009)
+* [Through-Hole Resistors - 220 ohm 10% 1/4W](https://www.adafruit.com/product/2780)
+* [10k Ohm Resistors, 1/2 W, 5% (Pack of 10)](https://www.amazon.com/Projects-10EP51210K0-10k-Resistors-Pack/dp/B0185FKB0K/144-5461209-8263238?psc=1)
+* [Super Bright Red 5mm LED (25 pack)](https://www.adafruit.com/product/297) or similar (you dont need 25 but this is all thats in stock at Adafruit at the moment)
+* [RGB LED](https://www.adafruit.com/product/159)
+* [Copper Foil Tape with Conductive Adhesive, 1/4 In. Wide](https://www.amazon.com/Vasdoo-Conductive-Shielding-Electrical-Grounding/dp/B07RPFRFXK)
+* [X-Acto No 1 Precision Knife](https://www.amazon.com/X-Acto-XZ3601-X-ACTO-Knife-Safety/dp/B005KRSWM6)
 
 
 ### Grading Policy
@@ -66,36 +67,91 @@ Grades will be calculated based on the following distribution:
 #### Week 1
 
 * Review Syllabus
-* 1.1 LAB [ Anaconda
-* 1.2 LAB [ The Command Line ]
-* 1.3 LAB [ Intro Python 3 ]
-* 1.4 BRF [ Prototype Proposal Format ]
-* 1.5 HW [ Practice Prototype Proposal ]
-* 1.6 HW [ Required Materials ]
+* 1.1 LAB Anaconda
+* 1.2 LAB The Command Line
+* 1.3 LAB Intro Python 3
+* 1.4 BRF Prototype Proposal Format
+* 1.5 HW Practice Prototype Proposal
+* 1.6 HW Required Materials
 
 
 #### Week 2
 
 * 2.1 LAB Introduction to Electronics
-* 2.2 LAB [ Huzzah32 pre-flight ]
-* 2.3 BRF [ Paper Circuits ]
+* 2.2 LAB Huzzah32 pre-flight
+* 2.3 BRF Paper Circuits
 * 2.4 HW 5x paper button prototypes
 
 
 #### Week 3
 
 * 3.1 Review Button Prototypes
-* 3.2 LAB [ Digital Output ]
-* 3.3 LAB [ Digital Input/Output ]
-* 3.4 HW [ !button Prototype + Proposal (v1) ]
-* 3.5 HW [ !button 10 Possible Revisions ]
+* 3.2 LAB Digital Output
+* 3.3 LAB Digital Input/Output
+* 3.4 HW Paper Circuit Prototype + Proposal (v1)
+* 3.5 HW Paper Circuit 10 Possible Revisions
 
 
 #### Week 4
 
-* 4.1 Review !button Prototypes
+* 4.1 Review in-progress Paper Circuit Prototypes
 * 4.2 Demo: 1 Input Controls 2 Outputs
 * 4.3 LAB GPIO, Analog & Digital Signals
 * 4.4 LAB Analog Input
-* 4.5 HW Prepare Final !button Prototype
-* 4.6 HW Get Analog Sensors
+* 4.5 HW Finish and prepare to present final Paper Circuit Prototype
+
+
+#### Week 5
+
+* Review Paper Circuit Prototype
+
+
+#### Week 6
+
+* 6.1 LAB for Loops
+* 6.2 LAB ADC, DAC, & PWM
+* 6.3 LAB Analog Input / Digital Output
+* 6.4 BRF 2 Analog + Digital Interactions
+* 6.4 HW Analog Input / Digital Output - Prototype + Proposal (v1)
+* 6.5 HW Analog Input / Digital Output - 10 Possible Revisions
+
+
+#### Week 7
+
+* 7.1 Review in-progress Analog + Digital Interactions Prototypes
+* 7.2 LAB Digital Input / PWM Output(s)
+* 7.3 DEMO Counting Button Presses
+* 7.4 HW Finish and prepare to present final Paper Circuit Prototype
+
+
+#### Week 8
+
+* Review Analog + Digital Interactions Prototype
+
+
+#### Week 9
+
+* 9.1 LAB Multitasking
+* 9.2 LAB Classes and Objects (pt. 1)
+* 9.3 BRF Combine / Remix
+* 9.4 HW Combine / Remix - Prototype + Proposal (v1)
+* 9.5 HW Combine / Remix - 10 Possible Revisions (v1)
+
+
+#### Week 10
+
+* 10.1 Review in-progress Combine / Remix Prototypes
+* 10.2 DEMO Catastrophe Management
+* 10.3 HW Combine / Remix - Prototype + Proposal (v2)
+* 10.5 HW Combine / Remix - 10 Possible Revisions (v2)
+
+
+#### Week 11
+
+* 11.1 Review in-progress Combine / Remix Prototypes
+* 11.2 HW Finish and prepare to present final Combine / Remix Prototype
+
+
+#### Week 12
+
+* Review Combine / Remix Prototype
