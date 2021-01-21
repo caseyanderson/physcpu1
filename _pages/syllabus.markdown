@@ -132,7 +132,7 @@ Grades will be calculated based on the following distribution:
 #### Week 9
 
 * 9.1 LAB Multitasking
-* 9.2 LAB Classes and Objects (pt. 1)
+* 9.2 LAB Classes and Objects
 * 9.3 BRF Combine / Remix
 * 9.4 HW Combine / Remix - Prototype + Proposal (v1)
 * 9.5 HW Combine / Remix - 10 Possible Revisions (v1)
