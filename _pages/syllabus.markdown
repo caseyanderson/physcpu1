@@ -77,7 +77,7 @@ Grades will be calculated based on the following distribution:
 
 #### Week 2
 
-* 2.1 LAB Introduction to Electronics
+* 2.1 DEMO Introduction to Electronics
 * 2.2 LAB Huzzah32 pre-flight
 * 2.3 BRF Paper Circuits
 * 2.4 HW 5x paper button prototypes
