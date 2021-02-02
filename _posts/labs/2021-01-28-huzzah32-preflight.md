@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Adafruit HUZZAH32 Pre-flight"
+title:  "Anaconda & Micropython Setup for ESP32"
 date:   2021-01-28 06:00:00 -0600
 week: 2
 number: 2
@@ -8,18 +8,68 @@ categories: labs
 ---
 
 ## Materials
-
-* laptop
+* laptop (MacOS or Windows 10)
 * internet access
 * [Adafruit HUZZAH32](https://www.adafruit.com/product/3591)
 * [USB cable - USB A to Micro-B - 3 foot long](https://www.adafruit.com/product/592) (or similar)
 
 
-## Install USB to Serial driver
+## Anaconda
+### Installation
+1. Go [ here ](https://www.anaconda.com/products/individual) to download the `Python 3.8 64-Bit Graphical Installer` for your operating system
+2. Once the download has finished run the installer
+
+
+### Environment Setup
+1. Run `Anaconda Navigator`
+2. Click `Environments`
+3. Click `Create`
+4. Name your `Environment`: `physcpu`
+5. Make sure that `Python 3.8` is selected in `Packages`
+6. Click `Create`
+7. Click on the arrow and select `Open Terminal`
+8. Install `esptool` to our `Environment`: `pip install esptool`
+6. Install `ampy` to our `Environment`: `pip install adafruit-ampy`
+7. Type `exit` and hit Enter to close the `Terminal`
+
+
+### Application Setup
+#### Windows 10
+1. Click `Home`
+2. Make sure `Applications on` is set to `physcpu`
+3. Locate `Powershell Prompt`, click `Install`
+4. Locate `Jupyter Notebook`, click `Install`
+
+
+#### MacOS
+1. Click `Home`
+2. Make sure `Applications on` is set to `physcpu`
+3. Locate `Jupyter Notebook`, click `Install`
+
+
+### Starting your Development Environment
+#### Windows 10
+1. Run `Anaconda Navigator`
+2. Click `Home`
+3. Make sure `Applications on` is set to `physcpu`
+4. Launch `Jupyter Notebook`
+5. Launch `Powershell Prompt`
+
+
+#### MacOS
+1. Run `Anaconda Navigator`
+2. Click `Home`
+3. Make sure `Applications on` is set to `physcpu`
+4. Launch `Jupyter Notebook`
+5. In Finder navigate to `Terminal`, launch it
+6. Activate the `physcpu` `Environment` in the `Terminal`: `conda activate physcpu`
+
+
+## Micropython
+### Install USB to Serial driver
 
 1. Go [here](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
 2. Scroll to find the appropriate Download link for your Operating System (**Download for Macintosh OSX** or **Download for Windows 10 Universal**) and click on **Download VCP** under the appropriate driver heading
-3. Restart CPU (I am not sure if this is really necessary)
 
 
 ## Download Micropython Firmware for ESP32
@@ -45,7 +95,6 @@ categories: labs
 2. Open **Device Manager**
 3. Scroll to **Ports** and click to expand
 4. Find the line reading **Silicon Labs CP210x USB to UART Bridge**. At the end of that line you should see `COM` followed by a number (example: `COM3`). This identifies where your ESP32 is on your PC so write it down somewhere for use later.
-5. (In **Anaconda Powershell**) activate `micropython` `conda` `environment`: `conda activate NAME`
 6. `cd Downloads` (or wherever you downloaded the `micropython` `firmware`)
 7. Erase the software that is already on the `ESP32`: `esptool --port COM3 erase_flash`
 
