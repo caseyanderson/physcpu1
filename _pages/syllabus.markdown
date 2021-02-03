@@ -77,19 +77,18 @@ Grades will be calculated based on the following distribution:
 
 #### Week 2
 
-* 2.1 DEMO Introduction to Electronics
-* 2.2 LAB Huzzah32 pre-flight
-* 2.3 BRF Paper Circuits
-* 2.4 HW 5x paper button prototypes
+* 2.1 LAB Huzzah32 pre-flight
+* 2.2 LAB Digital Output
+* 2.3 LAB Digital Input/Output
+* 2.4 BRF Paper Circuits
+* 2.5 HW 2x paper button prototypes
 
 
 #### Week 3
 
 * 3.1 Review Button Prototypes
-* 3.2 LAB Digital Output
-* 3.3 LAB Digital Input/Output
-* 3.4 HW Paper Circuit Prototype + Proposal (v1)
-* 3.5 HW Paper Circuit 10 Possible Revisions
+* 3.2 HW Paper Circuit Prototype + Proposal (v1)
+* 3.3 HW Paper Circuit 10 Possible Revisions
 
 
 #### Week 4
