@@ -1,11 +1,10 @@
 ---
 layout: post
 title:  "GPIO, Analog & Digital Signals"
-date: 2020-10-08 06:00:00 -0600
+date: 2021-02-11 06:00:00 -0600
 week: 4
-number: 3
+number: 2
 categories: labs
-published: false
 ---
 
 ## Materials

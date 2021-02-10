@@ -94,10 +94,9 @@ Grades will be calculated based on the following distribution:
 #### Week 4
 
 * 4.1 Review in-progress Paper Circuit Prototypes
-* 4.2 Demo: 1 Input Controls 2 Outputs
-* 4.3 LAB GPIO, Analog & Digital Signals
-* 4.4 LAB Analog Input
-* 4.5 HW Finish and prepare to present final Paper Circuit Prototype
+* 4.2 LAB GPIO, Analog & Digital Signals
+* 4.3 LAB Analog Input
+* 4.4 HW Finish and prepare to present final Paper Circuit Prototype
 
 
 #### Week 5

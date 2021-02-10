@@ -1,11 +1,10 @@
 ---
 layout: post
 title:  "Analog Input"
-date: 2020-10-08 06:00:00 -0630
+date: 2021-02-11 06:00:00 -0630
 week: 4
-number: 4
+number: 3
 categories: labs
-published: false
 ---
 
 ## Materials
