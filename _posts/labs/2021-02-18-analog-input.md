@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Analog Input"
-date: 2021-02-11 06:00:00 -0630
-week: 4
+date: 2021-02-18 06:00:00 -0630
+week: 5
 number: 3
 categories: labs
 ---

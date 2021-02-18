@@ -94,29 +94,33 @@ Grades will be calculated based on the following distribution:
 #### Week 4
 
 * 4.1 Review in-progress Paper Circuit Prototypes
-* 4.2 LAB GPIO, Analog & Digital Signals
-* 4.3 LAB Analog Input
 * 4.4 HW Finish and prepare to present final Paper Circuit Prototype
 
 
 #### Week 5
 
-* Review Paper Circuit Prototype
+* 5.1 Review Final Paper Circuit Prototype
+* 5.2 LAB GPIO, Analog & Digital Signals
+* 5.3 LAB Analog Input
+* 5.4 BRF 2 Analog + Digital Interactions
+* 5.5 HW Analog Input / Digital Output - Prototype + Proposal (v1)
+* 5.6 HW Analog Input / Digital Output - 10 Possible Revisions
 
 
 #### Week 6
 
-* 6.1 LAB for Loops
-* 6.2 LAB ADC, DAC, & PWM
-* 6.3 LAB Analog Input / Digital Output
-* 6.4 BRF 2 Analog + Digital Interactions
-* 6.4 HW Analog Input / Digital Output - Prototype + Proposal (v1)
-* 6.5 HW Analog Input / Digital Output - 10 Possible Revisions
+* 6.1 Review in-progress Analog + Digital Interactions Prototypes
+* 6.4 HW Analog Input / Digital Output - Prototype + Proposal (Final)
 
 
 #### Week 7
 
-* 7.1 Review in-progress Analog + Digital Interactions Prototypes
+* 7.1 Review Final Analog + Digital Interactions Prototype
+* 7.2 LAB for Loops
+* 7.3 LAB ADC, DAC, & PWM
+* 7.4 LAB Analog Input / Digital Output
+
+{% comment %}
 * 7.2 LAB Digital Input / PWM Output(s)
 * 7.3 DEMO Counting Button Presses
 * 7.4 HW Finish and prepare to present final Paper Circuit Prototype
@@ -153,3 +157,4 @@ Grades will be calculated based on the following distribution:
 #### Week 12
 
 * Review Combine / Remix Prototype
+{% endcomment %}
