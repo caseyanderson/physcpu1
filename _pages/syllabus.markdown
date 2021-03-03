@@ -119,6 +119,10 @@ Grades will be calculated based on the following distribution:
 * 7.2 LAB for Loops
 * 7.3 LAB ADC, DAC, & PWM
 * 7.4 LAB Analog Input / Digital Output
+* 7.5 BRF Combine / Remix
+* 7.6 HW Analog Input / Digital Output - Prototype + Proposal (v1)
+* 7.7 HW Analog Input / Digital Output - 10 Possible Revisions
+
 
 {% comment %}
 * 7.2 LAB Digital Input / PWM Output(s)

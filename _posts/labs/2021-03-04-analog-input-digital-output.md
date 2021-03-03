@@ -1,11 +1,10 @@
 ---
 layout: post
 title:  "Analog Input / Digital Output"
-date: 2020-10-22 06:00:00 -0630
-week: 6
-number: 2
+date: 2021-03-04 06:00:00 -0730
+week: 7
+number: 4
 categories: labs
-published: false
 ---
 
 ## Materials

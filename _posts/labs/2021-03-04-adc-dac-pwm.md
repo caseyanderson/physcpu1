@@ -1,11 +1,10 @@
 ---
 layout: post
 title:  "ADC, DAC, & PWM"
-date: 2020-10-29 06:00:00 -0630
+date: 2021-03-04 06:00:00 -0700
 week: 7
-number: 2
+number: 3
 categories: labs
-published: false
 ---
 
 ## Materials
