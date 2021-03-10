@@ -116,12 +116,16 @@ Grades will be calculated based on the following distribution:
 #### Week 7
 
 * 7.1 Review Final Analog + Digital Interactions Prototype
-* 7.2 LAB for Loops
-* 7.3 LAB ADC, DAC, & PWM
-* 7.4 LAB Analog Input / Digital Output
-* 7.5 BRF Combine / Remix
-* 7.6 HW Analog Input / Digital Output - Prototype + Proposal (v1)
-* 7.7 HW Analog Input / Digital Output - 10 Possible Revisions
+
+
+#### Week 8
+
+* 8.1 LAB for Loops
+* 8.2 LAB ADC, DAC, & PWM
+* 8.3 LAB Analog Input / Digital Output
+* 8.4 BRF Combine / Remix
+* 8.5 HW Analog Input / Digital Output - Prototype + Proposal (v1)
+* 8.6 HW Analog Input / Digital Output - 10 Possible Revisions
 
 
 {% comment %}
