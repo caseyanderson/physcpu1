@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Analog Input / Digital Output"
+title:  "Analog Input / PWM Output"
 date: 2021-03-11 06:00:00 -0730
 week: 8
 number: 3
