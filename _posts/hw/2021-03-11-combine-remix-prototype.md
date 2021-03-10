@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "Combine/Remix: Prototype + Proposal"
-date: 2021-03-11 06:00:00 -0930
+date: 2021-03-11 06:00:00 -0100
 week: 8
-number: 5
+number: 6
 categories: hw
 ---
 
