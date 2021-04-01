@@ -1,11 +1,10 @@
 ---
 layout: post
 title:  "Functions"
-date: 2020-07-02 06:00:00 -0630
-week: 7
-number: 2
+date: 2021-04-01 06:00:00 -0600
+week: 11
+number: 1
 tags: lab
-published: false
 ---
 
 A function is a re-usable block of instructions that performs an action. Python 3 has a handful of built-in functions, some of which you are already familiar with: `print()`, `len()`, `type()`, etc.. One doesn't need to know **how** each of these functions work, they just need to know what information each needs in order to perform an associated action.
