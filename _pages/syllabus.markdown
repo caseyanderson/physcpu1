@@ -74,6 +74,7 @@ Grades will be calculated based on the following distribution:
 * 1.5 HW Practice Prototype Proposal
 * 1.6 HW Required Materials
 
+{% comment %}
 
 #### Week 2
 
@@ -128,7 +129,6 @@ Grades will be calculated based on the following distribution:
 * 8.6 HW Analog Input / Digital Output - 10 Possible Revisions
 
 
-{% comment %}
 * 7.2 LAB Digital Input / PWM Output(s)
 * 7.3 DEMO Counting Button Presses
 * 7.4 HW Finish and prepare to present final Paper Circuit Prototype
