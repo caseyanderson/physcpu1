@@ -5,6 +5,7 @@ date: 2021-03-11 06:00:00 -0700
 week: 8
 number: 2
 categories: labs
+published: false
 ---
 
 ## Materials
