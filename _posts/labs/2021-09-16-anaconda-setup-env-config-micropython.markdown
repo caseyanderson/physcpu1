@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Anaconda Setup & Environment Config for ESP32"
-date:   2021-01-21 07:00:00 -0700
+date:   2021-09-16 07:00:00 -0600
 week: "1"
 number: "1"
 categories: "labs"
@@ -24,10 +24,12 @@ categories: "labs"
 4. Name your `Environment`: `physcpu`
 5. Make sure that `Python 3.8` is selected in `Packages`
 6. Click `Create`
-7. Click on the arrow and select `Open Terminal`
-8. Install `esptool` to our `Environment`: `pip install esptool`
-6. Install `ampy` to our `Environment`: `pip install adafruit-ampy`
-7. Type `exit` and hit Enter to close the `Terminal`
+7.  * Mac: Click on the arrow and select `Open Terminal`
+    * Windows 10: In start menu search for `Anaconda Powershell Prompt`, run it
+8. Activate the environment: `conda activate physcpu`
+9. Install `esptool` to our `Environment`: `pip install esptool`
+10. Install `ampy` to our `Environment`: `pip install adafruit-ampy`
+11. Type `exit` and hit Enter to close the `Terminal` / `Anaconda Powersell Prompt`
 
 
 ### Application Setup
@@ -60,5 +62,4 @@ categories: "labs"
 4. Launch `Jupyter Notebook`
 5. In Finder navigate to `Terminal`, launch it
 6. Activate the `physcpu` `Environment` in the `Terminal`: `conda activate physcpu`
-
 

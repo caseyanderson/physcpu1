@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Required Materials"
-date:   2021-01-21 07:00:00 -0930
+date:   2021-09-16 07:00:00 -0830
 week: 1
 number: 6
 categories: hw
