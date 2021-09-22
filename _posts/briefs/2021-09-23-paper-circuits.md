@@ -1,11 +1,10 @@
 ---
 layout: post
 title: "Paper Circuits"
-date: 2021-01-28 06:00:00 -0730
+date: 2021-09-23 06:00:00 -0730
 week: 2
 number: 4
 categories: briefs
-published: false
 ---
 
 ## brief

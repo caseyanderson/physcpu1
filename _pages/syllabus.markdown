@@ -74,7 +74,6 @@ Grades will be calculated based on the following distribution:
 * 1.5 HW Practice Prototype Proposal
 * 1.6 HW Required Materials
 
-{% comment %}
 
 #### Week 2
 
@@ -84,6 +83,7 @@ Grades will be calculated based on the following distribution:
 * 2.4 BRF Paper Circuits
 * 2.5 HW 2x paper button prototypes
 
+{% comment %}
 
 #### Week 3
 
