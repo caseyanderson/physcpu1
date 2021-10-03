@@ -83,15 +83,16 @@ Grades will be calculated based on the following distribution:
 * 2.4 BRF Paper Circuits
 * 2.5 HW 2x paper button prototypes
 
-{% comment %}
 
 #### Week 3
 
 * 3.1 Review Button Prototypes
-* 3.2 HW Paper Circuit Prototype + Proposal (v1)
-* 3.3 HW Paper Circuit 10 Possible Revisions
+* 3.2 Demo: 1x Button 2x LEDs
+* 3.3 HW Paper Circuit Prototype + Proposal (v1)
+* 3.4 HW Paper Circuit 10 Possible Revisions
 
 
+{% comment %}
 #### Week 4
 
 * 4.1 Review in-progress Paper Circuit Prototypes
