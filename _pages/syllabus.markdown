@@ -79,6 +79,7 @@ Absences will be excused if and only if I am notified via email prior to the beg
 * 1.5 HW Practice Prototype Proposal
 * 1.6 HW Required Materials
 
+{% comment %}
 
 #### Week 2
 
@@ -114,7 +115,6 @@ Absences will be excused if and only if I am notified via email prior to the beg
 * 5.7 HW Analog Input / Digital Output - 10 Possible Revisions
 
 
-{% comment %}
 #### Week 6
 
 * 6.1 Review in-progress Analog + Digital Interactions Prototypes
