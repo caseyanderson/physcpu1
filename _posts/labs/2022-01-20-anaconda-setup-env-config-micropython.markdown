@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Anaconda Setup & Environment Config for ESP32"
-date:   2021-09-16 07:00:00 -0600
+date:   2022-01-20 07:00:00 -0600
 week: "1"
 number: "1"
 categories: "labs"

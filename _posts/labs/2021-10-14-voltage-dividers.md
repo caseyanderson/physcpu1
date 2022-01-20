@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "Voltage Dividers"
-date: 2020-10-22 06:00:00 -0600
-week: 6
-number: 1
+date: 2021-10-14 06:00:00 -0700
+week: 5
+number: 4
 categories: labs
 published: false
 ---

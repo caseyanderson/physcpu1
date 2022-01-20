@@ -55,6 +55,11 @@ Grades will be calculated based on the following distribution:
 * Prototypes = 35%
 
 
+### Attendance Policy
+
+Absences will be excused if and only if I am notified via email prior to the beginning of class. Failure to do so will result in an unexcused absence. 3 unexcused absences will result in an automatic F in this class. If your absence is excused, we will work out a way for you to make up as much of the in-class activities as possible.
+
+
 ### Goals
 
 1. Construct simple circuits to interface electronics with digital systems
@@ -92,7 +97,6 @@ Grades will be calculated based on the following distribution:
 * 3.4 HW Paper Circuit 10 Possible Revisions
 
 
-{% comment %}
 #### Week 4
 
 * 4.1 Review in-progress Paper Circuit Prototypes
@@ -104,11 +108,13 @@ Grades will be calculated based on the following distribution:
 * 5.1 Review Final Paper Circuit Prototype
 * 5.2 LAB GPIO, Analog & Digital Signals
 * 5.3 LAB Analog Input
-* 5.4 BRF 2 Analog + Digital Interactions
-* 5.5 HW Analog Input / Digital Output - Prototype + Proposal (v1)
-* 5.6 HW Analog Input / Digital Output - 10 Possible Revisions
+* 5.4 LAB Voltage Dividers
+* 5.5 BRF 2 Analog + Digital Interactions
+* 5.6 HW Analog Input / Digital Output - Prototype + Proposal (v1)
+* 5.7 HW Analog Input / Digital Output - 10 Possible Revisions
 
 
+{% comment %}
 #### Week 6
 
 * 6.1 Review in-progress Analog + Digital Interactions Prototypes

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Command Line"
-date:   2021-09-16 07:00:00 -0630
+date:   2022-01-20 07:00:00 -0630
 week: "1"
 number: "2"
 categories: "labs"

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Combine / Remix: 10 Possible Revisions"
-date: 2021-03-11 07:00:00 -1100
+date: 2021-11-04 07:00:00 -1100
 week: 8
 number: 7
 categories: hw
