@@ -79,7 +79,6 @@ Absences will be excused if and only if I am notified via email prior to the beg
 * 1.5 HW Practice Prototype Proposal
 * 1.6 HW Required Materials
 
-{% comment %}
 
 #### Week 2
 
@@ -103,6 +102,7 @@ Absences will be excused if and only if I am notified via email prior to the beg
 * 4.1 Review in-progress Paper Circuit Prototypes
 * 4.4 HW Finish and prepare to present final Paper Circuit Prototype
 
+{% comment %}
 
 #### Week 5
 
