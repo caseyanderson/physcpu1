@@ -1,11 +1,10 @@
 ---
 layout: post
 title:  "Counting Button Presses"
-date: 2021-12-01 06:00:00 -0630
-week: 12
+date: 2022-03-17 06:00:00 -0630
+week: 9
 number: 1
 categories: labs
-published: false
 ---
 
 ## Materials

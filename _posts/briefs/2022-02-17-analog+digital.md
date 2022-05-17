@@ -1,11 +1,10 @@
 ---
 layout: post
 title: "Analog + Digital Interactions"
-date: 2021-10-14 06:00:00 -0730
+date: 2022-02-17 06:00:00 -0730
 week: 5
 number: 5
 categories: briefs
-published: false
 ---
 
 ## brief

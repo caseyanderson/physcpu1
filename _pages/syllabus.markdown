@@ -55,9 +55,7 @@ Grades will be calculated based on the following distribution:
 * Prototypes = 35%
 
 
-### Attendance Policy
-
-Absences will be excused if and only if I am notified via email prior to the beginning of class. Failure to do so will result in an unexcused absence. 3 unexcused absences will result in an automatic F in this class. If your absence is excused, we will work out a way for you to make up as much of the in-class activities as possible.
+Absences will be excused if and only if I am contacted via email. A simple "I had to miss class" is sufficient, I do not need any details.
 
 
 ### Goals
@@ -102,7 +100,6 @@ Absences will be excused if and only if I am notified via email prior to the beg
 * 4.1 Review in-progress Paper Circuit Prototypes
 * 4.4 HW Finish and prepare to present final Paper Circuit Prototype
 
-{% comment %}
 
 #### Week 5
 
@@ -118,58 +115,49 @@ Absences will be excused if and only if I am notified via email prior to the beg
 #### Week 6
 
 * 6.1 Review in-progress Analog + Digital Interactions Prototypes
-* 6.4 HW Analog Input / Digital Output - Prototype + Proposal (Final)
+* 6.3 DEMO: Prototyping with 2x Inputs
+* 6.2 HW Analog Input / Digital Output - Prototype + Proposal (Final)
 
 
 #### Week 7
 
 * 7.1 Review Final Analog + Digital Interactions Prototype
+* 7.2 LAB for Loops
+* 7.3 LAB ADC, DAC, & PWM
+* 7.4 LAB Digital Input / PWM Output(s)
+* 7.5 BRF Remix
+* 7.6 HW Remix Prototype + Proposal (v1)
+* 7.7 HW Remix Prototype 10 Possible Revisions
 
 
 #### Week 8
 
-* 8.1 LAB for Loops
-* 8.2 LAB ADC, DAC, & PWM
-* 8.3 LAB Analog Input / Digital Output
-* 8.4 BRF Combine / Remix
-* 8.5 HW Analog Input / Digital Output - Prototype + Proposal (v1)
-* 8.6 HW Analog Input / Digital Output - 10 Possible Revisions
-
-
-* 7.2 LAB Digital Input / PWM Output(s)
-* 7.3 DEMO Counting Button Presses
-* 7.4 HW Finish and prepare to present final Paper Circuit Prototype
-
-
-#### Week 8
-
-* Review Analog + Digital Interactions Prototype
-
+* 8.0 Review in-progress Remix Prototypes
+* 8.1 DEMO Counting Button Presses
+* 8.2 HW Remix Prototype + Proposal (Final)
 
 #### Week 9
 
-* 9.1 LAB Multitasking
+* 9.1 Review final Remix Prototype
 * 9.2 LAB Classes and Objects
-* 9.3 BRF Combine / Remix
-* 9.4 HW Combine / Remix - Prototype + Proposal (v1)
-* 9.5 HW Combine / Remix - 10 Possible Revisions (v1)
+* 9.3 BRF BYOBrief
+* 9.4 HW BYOBrief Prototype + Proposal (v1)
+* 9.5 HW BYOBrief 10 Possible Revisions (v1)
 
 
 #### Week 10
 
-* 10.1 Review in-progress Combine / Remix Prototypes
-* 10.2 DEMO Catastrophe Management
-* 10.3 HW Combine / Remix - Prototype + Proposal (v2)
-* 10.5 HW Combine / Remix - 10 Possible Revisions (v2)
+* 10.1 Review in-progress BYOBrief Prototypes (v1)
+* 10.2 HW Revise BYOBrief Prototype + Proposal (v2)
+* 10.3 HW BYOBrief (v2) 10 Possible Revisions (v2)
 
 
 #### Week 11
 
-* 11.1 Review in-progress Combine / Remix Prototypes
-* 11.2 HW Finish and prepare to present final Combine / Remix Prototype
+* 11.1 Review in-progress BYOBrief Prototype (v2)
+* 11.2 HW Revise and prepare to present final BYOBrief Prototype
 
 
 #### Week 12
 
-* Review Combine / Remix Prototype
-{% endcomment %}
+* Review final BYOBrief Prototype
