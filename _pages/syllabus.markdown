@@ -24,8 +24,6 @@ This prototyping-oriented class introduces students to the creative affordances 
 
 ### Required Materials
 
-Note: If you are not in the US please email me and let me know where you are so I can help you find materials
-
 * Laptop (Mac or PC)
 * [Adafruit HUZZAH32 – ESP32 Feather Board](https://www.adafruit.com/product/3591)
 * [USB Micro-B](https://www.adafruit.com/product/592) **note** you may need a USB-C adaptor as well
