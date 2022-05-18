@@ -26,17 +26,17 @@ This prototyping-oriented class introduces students to the creative affordances 
 
 * Laptop (Mac or PC)
 * [Adafruit HUZZAH32 – ESP32 Feather Board](https://www.adafruit.com/product/3591)
-* [USB Micro-B](https://www.adafruit.com/product/592) **note** you may need a USB-C adaptor as well
+* [USB Micro-B](https://www.adafruit.com/product/3879)
 * [Full-size breadboard](https://www.adafruit.com/product/239)
-* [Breadboarding wire bundle](https://www.amazon.com/Solderless-Flexible-Breadboard-Jumper-100pcs/dp/B005TZJ0AM://www.adafruit.com/product/153)
+* [Breadboarding wire bundle](https://www.adafruit.com/product/153)
 * [Breadboard trim potentiometer - 10K](https://www.adafruit.com/product/356)
-* [Photo cell](https://www.amazon.com/a15071300ux0102-Resistor-Light-Dependent-Photoresistor-Optoresistor/dp/B00Q6ZIK1O)
-* [1V-6V DC Brushless Motor](https://www.amazon.com/WOWOONE-1V-6V-Hobby-Motor-Arduino/dp/B08JLR9S9J)
+* [Photo cell](https://www.adafruit.com/product/161)
+* [DC Toy / Hobby Motor - 130 Size](https://www.adafruit.com/product/711)
 * [TIP120 Power Darlington Transistors - 3 pack](https://www.adafruit.com/product/976)
 * [1N4001 Diode - 10 pack](https://www.adafruit.com/product/755)
-* [Colorful Round Tactile Button Switch Assortment - 15 pack](https://www.adafruit.com/product/1009)
+* [Tactile Switch Buttons (12mm square, 6mm tall) x 10 pack](https://www.adafruit.com/product/1119)
 * [Through-Hole Resistors - 220 ohm 10% 1/4W](https://www.adafruit.com/product/2780)
-* [10k Ohm Resistors, 1/2 W, 5% (Pack of 10)](https://www.amazon.com/Projects-10EP51210K0-10k-Resistors-Pack/dp/B0185FKB0K/144-5461209-8263238?psc=1)
+* [Through-Hole Resistors - 10K ohm 5% 1/4W - Pack of 25](https://www.adafruit.com/product/2784)
 * [Super Bright Red 5mm LED (25 pack)](https://www.adafruit.com/product/297) or similar (you dont need 25 but this is all thats in stock at Adafruit at the moment)
 * [RGB LED](https://www.adafruit.com/product/159)
 * [Copper Foil Tape with Conductive Adhesive, 1/4 In. Wide](https://www.amazon.com/Vasdoo-Conductive-Shielding-Electrical-Grounding/dp/B07RPFRFXK)
@@ -53,7 +53,7 @@ Grades will be calculated based on the following distribution:
 * Prototypes = 35%
 
 
-Absences will be excused if and only if I am contacted via email. A simple "I had to miss class" is sufficient, I do not need any details.
+If something comes up and you need to miss class please send me an email saying so. A simple "I had to miss class" is sufficient, I do not need the details.
 
 
 ### Goals
@@ -68,13 +68,14 @@ Absences will be excused if and only if I am contacted via email. A simple "I ha
 #### Week 1
 
 * Review Syllabus
-* 1.1 LAB Anaconda
+* 1.1 LAB Miniconda
 * 1.2 LAB The Command Line
 * 1.3 LAB Intro Python 3
 * 1.4 BRF Prototype Proposal Format
 * 1.5 HW Practice Prototype Proposal
 * 1.6 HW Required Materials
 
+{% comment %} 
 
 #### Week 2
 
@@ -159,3 +160,5 @@ Absences will be excused if and only if I am contacted via email. A simple "I ha
 #### Week 12
 
 * Review final BYOBrief Prototype
+
+{% endcomment %} 
