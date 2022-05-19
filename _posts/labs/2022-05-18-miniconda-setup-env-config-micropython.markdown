@@ -13,7 +13,7 @@ categories: "labs"
 * Miniconda
 
 ### Installation
-1. Go here (need link!) to download the `Miniconda 3 Installer` for your operating system
+1. Go [here](https://docs.conda.io/en/latest/miniconda.html#latest-miniconda-installer-links) to download the `Miniconda 3 Installer` for your operating system
 2. Once the download has finished run the installer:
     * MacOS: In the Terminal `bash Downloads/Miniconda3-latest-MacOSX-x86_64.sh`
     * Windows: Navigate to Downloads (or wherever you downloaded this) and double click the `.exe` file
