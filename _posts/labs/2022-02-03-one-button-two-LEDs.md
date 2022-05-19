@@ -5,6 +5,7 @@ date:   2022-02-03 05:30:00 -0600
 week: 3
 number: 2
 categories: labs
+published: false
 ---
 
 ```python

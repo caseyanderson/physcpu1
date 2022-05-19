@@ -5,6 +5,7 @@ date: 2022-01-27 06:00:00 -0700
 week: 2
 number: 3
 categories: labs
+published: false
 ---
 
 ## Materials
