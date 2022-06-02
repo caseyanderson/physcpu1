@@ -75,24 +75,22 @@ If something comes up and you need to miss class please send me an email saying 
 * 1.5 HW Practice Prototype Proposal
 * 1.6 HW Required Materials
 
-{% comment %} 
-
 #### Week 2
 
 * 2.1 LAB Huzzah32 pre-flight
 * 2.2 LAB Digital Output
 * 2.3 LAB Digital Input/Output
-* 2.4 BRF Paper Circuits
 * 2.5 HW 2x paper button prototypes
-
 
 #### Week 3
 
 * 3.1 Review Button Prototypes
 * 3.2 Demo: 1x Button 2x LEDs
-* 3.3 HW Paper Circuit Prototype + Proposal (v1)
-* 3.4 HW Paper Circuit 10 Possible Revisions
+* 3.3 BRF Paper Circuit
+* 3.4 HW Paper Circuit Prototype + Proposal (v1)
+* 3.5 HW Paper Circuit 10 Possible Revisions
 
+{% comment %}
 
 #### Week 4
 
@@ -161,4 +159,4 @@ If something comes up and you need to miss class please send me an email saying 
 
 * Review final BYOBrief Prototype
 
-{% endcomment %} 
+{% endcomment %}

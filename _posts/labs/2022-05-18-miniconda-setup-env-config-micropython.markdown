@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Miniconda Setup & Environment Config for ESP32"
+title:  "Miniconda Setup"
 date:   2022-05-18 06:00:00 -0100
 week: "1"
 number: "1"
@@ -24,7 +24,7 @@ categories: "labs"
 5. Agree to the installation prompts
 
 ### Environment Setup
-1. Create and name a new Python environment `conda create -n physcpu1 python
+1. Create and name a new Python environment `conda create -n physcpu1 python`
 2. Activate the environment `conda activate physcpu1`
 3. Install Jupyter Notebook via pip `pip install notebook`
 4. Run Jupyter Notebook `jupyter notebook`

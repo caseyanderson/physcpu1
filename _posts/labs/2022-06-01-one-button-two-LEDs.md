@@ -1,11 +1,10 @@
 ---
 layout: post
 title:  "1x Button 2x LEDs"
-date:   2022-02-03 05:30:00 -0600
+date:   2022-06-01 06:00:00 -0600
 week: 3
 number: 2
 categories: labs
-published: false
 ---
 
 ```python
