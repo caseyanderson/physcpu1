@@ -34,6 +34,20 @@ categories: labs
 ## blink.py (internal LED)
 
 ```python
+'''
+blink.py (internal led)
+'''
+
+from machine import Pin
+from time import sleep
+
+led = Pin(13, Pin.OUT)
+
+while True:
+    led.value(1)
+    sleep(0.5)
+    led.value(0)
+    sleep(0.5)
 
 ```
 
@@ -46,4 +60,3 @@ categories: labs
 
 1. Connect ESP32 `GND` to a blue bus on the side of your breadboard
 2. From pin 13, connect the following in series: an `LED` to `220R` to `GND`
-
