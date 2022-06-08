@@ -18,23 +18,22 @@ categories: labs
 * 1x LED
 
 
+## basic LED circuit
+
+### Hookup Pattern
+
+![]({{site.url}}/assets/imgs/fritzing/esp32-basic-led-circuit.png)
+
+1. Connect ESP32 `GND` to a blue bus on the side of your breadboard
+2. Connect ESP32 `3V` to a red bus on the side of your breadboard
+3. Use a 220R (or similar) to run the `3V` signal to the inside of your breadboard
+4. Connect that wire to the longer of the two (this is +) LED pins, the shorter pin goes to and adjacent row
+5. Connect the shorter LED pin to `GND`
+
+
 ## blink.py (internal LED)
 
 ```python
-'''
-blink.py (internal led)
-'''
-
-import machine
-import time
-
-led = machine.Pin(13, machine.Pin.OUT)
-
-while True:
-    led.value(1)
-    time.sleep(0.5)
-    led.value(0)
-    time.sleep(0.5)
 
 ```
 
@@ -43,31 +42,8 @@ while True:
 
 ### Hookup Pattern
 
-![]({{site.url}}/assets/imgs/fritzing/blink_external_led.png)
+![]({{site.url}}/assets/imgs/fritzing/esp32-external-led.png)
 
-1. Connect ESP32 GND to a blue bus on the side of your breadboard
-2. From pin 27, connect the following in series: a Resistor to an LED to GND (blue bus)
-
-
-## blink_if.py (external LED + if statement)
-
-Another way to blink an LED is to use [Boolean logic](https://en.wikipedia.org/wiki/Boolean_algebra). In the example below we check to see if the `led.value` is `0` (or off). If the LED is off we turn it back on (`led.value(1)`), otherwise, we turn the led off (`led.value(0)`). We repeatedly check `led.value()` by wrapping this `if` statement in a `while` loop, which will run forever.
-
-```python
-'''
-blink w/ if statement
-'''
-
-import machine
-import time
-
-led = machine.Pin(27, machine.Pin.OUT)
-
-while True:
-  if led.value() == 0:
-    led.value(1)
-  else:
-    led.value(0)
-  time.sleep(0.5)
-```
+1. Connect ESP32 `GND` to a blue bus on the side of your breadboard
+2. From pin 13, connect the following in series: an `LED` to `220R` to `GND`
 
