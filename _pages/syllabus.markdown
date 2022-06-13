@@ -90,7 +90,6 @@ If something comes up and you need to miss class please send me an email saying 
 * 3.4 HW Paper Circuit Prototype + Proposal (v1)
 * 3.5 HW Paper Circuit 10 Possible Revisions
 
-{% comment %}
 
 #### Week 4
 
@@ -108,6 +107,7 @@ If something comes up and you need to miss class please send me an email saying 
 * 5.6 HW Analog Input / Digital Output - Prototype + Proposal (v1)
 * 5.7 HW Analog Input / Digital Output - 10 Possible Revisions
 
+{% comment %}
 
 #### Week 6
 

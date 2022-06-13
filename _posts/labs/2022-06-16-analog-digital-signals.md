@@ -1,11 +1,10 @@
 ---
 layout: post
 title:  "GPIO, Analog & Digital Signals"
-date: 2022-02-17 06:00:00 -0600
+date: 2022-06-16 06:00:00 -0600
 week: 5
 number: 2
 categories: labs
-published: false
 ---
 
 ## Materials
@@ -69,7 +68,6 @@ A digital signal is comprised of a sequence of discrete values. We typically thi
 
 To date we have exclusively worked with digital inputs and outputs: a button (input) is either connected (on) or disconnected (off); an LED (output) is either illuminated (on) or dark (off).
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/aAwJlD-m_hE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Analog Signals
 

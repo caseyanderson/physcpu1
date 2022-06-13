@@ -28,15 +28,15 @@ categories: labs
 button.py
 '''
 
-import machine
-import time
+from machine import Pin
+from time import sleep_msx
 
-button = machine.Pin(12, machine.Pin.IN, machine.Pin.PULL_UP)
+button = Pin(12, Pin.IN, Pin.PULL_UP)
 
 while True:
     if not button.value():
         print('Button pressed!')
-    time.sleep_ms(20)
+    sleep_ms(20)
 
 ```
 
@@ -54,21 +54,22 @@ while True:
 
 ```python
 '''
-button_led.py
+buttonLed.py
 '''
 
-import machine
-import time
+from machine import Pin
+from time import sleep_ms
 
-button = machine.Pin(12, machine.Pin.IN, machine.Pin.PULL_UP)
-led = machine.Pin(27, machine.Pin.OUT)
+button = Pin(12, Pin.IN, Pin.PULL_UP)
+led = Pin(27, Pin.OUT)
 
 while True:
     if not button.value():
         led.value(1)
     else:
         led.value(0)
-    time.sleep_ms(20)
+    sleep_ms(20)
+
 ```
 
 ### Hookup Pattern

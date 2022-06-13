@@ -1,11 +1,10 @@
 ---
 layout: post
 title: "Analog + Digital Interactions"
-date: 2022-02-17 06:00:00 -0730
+date: 2022-06-16 06:00:00 -0730
 week: 5
 number: 5
 categories: briefs
-published: false
 ---
 
 ## brief
@@ -17,7 +16,7 @@ Create a prototype in which an audience member/user is prompted to interact with
 
 * target platform: ESP32
 * has at least two inputs (at least one must be an analog sensor)
-* has at least two outputs (at least one must use a TIP120)
+* has at least two outputs
 * prompts or rewards audience/user interaction (sensor input results in a significant change/output)
 * relationship between the sensors, and the interactions associated with each, fits into the larger context of the prototype
-* document final deployment, present to class as a video
+* document final version (i.e. a "proof of functionatity" video)

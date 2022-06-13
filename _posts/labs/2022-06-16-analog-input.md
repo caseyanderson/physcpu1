@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "Analog Input"
-date: 2022-02-17 06:00:00 -0630
+date: 2022-06-16 06:00:00 -0630
 week: 5
 number: 3
 categories: labs
-published: false
+
 ---
 
 ## Materials
@@ -30,8 +30,8 @@ adc = ADC(Pin(34))
 adc.atten(ADC.ATTN_11DB)
 
 while True:
-  print(adc.read())
-  sleep_ms(20)
+    print(adc.read())
+    sleep_ms(20)
 ```
 
 1. Open a Terminal, run Jupyter Notebook: `jupyter notebook`
@@ -46,4 +46,3 @@ while True:
 1. Connect Pot1 to ESP32 `GND`
 2. Connect Pot2 to ESP32 `34`
 3. Connect Pot3 to ESP32 `3V`
-
