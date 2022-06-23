@@ -107,14 +107,14 @@ If something comes up and you need to miss class please send me an email saying 
 * 5.6 HW Analog Input / Digital Output - Prototype + Proposal (v1)
 * 5.7 HW Analog Input / Digital Output - 10 Possible Revisions
 
-{% comment %}
 
 #### Week 6
 
 * 6.1 Review in-progress Analog + Digital Interactions Prototypes
-* 6.3 DEMO: Prototyping with 2x Inputs
-* 6.2 HW Analog Input / Digital Output - Prototype + Proposal (Final)
+* 6.2 Demo: Multiple Inputs
+* 6.3 HW Analog Input / Digital Output - Prototype + Proposal (Final)
 
+{% comment %}
 
 #### Week 7
 
