@@ -114,49 +114,46 @@ If something comes up and you need to miss class please send me an email saying 
 * 6.2 Demo: Multiple Inputs
 * 6.3 HW Analog Input / Digital Output - Prototype + Proposal (Final)
 
-{% comment %}
 
 #### Week 7
 
 * 7.1 Review Final Analog + Digital Interactions Prototype
-* 7.2 LAB for Loops
-* 7.3 LAB ADC, DAC, & PWM
-* 7.4 LAB Digital Input / PWM Output(s)
-* 7.5 BRF Remix
-* 7.6 HW Remix Prototype + Proposal (v1)
-* 7.7 HW Remix Prototype 10 Possible Revisions
 
 
 #### Week 8
 
-* 8.0 Review in-progress Remix Prototypes
-* 8.1 DEMO Counting Button Presses
-* 8.2 HW Remix Prototype + Proposal (Final)
+* 8.1 LAB for Loops
+* 8.2 LAB ADC, DAC, & PWM
+* 8.3 LAB Digital Input / PWM Output(s)
+* 8.4 LAB Analog Input / PWM Output(s)
+* 8.4 HW Motor Control
+
+{% comment %}
 
 #### Week 9
 
-* 9.1 Review final Remix Prototype
-* 9.2 LAB Classes and Objects
-* 9.3 BRF BYOBrief
-* 9.4 HW BYOBrief Prototype + Proposal (v1)
-* 9.5 HW BYOBrief 10 Possible Revisions (v1)
+* 9.1 Review Motor Control HW
+* 9.2 BRF Remix
+* 9.3 HW Remix Prototype + Proposal (v1)
+* 9.4 HW Remix Prototype 10 Possible Revisions
 
 
 #### Week 10
 
-* 10.1 Review in-progress BYOBrief Prototypes (v1)
+* 10.1 Review in-progress Remix Prototypes (v1)
 * 10.2 HW Revise BYOBrief Prototype + Proposal (v2)
 * 10.3 HW BYOBrief (v2) 10 Possible Revisions (v2)
 
 
 #### Week 11
 
-* 11.1 Review in-progress BYOBrief Prototype (v2)
+* 11.0 LATE START!
+* 11.1 Review in-progress Remix Prototype (v2)
 * 11.2 HW Revise and prepare to present final BYOBrief Prototype
 
 
 #### Week 12
 
-* Review final BYOBrief Prototype
+* Review final Remix Prototype
 
 {% endcomment %}
