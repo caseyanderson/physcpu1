@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Miniconda Setup"
-date:   2022-05-18 06:00:00 -0100
+date:   2022-09-15 06:00:00 -0100
 week: "1"
 number: "1"
 categories: "labs"

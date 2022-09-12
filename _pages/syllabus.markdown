@@ -19,7 +19,7 @@ Pronouns: he / him / his
 
 ### Description
 
-This prototyping-oriented class introduces students to the creative affordances of physical computing, or the practice of interfacing digital system with the outside world, by way of hands-on experiments across a continuum of technologies. Students will learn programming concepts (Python3), and basic electronics, as well as strategies for their interaction, via the [HUZZAH32](https://www.adafruit.com/product/3405). Regular critiques will provide an opportunity for students to share their research and prototypes with their colleagues as well as receive direct feedback from the instructor.
+This prototyping-oriented class introduces students to the creative affordances of physical computing, or the practice of interfacing digital system with the outside world, by way of hands-on experiments across a continuum of technologies. Students will learn programming concepts (Python 3), and basic electronics, as well as strategies for their interaction, via the [HUZZAH32](https://www.adafruit.com/product/3405). Regular critiques will provide an opportunity for students to share their research and prototypes with their colleagues as well as receive direct feedback from the instructor.
 
 
 ### Required Materials
@@ -37,7 +37,7 @@ This prototyping-oriented class introduces students to the creative affordances 
 * [Tactile Switch Buttons (12mm square, 6mm tall) x 10 pack](https://www.adafruit.com/product/1119)
 * [Through-Hole Resistors - 220 ohm 10% 1/4W](https://www.adafruit.com/product/2780)
 * [Through-Hole Resistors - 10K ohm 5% 1/4W - Pack of 25](https://www.adafruit.com/product/2784)
-* [Super Bright Red 5mm LED (25 pack)](https://www.adafruit.com/product/297) or similar (you dont need 25 but this is all thats in stock at Adafruit at the moment)
+* [Super Bright Red 5mm LED (25 pack)](https://www.adafruit.com/product/297) or similar
 * [RGB LED](https://www.adafruit.com/product/159)
 * [Copper Foil Tape with Conductive Adhesive, 1/4 In. Wide](https://www.amazon.com/Vasdoo-Conductive-Shielding-Electrical-Grounding/dp/B07RPFRFXK)
 * [X-Acto No 1 Precision Knife](https://www.amazon.com/X-Acto-XZ3601-X-ACTO-Knife-Safety/dp/B005KRSWM6)
@@ -74,6 +74,8 @@ If something comes up and you need to miss class please send me an email saying 
 * 1.4 BRF Prototype Proposal Format
 * 1.5 HW Practice Prototype Proposal
 * 1.6 HW Required Materials
+
+{% comment %}
 
 #### Week 2
 
@@ -128,7 +130,6 @@ If something comes up and you need to miss class please send me an email saying 
 * 8.4 LAB Analog Input / PWM Output(s)
 * 8.4 HW Motor Control
 
-{% comment %}
 
 #### Week 9
 

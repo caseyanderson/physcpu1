@@ -5,6 +5,8 @@ date: 2022-06-01 06:00:00 -0730
 week: 3
 number: 5
 categories: hw
+published: false
+
 ---
 
 1. Following your tests, quickly generate a written list of Twenty (20) possible revisions to your project (don't think too hard about each idea yet, generate a bunch of them first without regard to whether they are "good" ideas or not).

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Prototype Proposals"
-date:   2022-05-18 06:00:00 -0400
+date:   2022-09-15 06:00:00 -0400
 week: "1"
 number: "4"
 categories: briefs

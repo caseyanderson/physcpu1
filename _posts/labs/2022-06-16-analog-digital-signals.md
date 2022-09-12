@@ -5,6 +5,8 @@ date: 2022-06-16 06:00:00 -0600
 week: 5
 number: 2
 categories: labs
+published: false
+
 ---
 
 ## Materials

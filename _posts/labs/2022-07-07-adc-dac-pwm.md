@@ -5,6 +5,8 @@ date: 2022-07-07 06:00:00 -0630
 week: 8
 number: 2
 categories: labs
+published: false
+
 ---
 
 ## Materials
