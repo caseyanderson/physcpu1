@@ -6,9 +6,9 @@ permalink: /syllabus.html
 
 ## Physical Computing 1
 ### HSCI-214-01, Art Center College of Design
-**Class Meetings** Thursdays, 09:00AM – 11:50AM, Zoom
+**Class Meetings** Thursdays, 09:00AM – 11:50AM, M5, 950 S Raymond
 
-**Student Hours** Mondays, 09:00AM - 10:50AM, Zoom
+**Student Hours** Mondays, 09:00AM - 10:50AM, M5, 950 S Raymond
 
 Email: casey.anderson@artcenter.edu
 
