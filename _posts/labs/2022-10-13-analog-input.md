@@ -1,11 +1,10 @@
 ---
 layout: post
 title:  "Analog Input"
-date: 2022-06-16 06:00:00 -0630
+date: 2022-10-13 06:00:00 -0630
 week: 5
 number: 3
 categories: labs
-published: false
 
 ---
 

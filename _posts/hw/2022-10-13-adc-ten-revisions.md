@@ -1,11 +1,10 @@
 ---
 layout: post
-title:  "Paper Circuit Ten Possible Revisions"
-date: 2022-06-01 06:00:00 -0730
-week: 3
-number: 5
+title:  "Analog + Digital Interactions Ten Possible Revisions"
+date: 2022-10-13 06:00:00 -0930
+week: 5
+number: 7
 categories: hw
-published: false
 
 ---
 
@@ -13,6 +12,4 @@ published: false
 
 2. Next, revise your list so that only the ten (10) best revisions remain.
 
-3. Pick one of thoes ideas to incorporate in the next iteration of your prototype.
-
-Note: submit a `pdf` of your 10 revision and indicate which revision you selected
+3. You will need to submit a `pdf` of your 10 revisions by the beginning of next week's class in order to receive credit for this assignment.

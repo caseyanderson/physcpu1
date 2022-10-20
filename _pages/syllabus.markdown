@@ -75,8 +75,6 @@ If something comes up and you need to miss class please send me an email saying 
 * 1.5 HW Practice Prototype Proposal
 * 1.6 HW Required Materials
 
-{% comment %}
-
 #### Week 2
 
 * 2.1 LAB Huzzah32 pre-flight
@@ -109,13 +107,13 @@ If something comes up and you need to miss class please send me an email saying 
 * 5.6 HW Analog Input / Digital Output - Prototype + Proposal (v1)
 * 5.7 HW Analog Input / Digital Output - 10 Possible Revisions
 
-
 #### Week 6
 
 * 6.1 Review in-progress Analog + Digital Interactions Prototypes
 * 6.2 Demo: Multiple Inputs
 * 6.3 HW Analog Input / Digital Output - Prototype + Proposal (Final)
 
+{% comment %}
 
 #### Week 7
 
