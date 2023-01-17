@@ -5,6 +5,7 @@ date:   2022-09-15 06:00:00 -0400
 week: "1"
 number: "4"
 categories: briefs
+published: false
 ---
 
 You will be required to write a prototype proposal for each of the briefs you complete in this class. You can think of this as a tool to help organize your thoughts as you work through your ideas week-by-week. Prototype proposals will be treated as homework which you will be asked to edit and resubmit as your prototype evolves. Upon completion of a prototype you must also deliver every version of your proposal (labeled by date).
