@@ -5,6 +5,8 @@ date:   2022-09-15 06:00:00 -0100
 week: "1"
 number: "1"
 categories: "labs"
+published: false
+
 ---
 
 ## Materials

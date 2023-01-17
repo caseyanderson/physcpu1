@@ -5,7 +5,7 @@ date: 2022-10-13 06:00:00 -0700
 week: 5
 number: 4
 categories: labs
-
+published: false
 ---
 
 ## Materials

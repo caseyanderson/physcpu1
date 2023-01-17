@@ -5,6 +5,8 @@ date:   2022-09-15 06:00:00 -0200
 week: "1"
 number: "2"
 categories: "labs"
+published: false
+
 ---
 
 ### Moving Around
