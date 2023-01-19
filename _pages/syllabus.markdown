@@ -32,14 +32,13 @@ This prototyping-oriented class introduces students to the creative affordances 
 * [Breadboard trim potentiometer - 10K](https://www.adafruit.com/product/356)
 * [Photo cell](https://www.adafruit.com/product/161)
 * [DC Toy / Hobby Motor - 130 Size](https://www.adafruit.com/product/711)
-* [TIP120 Power Darlington Transistors - 3 pack](https://www.adafruit.com/product/976)
+* [TIP120 Power Darlington Transistor](https://www.allelectronics.com/item/tip120/npn-to-220-darlington/1.html)
 * [1N4001 Diode - 10 pack](https://www.adafruit.com/product/755)
 * [Tactile Switch Buttons (12mm square, 6mm tall) x 10 pack](https://www.adafruit.com/product/1119)
 * [Through-Hole Resistors - 220 ohm 10% 1/4W](https://www.adafruit.com/product/2780)
 * [Through-Hole Resistors - 10K ohm 5% 1/4W - Pack of 25](https://www.adafruit.com/product/2784)
 * [Super Bright Red 5mm LED (25 pack)](https://www.adafruit.com/product/297) or similar
-* [RGB LED](https://www.adafruit.com/product/159)
-* [Copper Foil Tape with Conductive Adhesive, 1/4 In. Wide](https://www.amazon.com/Vasdoo-Conductive-Shielding-Electrical-Grounding/dp/B07RPFRFXK)
+* [Copper Foil Tape with Conductive Adhesive, 1/4 In. Wide](https://www.amazon.com/Meideal-Copper-4inch-Conductive-Adhesive/dp/B092J6MMTK)
 * [X-Acto No 1 Precision Knife](https://www.amazon.com/X-Acto-XZ3601-X-ACTO-Knife-Safety/dp/B005KRSWM6)
 
 
@@ -81,6 +80,8 @@ If something comes up and you need to miss class please send me an email saying 
 * 2.2 LAB Digital Output
 * 2.3 LAB Digital Input/Output
 * 2.5 HW 2x paper button prototypes
+
+{% comment %}
 
 #### Week 3
 
@@ -135,7 +136,6 @@ If something comes up and you need to miss class please send me an email saying 
 * 9.3 HW Remix Prototype + Proposal (v1)
 * 9.4 HW Remix Prototype 10 Possible Revisions
 
-{% comment %}
 
 #### Week 10
 
