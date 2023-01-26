@@ -1,11 +1,10 @@
 ---
 layout: post
 title:  "ESP32 Setup for Micropython"
-date:   2022-09-22 06:00:00 -0600
+date:   2023-01-26 06:00:00 -0600
 week: 2
 number: 1
 categories: labs
-published: false
 
 ---
 
