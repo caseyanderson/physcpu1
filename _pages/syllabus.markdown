@@ -78,12 +78,14 @@ If something comes up and you need to miss class please send me an email saying 
 
 * 2.1 LAB Huzzah32 pre-flight
 * 2.2 LAB Digital Output
-* 2.3 LAB Digital Input/Output
-* 2.5 HW 2x paper button prototypes
+* 2.3 HW Setup your ESP32, Practice using Ampy, review Digital Output lab
 
 {% comment %}
 
 #### Week 3
+
+* 2.3 LAB Digital Input/Output
+* 2.5 HW 2x paper button prototypes
 
 * 3.1 Review Button Prototypes
 * 3.2 Demo: 1x Button 2x LEDs
