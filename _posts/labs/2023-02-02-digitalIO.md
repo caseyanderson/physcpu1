@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Digital Input / Digital Output"
-date: 2023-01-26 06:00:00 -0600
+date: 2023-02-02 06:00:00 -0600
 week: 2
 number: 1
 categories: labs
