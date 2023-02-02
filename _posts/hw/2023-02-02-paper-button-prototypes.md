@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Paper Button Prototypes"
-date:   2023-02-02 07:00:00 -0800
+date:   2023-02-02 06:00:00 -0700
 week: "3"
-number: "5"
+number: "3"
 categories: hw
 ---
 
