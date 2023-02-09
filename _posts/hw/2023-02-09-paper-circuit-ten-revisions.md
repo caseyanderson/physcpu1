@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Paper Circuit Ten Possible Revisions"
-date: 2022-02-09 06:00:00 -0730
+date: 2023-02-09 06:00:00 -0730
 week: 4
 number: 4
 categories: hw
