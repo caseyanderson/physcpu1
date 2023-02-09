@@ -1,11 +1,10 @@
 ---
 layout: post
 title: "Paper Circuit"
-date: 2022-09-29 06:00:00 -0630
-week: 3
-number: 3
+date: 2023-02-09 06:00:00 -0630
+week: 4
+number: 2
 categories: briefs
-published: false
 ---
 
 ## brief
@@ -18,6 +17,9 @@ Create an interactive prototype using only one button as an input and two LEDs a
 * has two possible outputs (LEDs)
 * allows audience/user to control outputs
 * prompts or rewards audience/user interaction
-* uses one disguised / hidden / DIY button
+* uses one disguised / hidden / paper button (toggle or momentary)
 * document final deployment, present to class as a video
 
+### rubric
+
+The rubric for this prototype can be found [here](https://docs.google.com/spreadsheets/d/1qAXay6ebmHPPrF0GtWqGwK-D7JQ_MWckpyl9-CdaGwc/edit?usp=sharing).
