@@ -46,8 +46,8 @@ This prototyping-oriented class introduces students to the creative affordances 
 
 Grades will be calculated based on the following distribution:
 
-* Attendance = 15%
-* Lab participation = 15%
+* Attendance = 10%
+* Lab participation = 20%
 * Homework assignments = 35%
 * Prototypes = 35%
 
@@ -74,25 +74,32 @@ If something comes up and you need to miss class please send me an email saying 
 * 1.5 HW Practice Prototype Proposal
 * 1.6 HW Required Materials
 
+
 #### Week 2
 
 * 2.1 LAB Huzzah32 pre-flight
+* 2.2A LAB Getting Ready to Program
 * 2.2 LAB Digital Output
+* 2.3A LAB Shuttind Down Your Programming Environment
 * 2.3 HW Setup your ESP32, Practice using Ampy, review Digital Output lab
+
 
 #### Week 3
 
 * 3.1 LAB Digital Input/Output
 * 3.2 Demo: 1x Button 2x LEDs
-* 3.3 HW 2x paper button prototypes
+* 3.3 HW 1x Button 2x LEDs
 
-{% comment %}
-
-* 3.3 BRF Paper Circuit
-* 3.4 HW Paper Circuit Prototype + Proposal (v1)
-* 3.5 HW Paper Circuit 10 Possible Revisions
 
 #### Week 4
+
+* 4.1 LAB (in Groups) 2x paper button prototypes
+* 4.2 BRF Paper Circuit
+* 4.3 HW Paper Circuit Prototype + Proposal (v1)
+* 4.4 HW Paper Circuit 10 Possible Revisions
+
+
+{% comment %}
 
 * 4.1 Review in-progress Paper Circuit Prototypes
 * 4.4 HW Finish and prepare to present final Paper Circuit Prototype
