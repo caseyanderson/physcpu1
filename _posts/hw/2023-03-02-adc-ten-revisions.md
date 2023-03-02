@@ -2,7 +2,7 @@
 layout: post
 title:  "Analog + Digital Interactions Ten Possible Revisions"
 date: 2023-03-02 06:00:00 -0930
-week: 5
+week: 7
 number: 6
 categories: hw
 
