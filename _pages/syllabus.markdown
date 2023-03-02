@@ -104,17 +104,21 @@ If something comes up and you need to miss class please send me an email saying 
 * 5.1 Review in-progress Paper Circuit Prototypes
 * 5.2 HW Finish and prepare to present final Paper Circuit Prototype
 
-{% comment %}
 
 #### Week 6
 
 * 6.1 Review Final Paper Circuit Prototype
-* 6.2 LAB GPIO, Analog & Digital Signals
-* 6.3 LAB Analog Input
-* 6.4 LAB Voltage Dividers
-* 6.5 BRF 2 Analog + Digital Interactions
-* 6.6 HW Analog Input / Digital Output - Prototype + Proposal (v1)
-* 6.7 HW Analog Input / Digital Output - 10 Possible Revisions
+
+#### Week 7
+
+* 7.1 LAB GPIO, Analog & Digital Signals
+* 7.2 LAB Analog Input
+* 7.3 LAB Voltage Dividers
+* 7.4 BRF 2 Analog + Digital Interactions
+* 7.5 HW Analog Input / Digital Output - Prototype + Proposal (v1)
+* 7.6 HW Analog Input / Digital Output - 10 Possible Revisions
+
+{% comment %}
 
 
 * 6.1 Review in-progress Analog + Digital Interactions Prototypes

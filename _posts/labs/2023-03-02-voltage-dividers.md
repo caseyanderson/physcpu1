@@ -1,11 +1,10 @@
 ---
 layout: post
 title:  "Voltage Dividers"
-date: 2022-10-13 06:00:00 -0700
-week: 5
-number: 4
+date: 2023-03-02 06:00:00 -0700
+week: 7
+number: 3
 categories: labs
-published: false
 ---
 
 ## Materials
