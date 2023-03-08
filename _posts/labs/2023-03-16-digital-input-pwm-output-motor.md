@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Digital Input / PWM Output"
-date: 2023-03-09 06:00:00 -0730
+title:  "Digital Input / PWM Output (Motor)"
+date: 2023-03-16 06:00:00 -0730
 week: 8
 number: 4
 categories: labs
-
+published: false
 ---
 
 ## Materials
