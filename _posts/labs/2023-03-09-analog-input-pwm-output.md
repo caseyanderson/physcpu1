@@ -1,11 +1,10 @@
 ---
 layout: post
 title:  "Analog Input / PWM Output"
-date: 2022-07-07 06:00:00 -0730
+date: 2023-03-09 06:00:00 -0800
 week: 8
-number: 4
+number: 5
 categories: labs
-published: false
 
 ---
 

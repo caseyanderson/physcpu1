@@ -118,10 +118,19 @@ If something comes up and you need to miss class please send me an email saying 
 * 7.5 HW Analog Input / Digital Output - Prototype + Proposal (v1)
 * 7.6 HW Analog Input / Digital Output - 10 Possible Revisions
 
+
+#### Week 8
+
+* 8.1 Review in-progress Analog + Digital Interactions Prototypes
+* 8.2 LAB for Loops
+* 8.3 LAB ADC, DAC, & PWM
+* 8.4 LAB Digital Input / PWM Output(s)
+* 8.5 LAB Analog Input / PWM Output(s)
+
+
 {% comment %}
 
 
-* 6.1 Review in-progress Analog + Digital Interactions Prototypes
 * 6.2 Demo: Multiple Inputs
 * 6.3 HW Analog Input / Digital Output - Prototype + Proposal (Final)
 
@@ -138,9 +147,6 @@ If something comes up and you need to miss class please send me an email saying 
 
 
 #### Week 9
-
-* 8.3 LAB Digital Input / PWM Output(s)
-* 8.4 LAB Analog Input / PWM Output(s)
 
 * 9.1 Motor Control HW
 * 9.2 BRF Remix
