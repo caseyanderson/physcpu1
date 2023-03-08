@@ -3,7 +3,7 @@ layout: post
 title:  "Analog Input / PWM Output"
 date: 2023-03-09 06:00:00 -0800
 week: 8
-number: 5
+number: 4
 categories: labs
 
 ---
@@ -75,13 +75,13 @@ pot.atten(ADC.ATTN_11DB)
 pot.width(ADC.WIDTH_10BIT) # 0 - 1023
 
 while True:
-  sensor_val = pot.read()
-  if sensor_val >= 512:
-    print("crossed threshold!")
-    led.value(1)
-  else:
-    led.value(0)
-  sleep_ms(20)
+    sensor_val = pot.read()
+    if sensor_val >= 512:
+        print("crossed threshold!")
+        led.value(1)
+    else:
+        led.value(0)
+    sleep_ms(20)
 
 ```
 
