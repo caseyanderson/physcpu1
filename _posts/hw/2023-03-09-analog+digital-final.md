@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Prepare Final Analog+Digital Prototype"
-date: 2023-03-09 06:00:00 -0900
+date: 2023-03-09 06:00:00 -0930
 week: 8
 number: 7
 categories: hw
