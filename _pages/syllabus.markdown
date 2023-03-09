@@ -124,15 +124,16 @@ If something comes up and you need to miss class please send me an email saying 
 * 8.1 Review in-progress Analog + Digital Interactions Prototypes
 * 8.2 LAB for Loops
 * 8.3 LAB ADC, DAC, & PWM
-* 8.4 LAB Digital Input / PWM Output(s)
-* 8.5 LAB Analog Input / PWM Output(s)
+* 8.4 LAB Analog Input / PWM Output(s)
+* 8.5 LAB Counting Digital Interactions (Presses)
+* 8.6 LAB Counting Analog Interactions (Waves)
+* 8.7 HW Analog Input / Digital Output - Prototype + Proposal (Final)
 
 
 {% comment %}
 
 
 * 6.2 Demo: Multiple Inputs
-* 6.3 HW Analog Input / Digital Output - Prototype + Proposal (Final)
 
 
 #### Week 7

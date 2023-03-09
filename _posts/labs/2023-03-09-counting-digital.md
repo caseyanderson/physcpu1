@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Counting Digital Interactions (Button Presses)"
+title:  "Counting Digital Interactions (Presses)"
 date: 2023-03-09 06:00:00 -0830
 week: 8
 number: 5
