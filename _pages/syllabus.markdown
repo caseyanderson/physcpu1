@@ -127,18 +127,27 @@ If something comes up and you need to miss class please send me an email saying 
 * 8.4 LAB Analog Input / PWM Output(s)
 * 8.5 LAB Counting Digital Interactions (Presses)
 * 8.6 LAB Counting Analog Interactions (Waves)
-* 8.7 HW Analog Input / Digital Output - Prototype + Proposal (Final)
+* 8.7 HW Analog + Digital Interactions - Prototype + Proposal (Final)
 
+
+#### Week 9
+
+* 9.1 Review Final Analog + Digital Interactions Prototype
+
+
+#### Week 10
+
+* 10.1 Transistors + PWM (Motors / Solenoids)
+* 10.2 
+* 10.3 BRF Remix
+* 10.4 HW Remix Prototype + Proposal (v1)
+* 10.5 HW Remix Prototype 10 Possible Revisions
 
 {% comment %}
 
 
 * 6.2 Demo: Multiple Inputs
 
-
-#### Week 7
-
-* 7.1 Review Final Analog + Digital Interactions Prototype
 
 
 #### Week 8
