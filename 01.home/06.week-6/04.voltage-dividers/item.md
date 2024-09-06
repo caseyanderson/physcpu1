@@ -5,6 +5,7 @@ date: '20-06-2025 06:15'
 taxonomy:
     category:
         - labs
+published: false
 ---
 
 A voltage divider is a circuit that produces an output that is smaller than its input (where the output is voltage or current).

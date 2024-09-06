@@ -4,6 +4,7 @@ date: '16-05-2025 06:00'
 taxonomy:
     category:
         - labs
+published: false
 ---
 
 ## Installation

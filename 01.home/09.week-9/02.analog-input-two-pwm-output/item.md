@@ -4,6 +4,7 @@ date: '11-07-2025 06:05'
 taxonomy:
     category:
         - labs
+published: false
 ---
 
 In a [previous lab](https://hsci214.caseyanderson.com/home/week-11/analog-input-and-pwm-output-s) we covered how to use an `Analog Input` to control the brightness of a `PWM Output`, where a higher number from the `Analog Input` results in higher `duty cycle` / a brighter `LED`. What if we want the opposite effect: a higher number from the `Analog Input` results in a **dimmer** `LED`? In order to do so we will need to use `linear interpolation`.

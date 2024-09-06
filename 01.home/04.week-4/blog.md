@@ -9,5 +9,6 @@ content:
         dir: desc
     pagination: true
     url_taxonomy_filters: true
+published: false
 ---
 

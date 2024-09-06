@@ -5,6 +5,7 @@ date: '20-06-2025 06:10'
 taxonomy:
     category:
         - labs
+published: false
 ---
 
 ## analog_read.py

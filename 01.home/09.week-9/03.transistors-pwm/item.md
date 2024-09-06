@@ -5,6 +5,7 @@ date: '11-07-2025 06:10'
 taxonomy:
     category:
         - labs
+published: false
 ---
 ## Transistors
 

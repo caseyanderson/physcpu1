@@ -4,6 +4,7 @@ date: '23-05-2025 06:00'
 taxonomy:
     category:
         - labs
+published: false
 ---
 
 ## Operators

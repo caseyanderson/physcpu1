@@ -5,6 +5,7 @@ media_order: 'esp32-external-led.png,esp32-basic-led-circuit2.png,esp32-basic-le
 taxonomy:
     category:
         - labs
+published: false
 ---
 
 ## basic LED circuit

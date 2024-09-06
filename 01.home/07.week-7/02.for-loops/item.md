@@ -4,6 +4,7 @@ date: '27-06-2025 06:05'
 taxonomy:
     category:
         - labs
+published: false
 ---
 
 ## for loops

@@ -57,6 +57,8 @@ If something comes up and you need to miss class please send me an email saying 
 * 1.7 HW Practice 10/5 Ideas
 * 1.8 HW Required Materials
 
+<!---
+
 ### Week 2
 * 2.1 LAB More Python Fundamentals
 * 2.2 LAB Functions
@@ -124,4 +126,4 @@ If something comes up and you need to miss class please send me an email saying 
 * 12.2 Motor Review
 * 12.3 HW Remix Prototype + Proposal (v2)
 * 12.4 HW Remix Prototype 10/5/1 Ideas
-
+-->

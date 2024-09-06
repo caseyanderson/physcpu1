@@ -4,6 +4,7 @@ date: '23-05-2025 06:15'
 taxonomy:
     category:
         - labs
+published: false
 ---
 
 ## Thonny Installation

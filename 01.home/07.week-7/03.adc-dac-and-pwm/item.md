@@ -14,6 +14,7 @@ content:
     pagination: true
     url_taxonomy_filters: true
 media_order: 'blink_external_led.png,PWM_wikipedia.png'
+published: false
 ---
 
 ## Analog to Digital Conversion (ADC)

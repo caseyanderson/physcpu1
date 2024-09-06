@@ -4,6 +4,7 @@ date: '06-06-2025 06:00'
 taxonomy:
     category:
         - briefs
+published: false
 ---
 
 ### brief

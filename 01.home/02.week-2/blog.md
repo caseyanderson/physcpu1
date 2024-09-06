@@ -10,6 +10,6 @@ content:
     pagination: true
     url_taxonomy_filters: true
 date: '23-05-2025 05:50'
-visible: true
+published: false
 ---
 
