@@ -1,6 +1,6 @@
 ---
 title: '1.4 Prototype Proposal Format'
-date: '16-05-2024 06:15'
+date: '16-05-2025 06:15'
 taxonomy:
     category:
         - tools

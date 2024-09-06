@@ -1,6 +1,6 @@
 ---
 title: '4.4 Paper Circuit Ten Possible Revisions'
-date: '06-06-2024 06:10'
+date: '06-06-2025 06:10'
 taxonomy:
     category:
         - homework

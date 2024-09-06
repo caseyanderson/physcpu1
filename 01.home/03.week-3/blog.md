@@ -9,7 +9,7 @@ content:
         dir: desc
     pagination: true
     url_taxonomy_filters: true
-date: '30-05-2024 05:50'
+date: '30-05-2025 05:50'
 visible: true
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: '1.8 Required Materials'
-date: '16-05-2024 06:35'
+date: '16-05-2025 06:35'
 taxonomy:
     category:
         - homework

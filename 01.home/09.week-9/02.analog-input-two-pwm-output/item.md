@@ -1,6 +1,6 @@
 ---
 title: '9.2 Analog Input, PWM Outputs, and Linear Interpolation'
-date: '11-07-2024 06:05'
+date: '11-07-2025 06:05'
 taxonomy:
     category:
         - labs

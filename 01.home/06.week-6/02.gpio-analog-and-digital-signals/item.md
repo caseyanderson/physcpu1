@@ -1,7 +1,7 @@
 ---
 title: '6.2 GPIO, Analog & Digital Signals'
 media_order: 'feather_gpio.jpg,digital_sig.png,analog_sig.png'
-date: '20-06-2024 06:05'
+date: '20-06-2025 06:05'
 taxonomy:
     category:
         - labs

@@ -1,6 +1,6 @@
 ---
 title: '4.3 Paper Circuit Prototype (+ Proposal)'
-date: '06-06-2024 06:05'
+date: '06-06-2025 06:05'
 taxonomy:
     category:
         - homework

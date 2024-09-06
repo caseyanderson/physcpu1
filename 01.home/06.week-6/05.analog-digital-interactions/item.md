@@ -1,6 +1,6 @@
 ---
 title: '6.5 Analog + Digital Interactions'
-date: '20-06-2024 06:20'
+date: '20-06-2025 06:20'
 taxonomy:
     category:
         - briefs

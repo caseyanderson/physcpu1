@@ -1,6 +1,6 @@
 ---
 title: '2.1 More Python Fundamentals'
-date: '23-05-2024 06:00'
+date: '23-05-2025 06:00'
 taxonomy:
     category:
         - labs

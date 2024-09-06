@@ -1,7 +1,7 @@
 ---
 title: '6.3 Analog Input'
 media_order: analog_read.png
-date: '20-06-2024 06:10'
+date: '20-06-2025 06:10'
 taxonomy:
     category:
         - labs

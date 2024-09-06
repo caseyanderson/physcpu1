@@ -1,6 +1,6 @@
 ---
 title: '1.7 Practice 10/5 Ideas'
-date: '16-05-2024 06:30'
+date: '16-05-2025 06:30'
 taxonomy:
     category:
         - homework

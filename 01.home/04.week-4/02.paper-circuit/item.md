@@ -1,6 +1,6 @@
 ---
 title: '4.2 Paper Circuit'
-date: '06-06-2024 06:00'
+date: '06-06-2025 06:00'
 taxonomy:
     category:
         - briefs

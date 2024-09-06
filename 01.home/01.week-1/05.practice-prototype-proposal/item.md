@@ -1,6 +1,6 @@
 ---
 title: '1.5 Practice Prototype Proposal'
-date: '16-05-2024 06:20'
+date: '16-05-2025 06:20'
 taxonomy:
     category:
         - homework

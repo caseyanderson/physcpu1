@@ -1,6 +1,6 @@
 ---
 title: '6.7 Analog + Digital Interactions 10/5/1 Ideas'
-date: '20-06-2024 06:30'
+date: '20-06-2025 06:30'
 taxonomy:
     category:
         - homework

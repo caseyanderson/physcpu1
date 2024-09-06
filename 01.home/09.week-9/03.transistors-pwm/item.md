@@ -1,7 +1,7 @@
 ---
 title: '9.2 Transistors + PWM (Motors / Solenoids)'
 media_order: 'adafruit_transistor.png,button_motor.png,tip120_motor_light_sol_schematic.jpg,tip120_pinout.jpg,mosfet_pwm_motor.png'
-date: '11-07-2024 06:10'
+date: '11-07-2025 06:10'
 taxonomy:
     category:
         - labs

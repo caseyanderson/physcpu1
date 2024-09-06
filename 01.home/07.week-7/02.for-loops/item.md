@@ -1,6 +1,6 @@
 ---
 title: '7.2 for Loops'
-date: '27-06-2024 06:05'
+date: '27-06-2025 06:05'
 taxonomy:
     category:
         - labs

@@ -1,7 +1,7 @@
 ---
 title: '3.2 Digital Input & Output'
 media_order: 'button_led.png,button.png'
-date: '30-05-2024 06:05'
+date: '30-05-2025 06:05'
 taxonomy:
     category:
         - labs

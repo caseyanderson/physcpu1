@@ -1,6 +1,6 @@
 ---
 title: '2.4 Setup Micropython for ESP32'
-date: '23-05-2024 06:15'
+date: '23-05-2025 06:15'
 taxonomy:
     category:
         - labs

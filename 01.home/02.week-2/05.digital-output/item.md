@@ -1,6 +1,6 @@
 ---
 title: '2.5 Digital Output'
-date: '23-05-2024 06:20'
+date: '23-05-2025 06:20'
 media_order: 'esp32-external-led.png,esp32-basic-led-circuit2.png,esp32-basic-led-circuit.png'
 taxonomy:
     category:

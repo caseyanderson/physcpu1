@@ -1,6 +1,6 @@
 ---
 title: '1.6 10/5 Ideas'
-date: '16-05-2024 06:25'
+date: '16-05-2025 06:25'
 taxonomy:
     category:
         - tools

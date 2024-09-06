@@ -1,6 +1,6 @@
 ---
 title: '6.6 Analog + Digital Interactions prototype (+ proposal)'
-date: '20-06-2024 06:25'
+date: '20-06-2025 06:25'
 taxonomy:
     category:
         - homework

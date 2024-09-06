@@ -1,7 +1,7 @@
 ---
 title: '6.4 Voltage Dividers'
 media_order: 'voltage_divider.png,voltage_divider_formula2.jpg,ldr_voltage_divider.png'
-date: '20-06-2024 06:15'
+date: '20-06-2025 06:15'
 taxonomy:
     category:
         - labs
