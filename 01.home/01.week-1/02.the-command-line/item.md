@@ -1,10 +1,9 @@
 ---
 title: '1.2 The Command Line'
-date: '16-05-2025 06:05'
+date: '12-09-2024 06:05'
 taxonomy:
     category:
         - labs
-published: false
 ---
 
 ## Moving Around

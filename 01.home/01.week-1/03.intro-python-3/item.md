@@ -1,10 +1,9 @@
 ---
 title: '1.3 Intro Python 3'
-date: '16-05-2025 06:10'
+date: '12-09-2024 06:10'
 taxonomy:
     category:
         - labs
-published: false
 ---
 
 ## Introduction to Python

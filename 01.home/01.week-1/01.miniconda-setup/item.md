@@ -1,10 +1,9 @@
 ---
 title: '1.1 Miniconda Setup'
-date: '16-05-2025 06:00'
+date: '12-09-2024 06:00'
 taxonomy:
     category:
         - labs
-published: false
 ---
 
 ## Installation
