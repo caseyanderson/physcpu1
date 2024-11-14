@@ -1,5 +1,5 @@
 ---
-title: 'week 10'
+title: 'week 7'
 content:
     items:
         - '@self.children'
